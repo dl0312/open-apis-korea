@@ -1,18 +1,12 @@
-# Public APIs [![Build Status](https://api.travis-ci.org/public-apis/public-apis.svg)](https://travis-ci.org/public-apis/public-apis)
+# 공공 API
 
-A collective list of free APIs for use in software and web development.
+소프트웨어와 웹 개발에 사용하기 위한 무료 API 모음
 
-Sponsor:
+이 프로젝트에 대한 컨트리뷰트 정보는 [컨트리뷰트 가이드](.github/CONTRIBUTING.md)를 확인해주세요.
 
-<a href="https://ultimatecourses.com?utm_source=github.com"><img src="https://ultimatecourses.com/assets/img/banners/ultimate-angular-github.svg" style="width:100%;max-width:100%"></a>
+이 프로젝트는 한국어 사용 개발자를 위해 [public-apis](https://github.com/public-apis/public-apis) 저장소를 포크하여 번역한 저장소입니다.
 
-A public API for this project can be found [here](https://github.com/davemachado/public-api) - thanks to [DigitalOcean](https://www.digitalocean.com/) for helping us provide this service!
-
-For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
-
-Please note a passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.
-
-## Index
+## 목차
 
 * [Animals](#animals)
 * [Anime](#anime)
