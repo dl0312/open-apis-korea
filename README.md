@@ -56,7 +56,7 @@
 * [날씨](#날씨)
 
 ### 동물
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | Unknown |
@@ -74,7 +74,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 애니메이션
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
@@ -84,7 +84,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 안티멀웨어
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [AbuseIPDB](https://docs.abuseipdb.com/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
 | [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
@@ -95,7 +95,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 예술 & 디자인
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Behance](https://www.behance.net/dev) | Design | `apiKey` | Yes | Unknown |
 | [Cooper Hewitt](https://collection.cooperhewitt.org/api) | Smithsonian Design Museum | `apiKey` | Yes | Unknown |
@@ -108,7 +108,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 책
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
 | [BookNomads](https://www.booknomads.com/dev) | Books published in the Netherlands and Flanders (about 2.5 million), book covers and related data | No | Yes | Unknown |
@@ -121,7 +121,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 비즈니스
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Charity Search](http://charityapi.orghunter.com/) | Non-profit charity data | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | Search for company logos and embed them in your projects | `apiKey` | Yes | Unknown |
@@ -137,7 +137,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 달력
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Calendar Index](https://www.calendarindex.com/) | Worldwide Holidays and Working Days | `apiKey` | Yes | Yes |
 | [Church Calendar](http://calapi.inadiutorium.cz/) | Catholic liturgical calendar | No | No | Unknown |
@@ -153,7 +153,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 클라우드 저장소 & 파일 공유
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Box](https://developer.box.com/) | File Sharing and Storage | `OAuth` | Yes | Unknown |
 | [Dropbox](https://www.dropbox.com/developers) | File Sharing and Storage | `OAuth` | Yes | Unknown |
@@ -166,7 +166,7 @@ API | Description | Auth | HTTPS | CORS |
 **[⬆ 목차로 돌아가기](#목차)**
 ### 지속적 통합
 출처: https://12bme.tistory.com/151 [길은 가면, 뒤에 있다.]
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [CircleCI](https://circleci.com/docs/api/v1-reference/) | Automate the software development process using continuous integration and continuous delivery | `apiKey` | Yes | Unknown |
 | [Codeship](https://apidocs.codeship.com/) | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | Unknown |
@@ -174,7 +174,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 암호화폐
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Binance](https://github.com/binance-exchange/binance-official-api-docs) | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown |
 | [BitcoinAverage](https://apiv2.bitcoinaverage.com/) | Digital Asset Price Data for the blockchain industry | `apiKey` | Yes | Unknown |
@@ -209,7 +209,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 환전소
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [1Forge](https://1forge.com/forex-data-api/api-documentation) | Forex currency market data | `apiKey` | Yes | Unknown |
 | [Currencylayer](https://currencylayer.com/documentation) | Exchange rates and currency conversion | `apiKey` | Yes | Unknown |
@@ -222,7 +222,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 데이터 검증
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | Yes |
 | [languagelayer](https://languagelayer.com) | Language detection | No | Yes | Unknown |
@@ -238,7 +238,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 개발
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [24 Pull Requests](https://24pullrequests.com/api) | Project to promote open source collaboration during December | No | Yes | Yes |
 | [Agify.io](https://agify.io) | Estimates the age from a first name | No | Yes | Yes |
@@ -293,7 +293,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 사전
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Lingua Robot](https://www.linguarobot.io) | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | Yes |
 | [Merriam-Webster](https://dictionaryapi.com/) | Dictionary and Thesaurus Data | `apiKey` | Yes | Unknown |
@@ -304,7 +304,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 문서 & 생산성
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | Yes |
 | [File.io](https://www.file.io) | File Sharing | No | Yes | Unknown |
@@ -320,7 +320,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 환경
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [AirVisual](https://airvisual.com/api) | Air quality and weather data | `apiKey` | Yes | Unknown |
 | [GrünstromIndex](https://www.corrently.de/hintergrund/gruenstromindex/index.html) | Green Power Index for Germany (Grünstromindex/GSI) | No | No | Yes |
@@ -331,7 +331,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 행사
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Eventbrite](https://www.eventbrite.com/developer/v3/) | Find events | `OAuth` | Yes | Unknown |
 | [Picatic](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) | Sell tickets anywhere | `apiKey` | Yes | Unknown |
@@ -339,7 +339,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 금융
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Alpha Vantage](https://www.alphavantage.co/) | Realtime and historical stock data | `apiKey` | Yes | Unknown |
 | [Barchart OnDemand](https://www.barchartondemand.com/free) | Stock, Futures and Forex Market Data | `apiKey` | Yes | Unknown |
@@ -357,7 +357,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 음식 & 음료
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Edamam](https://developer.edamam.com/) | Recipe Search | `apiKey` | Yes | Unknown |
 | [LCBO](https://lcboapi.com/) | Alcohol | `apiKey` | Yes | Unknown |
@@ -374,7 +374,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 사기 예방
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | Screen order information using AI to detect frauds | `apiKey` | Yes | Unknown |
 | [Whitepages Pro](https://pro.whitepages.com/developer/documentation/identity-check-api/) | Global identity verification with phone, address, email and IP | `apiKey` | Yes | Unknown |
@@ -385,7 +385,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 게임 & 만화
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | Get information about Age of Empires II resources | No | Yes | Unknown |
 | [AmiiboAPI](http://www.amiiboapi.com/) | Amiibo Information | No | No | Yes |
@@ -431,7 +431,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 지오코딩
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | No | Yes | Unknown |
 | [Battuta](http://battuta.medunes.net) | A (country/region/city) in-cascade location API | `apiKey` | No | Unknown |
@@ -484,7 +484,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 정부
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [BCLaws](http://www.bclaws.ca/civix/template/complete/api/index.html) | Access to the laws of British Columbia | No | No | Unknown |
 | [BusinessUSA](https://business.usa.gov/developer) | Authoritative information on U.S. programs, events, services and more | `apiKey` | Yes | Unknown |
@@ -519,7 +519,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 건강
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [BetterDoctor](https://developer.betterdoctor.com/) | Detailed information about doctors in your area | `apiKey` | Yes | Unknown |
 | [Diabetes](http://predictbgl.com/api/) | Logging and retrieving diabetes information | No | No | Unknown |
@@ -535,7 +535,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 직업
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Adzuna](https://developer.adzuna.com/overview) | Job board aggregator | `apiKey` | Yes | Unknown |
 | [Authentic Jobs](https://authenticjobs.com/api/docs) | Job board for designers, hackers and creative pros | `apiKey` | Yes | Unknown |
@@ -556,7 +556,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 머신러닝
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Clarifai](https://developer.clarifai.com/) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
@@ -569,7 +569,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 음악
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [AI Mastering](https://aimastering.com/api_docs/) | Automated Music Mastering | `apiKey` | Yes | Yes |
 | [Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) | Music Events | No | Yes | Unknown |
@@ -597,7 +597,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 뉴스
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Associated Press](https://developer.ap.org/) | Search for news and metadata from Associated Press | `apiKey` | Yes | Unknown |
 | [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | Provides access to millions of pages of historic US newspapers from the Library of Congress | No | No | Unknown |
@@ -612,7 +612,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 오픈 데이터
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [18F](http://18f.github.io/API-All-the-X/) | Unofficial US Federal Government API Development | No | No | Unknown |
 | [Abbreviation](https://market.mashape.com/daxeel/abbreviations) | Get abbreviations and meanings | `X-Mashape-Key` | Yes | Unknown |
@@ -624,7 +624,7 @@ API | Description | Auth | HTTPS | CORS |
 | [CivicFeed](https://developers.civicfeed.com/) | News articles and public datasets | `apiKey` | Yes | Unknown |
 | [Datakick](https://www.datakick.org/api) | The open product database | `apiKey` | Yes | Unknown |
 | [Enigma Public](http://docs.enigma.com/public/public_v20_api_about) | Broadest collection of public data | `apiKey` | Yes | Yes |
-| [fonoApi](https://fonoapi.freshpixl.com/) | Mobile Device Description | No | Yes | Unknown |
+| [fonoApi](https://fonoapi.freshpixl.com/) | Mobile Device 설명 | No | Yes | Unknown |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | Address search via the French Government | No | Yes | Unknown |
 | [LinkPreview](https://www.linkpreview.net) | Get JSON formatted summary with title, description and preview image for any requested URL | `apiKey` | Yes | Yes |
 | [Marijuana Strains](http://strains.evanbusse.com/) | Marijuana strains, races, flavors and effects | `apiKey` | No | Unknown |
@@ -644,7 +644,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 오픈 소스 프로젝트
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Countly](http://resources.count.ly/docs) | Countly web analytics | No | No | Unknown |
 | [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org | No | Yes | Unknown |
@@ -653,7 +653,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 특허
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [EPO](https://developers.epo.org/) | European patent search system api | `OAuth` | Yes | Unknown |
 | [TIPO](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00) | Taiwan patent search system api | `apiKey` | Yes | Unknown |
@@ -661,7 +661,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 인물
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Advice Slip](http://api.adviceslip.com/) | Generate random advice slips | No | Yes | Unknown |
 | [chucknorris.io](https://api.chucknorris.io) | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown |
@@ -680,7 +680,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 사진
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Flickr](https://www.flickr.com/services/api/) | Flickr Services | `OAuth` | Yes | Unknown |
 | [Getty Images](http://developers.gettyimages.com/en/) | Build applications using the world's most powerful imagery | `OAuth` | Yes | Unknown |
@@ -699,7 +699,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 과학 & 수학
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [arcsecond.io](https://api.arcsecond.io/) | Multiple astronomy data sources | No | Yes | Unknown |
 | [CORE](https://core.ac.uk/services#api) | Access the world's Open Access research papers | `apiKey` | Yes | Unknown |
@@ -725,7 +725,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 보안
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Censys.io](https://censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
@@ -738,7 +738,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 쇼핑
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | Unknown |
 | [Bratabase](https://developers.bratabase.com/) | Database of different types of Bra Sizes | `OAuth` | Yes | Unknown |
@@ -748,7 +748,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 소셜
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Buffer](https://buffer.com/developers/api) | Access to pending and sent updates in Buffer | `OAuth` | Yes | Unknown |
 | [Cisco Spark](https://developer.ciscospark.com) | Team Collaboration Software | `OAuth` | Yes | Unknown |
@@ -780,7 +780,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 스포츠 & 피트니스
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [balldontlie](https://balldontlie.io) | Ballldontlie provides access to stats data from the NBA | No | Yes | Yes |
 | [BikeWise](https://www.bikewise.org/documentation/api_v2) | Bikewise is a place to learn about and report bike crashes, hazards and thefts | No | Yes | Unknown |
@@ -805,7 +805,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 테스트 데이터
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Adorable Avatars](http://avatars.adorable.io) | Generate random cartoon avatars | No | Yes | Unknown |
 | [Bacon Ipsum](https://baconipsum.com/json-api/) | A Meatier Lorem Ipsum Generator | No | Yes | Unknown |
@@ -826,7 +826,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 텍스트 분석
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Aylien Text Analysis](http://docs.aylien.com/) | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | Natural language processing and text analysis | `apiKey` | Yes | Yes |
@@ -838,7 +838,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 트래킹
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Postmon](http://postmon.com.br) | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | Unknown |
 | [Sweden](https://developer.postnord.com/docs2) | Provides information about parcels in transport | `apiKey` | No | Unknown |
@@ -847,7 +847,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 교통
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [ADS-B Exchange](https://www.adsbexchange.com/data/) | Access real-time and historical data of any and all airborne aircraft | No | Yes | Unknown |
 | [AIS Hub](http://www.aishub.net/api) | Real-time data of any marine and inland vessel equipped with AIS tracking system | `apiKey` | No | Unknown |
@@ -908,7 +908,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### URL 쇼트너
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Bitly](http://dev.bitly.com/get_started.html) | URL shortener and link management | `OAuth` | Yes | Unknown |
 | [CleanURI](https://cleanuri.com/docs) | URL shortener service | `No` | Yes | Yes |
@@ -918,7 +918,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 차량
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | No | Yes | Unknown |
 | [Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default) | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | No |
@@ -928,7 +928,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 비디오
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [An API of Ice And Fire](https://anapioficeandfire.com/) | Game Of Thrones API | No | Yes | Unknown |
 | [Breaking Bad](https://breakingbadapi.com/documentation) | Breaking Bad API | No | Yes | Unknown |
@@ -951,7 +951,7 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 날씨
-API | Description | Auth | HTTPS | CORS |
+API | 설명 | 인증 | HTTPS | CORS |
 |---|---|---|---|---|
 | [7Timer!](http://www.7timer.info/doc.php?lang=en) | Weather, especially for Astroweather | No | No | Unknown |
 | [APIXU](https://www.apixu.com/doc/request.aspx) | Weather | `apiKey` | Yes | Unknown |
