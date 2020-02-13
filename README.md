@@ -119,7 +119,7 @@
 
 | API                                                                       | 설명                                        | 인증       | HTTPS | CORS   |
 | ------------------------------------------------------------------------- | ----------------------------------------- | -------- | ----- | ------ |
-| [Bhagavad Gita](https://bhagavadgita.io/api)                              | 바가바드 기타의 글 text                           | `OAuth`  | 예     | 예      |
+| [Bhagavad Gita](https://bhagavadgita.io/api)                              | 바가바드 기타의 글                                | `OAuth`  | 예     | 예      |
 | [BookNomads](https://www.booknomads.com/dev)                              | 네덜란드와 플란데런에서 출판된 책 (약 250만), 책 표지와 관련된 자료 | 아니요      | 예     | 알 수 없음 |
 | [British National Bibliography](http://bnb.data.bl.uk/)                   | 책                                         | 아니요      | 아니요   | 알 수 없음 |
 | [Goodreads](https://www.goodreads.com/api)                                | 책                                         | `apiKey` | 예     | 알 수 없음 |
@@ -132,19 +132,19 @@
 
 ### 비즈니스
 
-| API                                                                        | 설명                                                                        | 인증       | HTTPS | CORS   |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [Charity Search](http://charityapi.orghunter.com/)                         | Non-profit charity data                                                   | `apiKey` | 아니요   | 알 수 없음 |
-| [Clearbit Logo](https://clearbit.com/docs#logo-api)                        | Search for company logos and embed them in your projects                  | `apiKey` | 예     | 알 수 없음 |
-| [Domainsdb.info](https://domainsdb.info/)                                  | Registered Domain Names Search                                            | 아니요      | 예     | 알 수 없음 |
-| [Freelancer](https://developers.freelancer.com)                            | Hire freelancers to get work done                                         | `OAuth`  | 예     | 알 수 없음 |
-| [Gmail](https://developers.google.com/gmail/api/)                          | Flexible, RESTful access to the user's inbox                              | `OAuth`  | 예     | 알 수 없음 |
-| [Google Analytics](https://developers.google.com/analytics/)               | Collect, configure and analyze your data to reach the right audience      | `OAuth`  | 예     | 알 수 없음 |
-| [MailboxValidator](https://www.mailboxvalidator.com/api-single-validation) | Validate email address to improve deliverability                          | `apiKey` | 예     | 알 수 없음 |
-| [mailgun](https://www.mailgun.com/)                                        | Email Service                                                             | `apiKey` | 예     | 알 수 없음 |
-| [markerapi](http://www.markerapi.com/)                                     | Trademark Search                                                          | 아니요      | 아니요   | 알 수 없음 |
-| [Ticksel](https://ticksel.com)                                             | Friendly website analytics made for humans                                | 아니요      | 예     | 알 수 없음 |
-| [Trello](https://developers.trello.com/)                                   | Boards, lists and cards to help you organize and prioritize your projects | `OAuth`  | 예     | 알 수 없음 |
+| API                                                                        | 설명                                          | 인증       | HTTPS | CORS   |
+| -------------------------------------------------------------------------- | ------------------------------------------- | -------- | ----- | ------ |
+| [Charity Search](http://charityapi.orghunter.com/)                         | 비영리 자선단체 자료                                 | `apiKey` | 아니요   | 알 수 없음 |
+| [Clearbit Logo](https://clearbit.com/docs#logo-api)                        | 회사 로고를 찾고, 당신의 프로젝트에 넣어보세요.                 | `apiKey` | 예     | 알 수 없음 |
+| [Domainsdb.info](https://domainsdb.info/)                                  | 등록된 도메인 이름 검색                               | 아니요      | 예     | 알 수 없음 |
+| [Freelancer](https://developers.freelancer.com)                            | 일을 받을 수 있는 프리랜서 고용                          | `OAuth`  | 예     | 알 수 없음 |
+| [Gmail](https://developers.google.com/gmail/api/)                          | 사용자의 메일을 위한 유연하고 REST스러운 접근                 | `OAuth`  | 예     | 알 수 없음 |
+| [Google Analytics](https://developers.google.com/analytics/)               | 실제 사용자에게 닿기 위한 당신의 데이터를 모으고, 확인하고 분석하세요     | `OAuth`  | 예     | 알 수 없음 |
+| [MailboxValidator](https://www.mailboxvalidator.com/api-single-validation) | 전달가능성을 높이기위해 이메일 주소를 검증하세요                  | `apiKey` | 예     | 알 수 없음 |
+| [mailgun](https://www.mailgun.com/)                                        | 이메일 Service                                 | `apiKey` | 예     | 알 수 없음 |
+| [markerapi](http://www.markerapi.com/)                                     | 트레이드마크 Search                               | 아니요      | 아니요   | 알 수 없음 |
+| [Ticksel](https://ticksel.com)                                             | 사람을 위해 만들어 진 친근한 웹사이트 분석                    | 아니요      | 예     | 알 수 없음 |
+| [Trello](https://developers.trello.com/)                                   | 당신의 프로젝트를 조정하고 우선순위를 정하는 걸 도와주는 게시판, 목록과 카드 | `OAuth`  | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
