@@ -168,15 +168,15 @@
 
 ### 클라우드 저장소 & 파일 공유
 
-| API                                                                     | 설명                                                            | 인증       | HTTPS | CORS   |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------- | ----- | ------ |
-| [Box](https://developer.box.com/)                                       | File Sharing and Storage                                      | `OAuth`  | 예     | 알 수 없음 |
-| [Dropbox](https://www.dropbox.com/developers)                           | File Sharing and Storage                                      | `OAuth`  | 예     | 알 수 없음 |
-| [Google Drive](https://developers.google.com/drive/)                    | File Sharing and Storage                                      | `OAuth`  | 예     | 알 수 없음 |
-| [OneDrive](https://dev.onedrive.com/)                                   | File Sharing and Storage                                      | `OAuth`  | 예     | 알 수 없음 |
-| [Pastebin](https://pastebin.com/api/)                                   | Plain Text Storage                                            | `apiKey` | 예     | 알 수 없음 |
-| [Temporal](https://gateway.temporal.cloud/ipns/docs.api.temporal.cloud) | IPFS based file storage and sharing with optional IPNS naming | `apiKey` | 예     | 아니요    |
-| [WeTransfer](https://developers.wetransfer.com)                         | File Sharing                                                  | `apiKey` | 예     | 예      |
+| API                                                                     | 설명                               | 인증       | HTTPS | CORS   |
+| ----------------------------------------------------------------------- | -------------------------------- | -------- | ----- | ------ |
+| [Box](https://developer.box.com/)                                       | 파일 공유와 저장소                       | `OAuth`  | 예     | 알 수 없음 |
+| [Dropbox](https://www.dropbox.com/developers)                           | 파일 공유와 저장소                       | `OAuth`  | 예     | 알 수 없음 |
+| [Google Drive](https://developers.google.com/drive/)                    | 파일 공유와 저장소                       | `OAuth`  | 예     | 알 수 없음 |
+| [OneDrive](https://dev.onedrive.com/)                                   | 파일 공유와 저장소                       | `OAuth`  | 예     | 알 수 없음 |
+| [Pastebin](https://pastebin.com/api/)                                   | 평문 저장소                           | `apiKey` | 예     | 알 수 없음 |
+| [Temporal](https://gateway.temporal.cloud/ipns/docs.api.temporal.cloud) | IPFS 기반 파일 저장소, 선택적 IPNS 이름으로 공유 | `apiKey` | 예     | 아니요    |
+| [WeTransfer](https://developers.wetransfer.com)                         | 파일 공유                            | `apiKey` | 예     | 예      |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
