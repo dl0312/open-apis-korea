@@ -182,11 +182,11 @@
 
 ### 지속적 통합
 
-| API                                                     | 설명                                                                                             | 인증       | HTTPS | CORS   |
-| ------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [CircleCI](https://circleci.com/docs/api/v1-reference/) | Automate the software development process using continuous integration and continuous delivery | `apiKey` | 예     | 알 수 없음 |
-| [Codeship](https://apidocs.codeship.com/)               | Codeship is a Continuous Integration Platform in the cloud                                     | `apiKey` | 예     | 알 수 없음 |
-| [Travis CI](https://docs.travis-ci.com/api/)            | Sync your GitHub projects with Travis CI to test your code in minutes                          | `apiKey` | 예     | 알 수 없음 |
+| API                                                     | 설명                                            | 인증       | HTTPS | CORS   |
+| ------------------------------------------------------- | --------------------------------------------- | -------- | ----- | ------ |
+| [CircleCI](https://circleci.com/docs/api/v1-reference/) | 지속적 통합과 지속적 전달을 이용한 소프트웨어 개발 과정 자동화           | `apiKey` | 예     | 알 수 없음 |
+| [Codeship](https://apidocs.codeship.com/)               | 코드쉽은 클라우드에 있는 지속적 통합 플랫폼입니다.                  | `apiKey` | 예     | 알 수 없음 |
+| [Travis CI](https://docs.travis-ci.com/api/)            | 즉시, 코드를 테스트하기위해 GitHub 프로젝트를 트레비스 CI로 동기화합니다. | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
