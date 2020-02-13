@@ -150,19 +150,19 @@
 
 ### 달력
 
-| API                                                                    | 설명                                                                         | 인증       | HTTPS | CORS   |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [Calendar Index](https://www.calendarindex.com/)                       | Worldwide Holidays and Working Days                                        | `apiKey` | 예     | 예      |
-| [Church Calendar](http://calapi.inadiutorium.cz/)                      | Catholic liturgical calendar                                               | 아니요      | 아니요   | 알 수 없음 |
-| [Czech Namedays Calendar](http://svatky.adresa.info/)                  | Lookup for a name and returns nameday date                                 | 아니요      | 아니요   | 알 수 없음 |
-| [Google Calendar](https://developers.google.com/google-apps/calendar/) | Display, create and modify Google calendar events                          | `OAuth`  | 예     | 알 수 없음 |
-| [Hebrew Calendar](https://www.hebcal.com/home/developer-apis)          | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | 아니요      | 아니요   | 알 수 없음 |
-| [Holidays](https://holidayapi.com/)                                    | Historical data regarding holidays                                         | `apiKey` | 예     | 알 수 없음 |
-| [LectServe](http://www.lectserve.com)                                  | Protestant liturgical calendar                                             | 아니요      | 아니요   | 알 수 없음 |
-| [Nager.Date](https://date.nager.at)                                    | Public holidays for more than 90 countries                                 | 아니요      | 예     | 아니요    |
-| [Namedays Calendar](https://api.abalin.net/)                           | Provides namedays for multiple countries                                   | 아니요      | 예     | 예      |
-| [Non-Working Days](https://github.com/gadael/icsdb)                    | Database of ICS files for non working days                                 | 아니요      | 예     | 알 수 없음 |
-| [Russian Calendar](https://github.com/egno/work-calendar)              | Check if a date is a Russian holiday or not                                | 아니요      | 예     | 아니요    |
+| API                                                                    | 설명                                     | 인증       | HTTPS | CORS   |
+| ---------------------------------------------------------------------- | -------------------------------------- | -------- | ----- | ------ |
+| [Calendar Index](https://www.calendarindex.com/)                       | 전세계의 공휴일과 평일                           | `apiKey` | 예     | 예      |
+| [Church Calendar](http://calapi.inadiutorium.cz/)                      | 카톨릭 전례 달력                              | 아니요      | 아니요   | 알 수 없음 |
+| [Czech Namedays Calendar](http://svatky.adresa.info/)                  | 이름을 확인하고 영명 축일 날을 얻습니다.                | 아니요      | 아니요   | 알 수 없음 |
+| [Google Calendar](https://developers.google.com/google-apps/calendar/) | 구글 달력의 일정을 보여주고, 생성하며 수정합니다.           | `OAuth`  | 예     | 알 수 없음 |
+| [Hebrew Calendar](https://www.hebcal.com/home/developer-apis)          | 그레고리안력과 히브리력을 전환하고, 안식일과 공휴일 등을 가져옵니다. | 아니요      | 아니요   | 알 수 없음 |
+| [Holidays](https://holidayapi.com/)                                    | 공휴일과 관련된 역사적 자료                        | `apiKey` | 예     | 알 수 없음 |
+| [LectServe](http://www.lectserve.com)                                  | 개신교 전례 달력                              | 아니요      | 아니요   | 알 수 없음 |
+| [Nager.Date](https://date.nager.at)                                    | 90개가 넘는 나라를 위한 공공의 공휴일                 | 아니요      | 예     | 아니요    |
+| [Namedays Calendar](https://api.abalin.net/)                           | 다양한 나라를 위한 영명 축일을 제공합니다.               | 아니요      | 예     | 예      |
+| [Non-Working Days](https://github.com/gadael/icsdb)                    | 평일이 아닌 날을 위한 ICS 파일 데이터베이스             | 아니요      | 예     | 알 수 없음 |
+| [Russian Calendar](https://github.com/egno/work-calendar)              | 해당 날짜가 러시아 공휴일인지 아닌 지 확인합니다.           | 아니요      | 예     | 아니요    |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
