@@ -4,7 +4,7 @@
 
 이 프로젝트에 대한 컨트리뷰트 정보는 [컨트리뷰트 가이드](.github/CONTRIBUTING.md)를 확인해주세요.
 
-이 프로젝트는 한국어 사용 개발자를 위해 [public-apis](https://github.com/public-apis/public-apis) 저장소를 포크하여 번역한 저장소입니다.
+이 프로젝트는 한국어 사용 개발자를 위해 [public-apis](https://github.com/public-apis/public-apis) 저장소를 포크하여 번역 및 데이터를 추가한 저장소입니다.
 
 ## 목차
 
@@ -1057,3 +1057,13 @@
 | [Yahoo! Weather](https://developer.yahoo.com/weather/)                 | Weather                                     | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
+
+## 참고 자료
+
+- [public-apis](https://github.com/public-apis/public-apis)
+- [API store](https://www.apistore.co.kr)
+- [공공데이터포털](https://www.data.go.kr)
+- [Naver Developers](https://developers.naver.com)
+- [Kakao Developers](https://developers.kakao.com)
+- [Google Developers](https://developers.google.com)
+- [facebook for developers](https://developers.facebook.com)
