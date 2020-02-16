@@ -229,16 +229,16 @@
 
 ### 환전소
 
-| API                                                                                                          | 설명                                                | 인증     | HTTPS | CORS       |
-| ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | -------- | ----- | ---------- |
-| [1Forge](https://1forge.com/forex-data-api/api-documentation)                                                | Forex currency market data                          | `apiKey` | 예    | 알 수 없음 |
-| [Currencylayer](https://currencylayer.com/documentation)                                                     | Exchange rates and currency conversion              | `apiKey` | 예    | 알 수 없음 |
-| [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | A collection of exchange rates                      | 아니요   | 예    | 알 수 없음 |
-| [ExchangeRate-API](https://www.exchangerate-api.com)                                                         | Free currency conversion                            | 아니요   | 예    | 예         |
-| [Exchangeratesapi.io](https://exchangeratesapi.io)                                                           | Exchange rates with currency conversion             | 아니요   | 예    | 예         |
-| [Fixer.io](http://fixer.io)                                                                                  | Exchange rates and currency conversion              | `apiKey` | 예    | 알 수 없음 |
-| [Frankfurter](https://www.frankfurter.app/docs)                                                              | Exchange rates, currency conversion and time series | 아니요   | 예    | 예         |
-| [ratesapi](https://ratesapi.io)                                                                              | Free exchange rates and historical rates            | 아니요   | 예    | 알 수 없음 |
+| API                                                                                                          | 설명                        | 인증     | HTTPS | CORS       |
+| ------------------------------------------------------------------------------------------------------------ | --------------------------- | -------- | ----- | ---------- |
+| [1Forge](https://1forge.com/forex-data-api/api-documentation)                                                | 외환시장 자료               | `apiKey` | 예    | 알 수 없음 |
+| [Currencylayer](https://currencylayer.com/documentation)                                                     | 교환비율과 통화변환         | `apiKey` | 예    | 알 수 없음 |
+| [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | 교환비율 모음               | 아니요   | 예    | 알 수 없음 |
+| [ExchangeRate-API](https://www.exchangerate-api.com)                                                         | 무료 통화변환               | 아니요   | 예    | 예         |
+| [Exchangeratesapi.io](https://exchangeratesapi.io)                                                           | 통화변환과 교환비율         | 아니요   | 예    | 예         |
+| [Fixer.io](http://fixer.io)                                                                                  | 교환비율과 통화변환         | `apiKey` | 예    | 알 수 없음 |
+| [Frankfurter](https://www.frankfurter.app/docs)                                                              | 교환비율, 통화변환과 시계열 | 아니요   | 예    | 예         |
+| [ratesapi](https://ratesapi.io)                                                                              | 무료 교환비율과 역사적비율  | 아니요   | 예    | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
