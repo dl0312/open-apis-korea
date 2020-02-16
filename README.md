@@ -244,19 +244,19 @@
 
 ### 데이터 검증
 
-| API                                                                         | 설명                                                                  | 인증     | HTTPS  | CORS       |
-| --------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Cloudmersive Validate](https://cloudmersive.com/validate-api)              | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | 예     | 예         |
-| [languagelayer](https://languagelayer.com)                                  | Language detection                                                    | 아니요   | 예     | 알 수 없음 |
-| [Lob.com](https://lob.com/)                                                 | US Address Verification                                               | `apiKey` | 예     | 알 수 없음 |
-| [mailboxlayer](https://mailboxlayer.com)                                    | Email address validation                                              | 아니요   | 예     | 알 수 없음 |
-| [NumValidate](https://numvalidate.com)                                      | Open Source phone number validation                                   | 아니요   | 예     | 알 수 없음 |
-| [numverify](https://numverify.com)                                          | Phone number validation                                               | 아니요   | 예     | 알 수 없음 |
-| [PurgoMalum](http://www.purgomalum.com)                                     | Content validator against profanity & obscenity                       | 아니요   | 아니요 | 알 수 없음 |
-| [US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api) | Enter address data quickly with real-time address suggestions         | `apiKey` | 예     | 예         |
-| [US Extract](https://smartystreets.com/products/apis/us-extract-api)        | Extract postal addresses from any text including emails               | `apiKey` | 예     | 예         |
-| [US Street Address](https://smartystreets.com/docs/cloud/us-street-api)     | Validate and append data for any US postal address                    | `apiKey` | 예     | 예         |
-| [vatlayer](https://vatlayer.com)                                            | VAT number validation                                                 | 아니요   | 예     | 알 수 없음 |
+| API                                                                         | 설명                                                           | 인증     | HTTPS  | CORS       |
+| --------------------------------------------------------------------------- | -------------------------------------------------------------- | -------- | ------ | ---------- |
+| [Cloudmersive Validate](https://cloudmersive.com/validate-api)              | 이메일 주소, 핸드폰 번호, VAT 번호와 도메인 이름을 검증합니다. | `apiKey` | 예     | 예         |
+| [languagelayer](https://languagelayer.com)                                  | 언어 감지                                                      | 아니요   | 예     | 알 수 없음 |
+| [Lob.com](https://lob.com/)                                                 | 미국 주소 확인                                                 | `apiKey` | 예     | 알 수 없음 |
+| [mailboxlayer](https://mailboxlayer.com)                                    | 이메일 주소 검증                                               | 아니요   | 예     | 알 수 없음 |
+| [NumValidate](https://numvalidate.com)                                      | 오픈소스 핸드폰 번호 검증                                      | 아니요   | 예     | 알 수 없음 |
+| [numverify](https://numverify.com)                                          | 핸드폰 번호 검증                                               | 아니요   | 예     | 알 수 없음 |
+| [PurgoMalum](http://www.purgomalum.com)                                     | 욕설과 외설성에 대한 내용 검증기                               | 아니요   | 아니요 | 알 수 없음 |
+| [US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api) | 실시간 주소 제안을 이용해서 주소 데이터를 빠르게 입력합니다.   | `apiKey` | 예     | 예         |
+| [US Extract](https://smartystreets.com/products/apis/us-extract-api)        | 전자 메일을 포함한 모든 텍스트에서 우편 주소를 추출합니다.     | `apiKey` | 예     | 예         |
+| [US Street Address](https://smartystreets.com/docs/cloud/us-street-api)     | 미국 우편 주소를 확인하고 데이터를 추가합니다.                 | `apiKey` | 예     | 예         |
+| [vatlayer](https://vatlayer.com)                                            | VAT 번호를 검증                                                | 아니요   | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
