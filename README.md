@@ -8,8 +8,8 @@
 
 ## 목차
 
-- [건강](#건강)
 - [개발](#개발)
+- [건강](#건강)
 - [게임 & 만화](#게임--만화)
 - [과학 & 수학](#과학--수학)
 - [교통](#교통)
@@ -40,9 +40,9 @@
 - [음악](#음악)
 - [인물](#인물)
 - [정부](#정부)
+- [지속적 통합](#지속적-통합)
 - [지오코딩](#지오코딩)
 - [직업](#직업)
-- [지속적 통합](#지속적-통합)
 - [차량](#차량)
 - [책](#책)
 - [클라우드 저장소 & 파일 공유](#클라우드-저장소--파일-공유)
@@ -56,23 +56,6 @@
 - [URL 쇼트너](#URL-쇼트너)
 - + [참고자료](#참고-자료)
 
-### 건강
-
-| API                                                        | 설명                                                                                           | 인증       | HTTPS | CORS   |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [BetterDoctor](https://developer.betterdoctor.com/)        | Detailed information about doctors in your area                                              | `apiKey` | 예     | 알 수 없음 |
-| [Diabetes](http://predictbgl.com/api/)                     | Logging and retrieving diabetes information                                                  | 아니요      | 아니요   | 알 수 없음 |
-| [Flutrack](http://www.flutrack.org/)                       | Influenza-like symptoms with geotracking                                                     | 아니요      | 아니요   | 알 수 없음 |
-| [Healthcare.gov](https://www.healthcare.gov/developers/)   | Educational content about the US Health Insurance Marketplace                                | 아니요      | 예     | 알 수 없음 |
-| [Lexigram](https://docs.lexigram.io/v1/welcome)            | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | 예     | 알 수 없음 |
-| [Makeup](http://makeup-api.herokuapp.com/)                 | Makeup Information                                                                           | 아니요      | 아니요   | 알 수 없음 |
-| [Medicare](https://data.medicare.gov/developers)           | Access to the data from the CMS - medicare.gov                                               | 아니요      | 예     | 알 수 없음 |
-| [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US   | 아니요      | 예     | 알 수 없음 |
-| [Nutritionix](https://developer.nutritionix.com/)          | Worlds largest verified nutrition database                                                   | `apiKey` | 예     | 알 수 없음 |
-| [openFDA](https://open.fda.gov)                            | Public FDA data about drugs, devices and foods                                               | 아니요      | 예     | 알 수 없음 |
-| [USDA Nutrients](https://ndb.nal.usda.gov/ndb/doc/index)   | National Nutrient Database for Standard Reference                                            | 아니요      | 예     | 알 수 없음 |
-
-**[⬆ 목차로 돌아가기](#목차)**
 
 ### 개발
 
@@ -129,6 +112,25 @@
 | [StackExchange](https://api.stackexchange.com/)                                                     | 개발자들을 위한 Q&A 포럼                                                            | `OAuth`         | 예     | 알 수 없음 |
 | [Verse](https://verse.pawelad.xyz/)                                                                 | 가장 좋아하는 오픈 소스 프로젝트의 최신 버전을 확인합니다.                                          | 아니요             | 예     | 알 수 없음 |
 | [XML to JSON](https://developers.wso2apistore.com/)                                                 | 개발자 유틸리티 통합 API                                                            | 아니요             | 예     | 알 수 없음 |
+
+**[⬆ 목차로 돌아가기](#목차)**
+
+
+### 건강
+
+| API                                                        | 설명                                                                                           | 인증       | HTTPS | CORS   |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | ----- | ------ |
+| [BetterDoctor](https://developer.betterdoctor.com/)        | Detailed information about doctors in your area                                              | `apiKey` | 예     | 알 수 없음 |
+| [Diabetes](http://predictbgl.com/api/)                     | Logging and retrieving diabetes information                                                  | 아니요      | 아니요   | 알 수 없음 |
+| [Flutrack](http://www.flutrack.org/)                       | Influenza-like symptoms with geotracking                                                     | 아니요      | 아니요   | 알 수 없음 |
+| [Healthcare.gov](https://www.healthcare.gov/developers/)   | Educational content about the US Health Insurance Marketplace                                | 아니요      | 예     | 알 수 없음 |
+| [Lexigram](https://docs.lexigram.io/v1/welcome)            | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | 예     | 알 수 없음 |
+| [Makeup](http://makeup-api.herokuapp.com/)                 | Makeup Information                                                                           | 아니요      | 아니요   | 알 수 없음 |
+| [Medicare](https://data.medicare.gov/developers)           | Access to the data from the CMS - medicare.gov                                               | 아니요      | 예     | 알 수 없음 |
+| [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US   | 아니요      | 예     | 알 수 없음 |
+| [Nutritionix](https://developer.nutritionix.com/)          | Worlds largest verified nutrition database                                                   | `apiKey` | 예     | 알 수 없음 |
+| [openFDA](https://open.fda.gov)                            | Public FDA data about drugs, devices and foods                                               | 아니요      | 예     | 알 수 없음 |
+| [USDA Nutrients](https://ndb.nal.usda.gov/ndb/doc/index)   | National Nutrient Database for Standard Reference                                            | 아니요      | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
@@ -826,6 +828,16 @@
 
 **[⬆ 목차로 돌아가기](#목차)**
 
+### 지속적 통합
+
+| API                                                     | 설명                                            | 인증       | HTTPS | CORS   |
+| ------------------------------------------------------- | --------------------------------------------- | -------- | ----- | ------ |
+| [CircleCI](https://circleci.com/docs/api/v1-reference/) | 지속적 통합과 지속적 전달을 이용한 소프트웨어 개발 과정 자동화           | `apiKey` | 예     | 알 수 없음 |
+| [Codeship](https://apidocs.codeship.com/)               | 코드쉽은 클라우드에 있는 지속적 통합 플랫폼입니다.                  | `apiKey` | 예     | 알 수 없음 |
+| [Travis CI](https://docs.travis-ci.com/api/)            | 즉시, 코드를 테스트하기위해 GitHub 프로젝트를 트레비스 CI로 동기화합니다. | `apiKey` | 예     | 알 수 없음 |
+
+**[⬆ 목차로 돌아가기](#목차)**
+
 ### 지오코딩
 
 | API                                                                                                                    | 설명                                                                                                  | 인증       | HTTPS | CORS   |
@@ -904,16 +916,6 @@
 
 **[⬆ 목차로 돌아가기](#목차)**
 
-
-### 지속적 통합
-
-| API                                                     | 설명                                            | 인증       | HTTPS | CORS   |
-| ------------------------------------------------------- | --------------------------------------------- | -------- | ----- | ------ |
-| [CircleCI](https://circleci.com/docs/api/v1-reference/) | 지속적 통합과 지속적 전달을 이용한 소프트웨어 개발 과정 자동화           | `apiKey` | 예     | 알 수 없음 |
-| [Codeship](https://apidocs.codeship.com/)               | 코드쉽은 클라우드에 있는 지속적 통합 플랫폼입니다.                  | `apiKey` | 예     | 알 수 없음 |
-| [Travis CI](https://docs.travis-ci.com/api/)            | 즉시, 코드를 테스트하기위해 GitHub 프로젝트를 트레비스 CI로 동기화합니다. | `apiKey` | 예     | 알 수 없음 |
-
-**[⬆ 목차로 돌아가기](#목차)**
 
 
 ### 차량
