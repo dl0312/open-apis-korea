@@ -117,16 +117,16 @@
 
 ### 책
 
-| API                                                                       | 설명                                                                | 인증     | HTTPS  | CORS       |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Bhagavad Gita](https://bhagavadgita.io/api)                              | 바가바드 기타의 글                                                  | `OAuth`  | 예     | 예         |
-| [BookNomads](https://www.booknomads.com/dev)                              | 네덜란드와 플란데런에서 출판된 책 (약 250만), 책 표지와 관련된 자료 | 아니요   | 예     | 알 수 없음 |
-| [British National Bibliography](http://bnb.data.bl.uk/)                   | 책                                                                  | 아니요   | 아니요 | 알 수 없음 |
-| [Goodreads](https://www.goodreads.com/api)                                | 책                                                                  | `apiKey` | 예     | 알 수 없음 |
-| [Google Books](https://developers.google.com/books/)                      | 책                                                                  | `OAuth`  | 예     | 알 수 없음 |
-| [LibGen](http://garbage.world/posts/libgen/)                              | 라이브러리 제네시스의 검색 엔진                                     | 아니요   | 아니요 | 알 수 없음 |
-| [Open Library](https://openlibrary.org/developers/api)                    | 책, 책표지와 관련된 자료                                            | 아니요   | 예     | 알 수 없음 |
-| [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | 책, 책표지와 관련된 자료                                            | 아니요   | 예     | 알 수 없음 |
+| API                                                                       | 설명                                                                  | 인증     | HTTPS  | CORS       |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------- | ------ | ---------- |
+| [Bhagavad Gita](https://bhagavadgita.io/api)                              | 바가바드 기타의 글                                                    | `OAuth`  | 예     | 예         |
+| [BookNomads](https://www.booknomads.com/dev)                              | 네덜란드와 플란데런에서 출판된 책 (약 250만), 책 표지와 관련된 데이터 | 아니요   | 예     | 알 수 없음 |
+| [British National Bibliography](http://bnb.data.bl.uk/)                   | 책                                                                    | 아니요   | 아니요 | 알 수 없음 |
+| [Goodreads](https://www.goodreads.com/api)                                | 책                                                                    | `apiKey` | 예     | 알 수 없음 |
+| [Google Books](https://developers.google.com/books/)                      | 책                                                                    | `OAuth`  | 예     | 알 수 없음 |
+| [LibGen](http://garbage.world/posts/libgen/)                              | 라이브러리 제네시스의 검색 엔진                                       | 아니요   | 아니요 | 알 수 없음 |
+| [Open Library](https://openlibrary.org/developers/api)                    | 책, 책표지와 관련된 데이터                                            | 아니요   | 예     | 알 수 없음 |
+| [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | 책, 책표지와 관련된 데이터                                            | 아니요   | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
@@ -134,7 +134,7 @@
 
 | API                                                                        | 설명                                                                         | 인증     | HTTPS  | CORS       |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Charity Search](http://charityapi.orghunter.com/)                         | 비영리 자선단체 자료                                                         | `apiKey` | 아니요 | 알 수 없음 |
+| [Charity Search](http://charityapi.orghunter.com/)                         | 비영리 자선단체 데이터                                                       | `apiKey` | 아니요 | 알 수 없음 |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api)                        | 회사 로고를 찾고, 당신의 프로젝트에 넣어보세요.                              | `apiKey` | 예     | 알 수 없음 |
 | [Domainsdb.info](https://domainsdb.info/)                                  | 등록된 도메인 이름 검색                                                      | 아니요   | 예     | 알 수 없음 |
 | [Freelancer](https://developers.freelancer.com)                            | 일을 받을 수 있는 프리랜서 고용                                              | `OAuth`  | 예     | 알 수 없음 |
@@ -157,7 +157,7 @@
 | [Czech Namedays Calendar](http://svatky.adresa.info/)                  | 이름을 확인하고 영명 축일 날을 얻습니다.                             | 아니요   | 아니요 | 알 수 없음 |
 | [Google Calendar](https://developers.google.com/google-apps/calendar/) | 구글 달력의 일정을 보여주고, 생성하며 수정합니다.                    | `OAuth`  | 예     | 알 수 없음 |
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis)          | 그레고리안력과 히브리력을 전환하고, 안식일과 공휴일 등을 가져옵니다. | 아니요   | 아니요 | 알 수 없음 |
-| [Holidays](https://holidayapi.com/)                                    | 공휴일과 관련된 역사적 자료                                          | `apiKey` | 예     | 알 수 없음 |
+| [Holidays](https://holidayapi.com/)                                    | 공휴일과 관련된 역사적 데이터                                        | `apiKey` | 예     | 알 수 없음 |
 | [LectServe](http://www.lectserve.com)                                  | 개신교 전례 달력                                                     | 아니요   | 아니요 | 알 수 없음 |
 | [Nager.Date](https://date.nager.at)                                    | 90개가 넘는 나라를 위한 공공의 공휴일                                | 아니요   | 예     | 아니요     |
 | [Namedays Calendar](https://api.abalin.net/)                           | 다양한 나라를 위한 영명 축일을 제공합니다.                           | 아니요   | 예     | 예         |
@@ -195,25 +195,25 @@
 | API                                                                      | 설명                                                | 인증     | HTTPS  | CORS       |
 | ------------------------------------------------------------------------ | --------------------------------------------------- | -------- | ------ | ---------- |
 | [Binance](https://github.com/binance-exchange/binance-official-api-docs) | 중국 암호화폐 거래소                                | `apiKey` | 예     | 알 수 없음 |
-| [BitcoinAverage](https://apiv2.bitcoinaverage.com/)                      | 블록체인 산업의 디지털 가격 자료                    | `apiKey` | 예     | 알 수 없음 |
-| [BitcoinCharts](https://bitcoincharts.com/about/exchanges/)              | 비트코인 네트워크와 연관된 금융과 기술적 자료       | 아니요   | 예     | 알 수 없음 |
+| [BitcoinAverage](https://apiv2.bitcoinaverage.com/)                      | 블록체인 산업의 디지털 가격 데이터                  | `apiKey` | 예     | 알 수 없음 |
+| [BitcoinCharts](https://bitcoincharts.com/about/exchanges/)              | 비트코인 네트워크와 연관된 금융과 기술적 데이터     | 아니요   | 예     | 알 수 없음 |
 | [Bitfinex](https://docs.bitfinex.com/docs/getting-started)               | 암호화폐 거래 플랫폼                                | `apiKey` | 예     | 알 수 없음 |
 | [Bitmex](https://www.bitmex.com/app/apiOverview)                         | 홍콩 실시간 암호화폐 파생상품 거래 플랫폼           | `apiKey` | 예     | 알 수 없음 |
 | [Bittrex](https://bittrex.com/Home/Api)                                  | 차세대 암호화폐 거래 플랫폼                         | `apiKey` | 예     | 알 수 없음 |
-| [Block](https://www.block.io/docs/basic)                                 | 비트코인 지불, 지갑 & 트랜젝션 자료                 | `apiKey` | 예     | 알 수 없음 |
-| [Blockchain](https://www.blockchain.info/api)                            | 비트코인 지불, 지갑 & 트랜젝션 자료                 | 아니요   | 예     | 알 수 없음 |
+| [Block](https://www.block.io/docs/basic)                                 | 비트코인 지불, 지갑 & 트랜젝션 데이터               | `apiKey` | 예     | 알 수 없음 |
+| [Blockchain](https://www.blockchain.info/api)                            | 비트코인 지불, 지갑 & 트랜젝션 데이터               | 아니요   | 예     | 알 수 없음 |
 | [CoinAPI](https://docs.coinapi.io/)                                      | 단일 API로 통합된 모든 암호화폐 거래                | `apiKey` | 예     | 아니요     |
 | [Coinbase](https://developers.coinbase.com)                              | 비트코인, 비트코인 캐쉬, 라이트코인과 이더리움 가격 | `apiKey` | 예     | 알 수 없음 |
 | [Coinbase Pro](https://docs.pro.coinbase.com/#api)                       | 암호화폐 거래 플랫폼                                | `apiKey` | 예     | 알 수 없음 |
 | [CoinDesk](http://www.coindesk.com/api/)                                 | 비트코인 가격 지수                                  | 아니요   | 아니요 | 알 수 없음 |
-| [CoinGecko](http://www.coingecko.com/api)                                | 암호화폐 가격, 시장, 그리고 개발/사회적 자료        | 아니요   | 예     | 예         |
+| [CoinGecko](http://www.coingecko.com/api)                                | 암호화폐 가격, 시장, 그리고 개발/사회적 데이터      | 아니요   | 예     | 예         |
 | [Coinigy](https://coinigy.docs.apiary.io)                                | 코이니지 계정과 상호작용하고 즉시 교환              | `apiKey` | 예     | 알 수 없음 |
 | [CoinLayer](https://coinlayer.com)                                       | 실시간 암호화폐 거래 비율                           | `apiKey` | 예     | 알 수 없음 |
 | [Coinlib](https://coinlib.io/apidocs)                                    | 암호화폐 가격                                       | `apiKey` | 예     | 알 수 없음 |
 | [Coinlore](https://www.coinlore.com/cryptocurrency-data-api)             | 암호화폐 가격, 양 그리고 그 외 여러가지들           | 아니요   | 예     | 알 수 없음 |
 | [CoinMarketCap](https://coinmarketcap.com/api/)                          | 암호화폐 가격                                       | `apiKey` | 예     | 알 수 없음 |
 | [Coinpaprika](https://api.coinpaprika.com)                               | 암호화폐 가격, 양 그리고 그 외 여러가지들           | 아니요   | 예     | 예         |
-| [CoinRanking](https://docs.coinranking.com/)                             | 실시간 암호화폐 자료                                | 아니요   | 예     | 알 수 없음 |
+| [CoinRanking](https://docs.coinranking.com/)                             | 실시간 암호화폐 데이터                              | 아니요   | 예     | 알 수 없음 |
 | [CryptoCompare](https://www.cryptocompare.com/api#)                      | 암호화폐 비교                                       | 아니요   | 예     | 알 수 없음 |
 | [Cryptonator](https://www.cryptonator.com/api/)                          | 암호화폐 거래 비율                                  | 아니요   | 예     | 알 수 없음 |
 | [Gemini](https://docs.gemini.com/rest-api/)                              | 암호화폐 거래                                       | 아니요   | 예     | 알 수 없음 |
@@ -231,7 +231,7 @@
 
 | API                                                                                                          | 설명                        | 인증     | HTTPS | CORS       |
 | ------------------------------------------------------------------------------------------------------------ | --------------------------- | -------- | ----- | ---------- |
-| [1Forge](https://1forge.com/forex-data-api/api-documentation)                                                | 외환시장 자료               | `apiKey` | 예    | 알 수 없음 |
+| [1Forge](https://1forge.com/forex-data-api/api-documentation)                                                | 외환시장 데이터             | `apiKey` | 예    | 알 수 없음 |
 | [Currencylayer](https://currencylayer.com/documentation)                                                     | 교환비율과 통화변환         | `apiKey` | 예    | 알 수 없음 |
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | 교환비율 모음               | 아니요   | 예    | 알 수 없음 |
 | [ExchangeRate-API](https://www.exchangerate-api.com)                                                         | 무료 통화변환               | 아니요   | 예    | 예         |
@@ -262,58 +262,59 @@
 
 ### 개발
 
-| API                                                                                                 | 설명                                                                                                | 인증            | HTTPS  | CORS       |
-| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------- | ------ | ---------- |
-| [24 Pull Requests](https://24pullrequests.com/api)                                                  | Project to promote open source collaboration during December                                        | 아니요          | 예     | 예         |
-| [Agify.io](https://agify.io)                                                                        | Estimates the age from a first name                                                                 | 아니요          | 예     | 예         |
-| [ApiFlash](https://apiflash.com/)                                                                   | Chrome based screenshot API for developers                                                          | `apiKey`        | 예     | 알 수 없음 |
-| [Apility.io](https://apility.io/apidocs/)                                                           | IP, Domains and Emails anti-abuse API blocklist                                                     | 아니요          | 예     | 예         |
-| [APIs.guru](https://apis.guru/api-doc/)                                                             | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs                                       | 아니요          | 예     | 알 수 없음 |
-| [BetterMeta](http://bettermeta.io)                                                                  | Return a site's meta tags in JSON format                                                            | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [Bitbucket](https://api.bitbucket.org/2.0/users/karllhughes)                                        | Pull public information for a Bitbucket account                                                     | 아니요          | 예     | 알 수 없음 |
-| [Bored](https://www.boredapi.com/)                                                                  | Find random activities to fight boredom                                                             | 아니요          | 예     | 알 수 없음 |
-| [Browshot](https://browshot.com/api/documentation)                                                  | Easily make screenshots of web pages in any screen size, as any device                              | `apiKey`        | 예     | 알 수 없음 |
-| [CDNJS](https://api.cdnjs.com/libraries/jquery)                                                     | Library info on CDNJS                                                                               | 아니요          | 예     | 알 수 없음 |
-| [Changelogs.md](https://changelogs.md)                                                              | Structured changelog metadata from open source projects                                             | 아니요          | 예     | 알 수 없음 |
-| [CountAPI](https://countapi.xyz)                                                                    | Free and simple counting service. You can use it to track page hits and specific events             | 아니요          | 예     | 예         |
-| [DigitalOcean Status](https://status.digitalocean.com/api/v1)                                       | Status of all DigitalOcean services                                                                 | 아니요          | 예     | 알 수 없음 |
-| [DomainDb Info](https://domainsdb.info/apidomainsdb/index.php)                                      | Domain name search to find all domains containing particular words/phrases/etc                      | 아니요          | 예     | 알 수 없음 |
-| [Faceplusplus](https://www.faceplusplus.com/)                                                       | A tool to detect face                                                                               | `OAuth`         | 예     | 알 수 없음 |
-| [Genderize.io](https://genderize.io)                                                                | Estimates a gender from a first name                                                                | 아니요          | 예     | 예         |
-| [GitHub](https://developer.github.com/v3/)                                                          | Make use of GitHub repositories, code and user info programmatically                                | `OAuth`         | 예     | 예         |
-| [Gitlab](https://docs.gitlab.com/ee/api/)                                                           | Automate GitLab interaction programmatically                                                        | `OAuth`         | 예     | 알 수 없음 |
-| [Gitter](https://github.com/gitterHQ/docs)                                                          | Chat for GitHub                                                                                     | `OAuth`         | 예     | 알 수 없음 |
-| [HTTP2.Pro](https://http2.pro/doc/api)                                                              | Test endpoints for client and server HTTP/2 protocol support                                        | 아니요          | 예     | 알 수 없음 |
-| [IBM Text to Speech](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html) | Convert text to speech                                                                              | `apiKey`        | 예     | 예         |
-| [import.io](http://api.docs.import.io/)                                                             | Retrieve structured data from a website or RSS feed                                                 | `apiKey`        | 예     | 알 수 없음 |
-| [IPify](https://www.ipify.org/)                                                                     | A simple IP Address API                                                                             | 아니요          | 예     | 알 수 없음 |
-| [IPinfo](https://ipinfo.io/developers)                                                              | Another simple IP Address API                                                                       | 아니요          | 예     | 알 수 없음 |
-| [JSON 2 JSONP](https://json2jsonp.com/)                                                             | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | 아니요          | 예     | 알 수 없음 |
-| [JSONbin.io](https://jsonbin.io)                                                                    | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps                 | `apiKey`        | 예     | 예         |
-| [Judge0](https://api.judge0.com/)                                                                   | Compile and run source code                                                                         | 아니요          | 예     | 알 수 없음 |
-| [Let's Validate](https://github.com/letsvalidate/api)                                               | Uncovers the technologies used on websites and URL to thumbnail                                     | 아니요          | 예     | 알 수 없음 |
-| [License-API](https://github.com/cmccandless/license-api/blob/master/README.md)                     | Unofficial REST API for choosealicense.com                                                          | 아니요          | 예     | 아니요     |
-| [LiveEdu](https://www.liveedu.tv/developer/applications/)                                           | Live Coding Streaming                                                                               | `OAuth`         | 예     | 알 수 없음 |
-| [MAC address vendor lookup](https://macaddress.io)                                                  | Retrieve vendor details and other information regarding a given MAC address or an OUI               | `apiKey`        | 예     | 예         |
-| [Myjson](http://myjson.com/api)                                                                     | A simple JSON store for your web or mobile app                                                      | 아니요          | 아니요 | 알 수 없음 |
-| [Nationalize.io](https://nationalize.io)                                                            | Estimate the nationality of a first name                                                            | 아니요          | 예     | 예         |
-| [OOPSpam](https://oopspam.com/)                                                                     | Multiple spam filtering service                                                                     | 아니요          | 예     | 예         |
-| [Plino](https://plino.herokuapp.com/)                                                               | Spam filtering system                                                                               | 아니요          | 예     | 알 수 없음 |
-| [Postman](https://docs.api.getpostman.com/)                                                         | Tool for testing APIs                                                                               | `apiKey`        | 예     | 알 수 없음 |
-| [ProxyCrawl](https://proxycrawl.com)                                                                | Scraping and crawling anticaptcha service                                                           | `apiKey`        | 예     | 알 수 없음 |
-| [Public APIs](https://github.com/davemachado/public-api)                                            | A collective list of free JSON APIs for use in web development                                      | 아니요          | 예     | 알 수 없음 |
-| [Pusher Beams](https://pusher.com/beams)                                                            | Push notifications for Android & iOS                                                                | `apiKey`        | 예     | 알 수 없음 |
-| [QR code](http://qrtag.net/api/)                                                                    | Create an easy to read QR code and URL shortener                                                    | 아니요          | 예     | 예         |
-| [QR code](http://goqr.me/api/)                                                                      | Generate and decode / read QR code graphics                                                         | 아니요          | 예     | 알 수 없음 |
-| [QuickChart](https://quickchart.io/)                                                                | Generate chart and graph images                                                                     | 아니요          | 예     | 예         |
-| [ReqRes](https://reqres.in/)                                                                        | A hosted REST-API ready to respond to your AJAX requests                                            | 아니요          | 예     | 알 수 없음 |
-| [Scrape Website Email](https://market.mashape.com/tommytcchan/scrape-website-email)                 | Grabs email addresses from a URL                                                                    | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [ScraperApi](https://www.scraperapi.com)                                                            | Easily build scalable web scrapers                                                                  | `apiKey`        | 예     | 알 수 없음 |
-| [ScreenshotAPI.net](https://screenshotapi.net/)                                                     | Create pixel-perfect website screenshots                                                            | `apiKey`        | 예     | 예         |
-| [SHOUTCLOUD](http://shoutcloud.io/)                                                                 | ALL-CAPS AS A SERVICE                                                                               | 아니요          | 아니요 | 알 수 없음 |
-| [StackExchange](https://api.stackexchange.com/)                                                     | Q&A forum for developers                                                                            | `OAuth`         | 예     | 알 수 없음 |
-| [Verse](https://verse.pawelad.xyz/)                                                                 | Check what's the latest version of your favorite open-source project                                | 아니요          | 예     | 알 수 없음 |
-| [XML to JSON](https://developers.wso2apistore.com/)                                                 | Integration developer utility APIs                                                                  | 아니요          | 예     | 알 수 없음 |
+| API                                                                                                 | 설명                                                                                                               | 인증            | HTTPS  | CORS       |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------- | ------ | ---------- |
+| [24 Pull Requests](https://24pullrequests.com/api)                                                  | 12월 동안 오픈 소스 협업을 촉진하기 위한 프로젝트                                                                  | 아니요          | 예     | 예         |
+| [Agify.io](https://agify.io)                                                                        | 이름에서 연령을 추정합니다.                                                                                        | 아니요          | 예     | 예         |
+| [ApiFlash](https://apiflash.com/)                                                                   | 개발자를 위한 크롬 기반 스크린샷 API                                                                               | `apiKey`        | 예     | 알 수 없음 |
+| [Apility.io](https://apility.io/apidocs/)                                                           | IP, 도메인 및 이메일 어뷰징을 막기위한 API 차단 목록                                                               | 아니요          | 예     | 예         |
+| [APIs.guru](https://apis.guru/api-doc/)                                                             | 공공 API를 위한 웹 API용 위키백과, OpenAPI/Swagger 스펙                                                            | 아니요          | 예     | 알 수 없음 |
+| [BetterMeta](http://bettermeta.io)                                                                  | 사이트의 메타 태그를 JSON 포멧으로 반환합니다.                                                                     | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [Bitbucket](https://api.bitbucket.org/2.0/users/karllhughes)                                        | 공공정보를 Bitbucket 계정에 가져옵시다.                                                                            | 아니요          | 예     | 알 수 없음 |
+| [Bored](https://www.boredapi.com/)                                                                  | 지루함에 맞설 무작위 활동을 찾아보세요.                                                                            | 아니요          | 예     | 알 수 없음 |
+| [Browshot](https://browshot.com/api/documentation)                                                  | 웹 페이지의 스크린샷을 모든 화면 크기, 모든 기기 크기로 쉽게 만들 수 있습니다.                                     | `apiKey`        | 예     | 알 수 없음 |
+| [CDNJS](https://api.cdnjs.com/libraries/jquery)                                                     | CDNJS의 라이브러리 정보                                                                                            | 아니요          | 예     | 알 수 없음 |
+| [Changelogs.md](https://changelogs.md)                                                              | 오픈소스 프로젝트의 구조화된 변화 로그 메타데이터                                                                  | 아니요          | 예     | 알 수 없음 |
+| [CountAPI](https://countapi.xyz)                                                                    | 무료 및 간단한 카운팅 서비스, 페이지 히트 및 특정 이벤트를 추적하는 데 사용할 수 있습니다.                         | 아니요          | 예     | 예         |
+| [DigitalOcean Status](https://status.digitalocean.com/api/v1)                                       | 모든 DigitalOcean 서비스의 상태                                                                                    | 아니요          | 예     | 알 수 없음 |
+| [DomainDb Info](https://domainsdb.info/apidomainsdb/index.php)                                      | 특정 단어/문자/etc를 포함하는 모든 도메인을 찾기 위한 도메인 이름 검색기                                           | 아니요          | 예     | 알 수 없음 |
+| [Faceplusplus](https://www.faceplusplus.com/)                                                       | 얼굴을 감지하는 도구                                                                                               | `OAuth`         | 예     | 알 수 없음 |
+| [Genderize.io](https://genderize.io)                                                                | 이름에서 성별을 알아냅니다.                                                                                        | 아니요          | 예     | 예         |
+| [GitHub](https://developer.github.com/v3/)                                                          | GitHub 저장소, 코드 및 사용자 정보를 프로그래밍 방식으로 이용합니다.                                               | `OAuth`         | 예     | 예         |
+| [Gitlab](https://docs.gitlab.com/ee/api/)                                                           | GitLab 상호 작용을 프로그래밍 방식으로 자동화합니다.                                                               | `OAuth`         | 예     | 알 수 없음 |
+| [Gitter](https://github.com/gitterHQ/docs)                                                          | GitHub를 위한 채팅                                                                                                 | `OAuth`         | 예     | 알 수 없음 |
+| [HTTP2.Pro](https://http2.pro/doc/api)                                                              | 클라이언트 및 서버 HTTP/2 프로토콜 지원을 테스트합니다.                                                            | 아니요          | 예     | 알 수 없음 |
+| [IBM Text to Speech](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html) | 텍스트를 음성으로 변환합니다.                                                                                      | `apiKey`        | 예     | 예         |
+| [import.io](http://api.docs.import.io/)                                                             | 웹 사이트 또는 RSS 피드로부터 구조화된 데이터를 검색합니다.                                                        | `apiKey`        | 예     | 알 수 없음 |
+| [IPify](https://www.ipify.org/)                                                                     | 간단한 IP 주소 API                                                                                                 | 아니요          | 예     | 알 수 없음 |
+| [IPinfo](https://ipinfo.io/developers)                                                              | 간단한 IP 주소                                                                                                     | 아니요          | 예     | 알 수 없음 |
+| [JSON 2 JSONP](https://json2jsonp.com/)                                                             | 클라이언트 측에서 JavaScript를 사용하여 도메인 간 데이터 요청을 쉽게 처리하기 위해 즉시 JSON를 JSONP로 변환합니다. | 아니요          | 예     | 알 수 없음 |
+| [JSONbin.io](https://jsonbin.io)                                                                    | 무료 JSON 스토리지 서비스입니다. 소규모 웹 애플리케이션, 웹 사이트 및 모바일 애플리케이션에 적합합니다.            | `apiKey`        | 예     | 예         |
+| [Judge0](https://api.judge0.com/)                                                                   | 소스 코드를 컴파일하고 실행합니다.                                                                                 | 아니요          | 예     | 알 수 없음 |
+| [Let's Validate](https://github.com/letsvalidate/api)                                               | 웹 사이트 및 URL에서 썸네일을 추출하는데 사용하는 기술을 공개합니다.                                               | 아니요          | 예     | 알 수 없음 |
+| [License-API](https://github.com/cmccandless/license-api/blob/master/README.md)                     | choosealicense.com를 위한 비공식 REST API                                                                          | 아니요          | 예     | 아니요     |
+| [LiveEdu](https://www.liveedu.tv/developer/applications/)                                           | 실시간 코딩 스트리밍                                                                                               | `OAuth`         | 예     | 알 수 없음 |
+| [MAC address vendor lookup](https://macaddress.io)                                                  | MAC 주소 또는 OUI에 대한 벤더 세부 정보 및 기타 정보를 가져옵니다.                                                 | `apiKey`        | 예     | 예         |
+| [Myjson](http://myjson.com/api)                                                                     | 웹이나 모바일 앱을 위한 간단한 JSON 스토어                                                                         | 아니요          | 아니요 | 알 수 없음 |
+| [Nationalize.io](https://nationalize.io)                                                            | 이름으로 국적을 추정합니다.                                                                                        | 아니요          | 예     | 예         |
+| [OOPSpam](https://oopspam.com/)                                                                     | 다중 스팸 필터링 서비스                                                                                            | 아니요          | 예     | 예         |
+| [Plino](https://plino.herokuapp.com/)                                                               | 스팸 필터링 시스템                                                                                                 | 아니요          | 예     | 알 수 없음 |
+| [Postman](https://docs.api.getpostman.com/)                                                         | API를 테스트하기 위한 도구                                                                                         | `apiKey`        | 예     | 알 수 없음 |
+| [ProxyCrawl](https://proxycrawl.com)                                                                | 안티캡차 서비스를 스크랩하고 크롤링합니다.                                                                         | `apiKey`        | 예     | 알 수 없음 |
+| [Public APIs](https://github.com/davemachado/public-api)                                            | 웹 개발에 사용할 수 있는 무료 JSON API 목록                                                                        | 아니요          | 예     | 알 수 없음 |
+| [Public APIs Korea](https://github.com/dl0312/public-apis-korea)                                    | 한국어 사용자를 위한 웹 개발에 사용할 수 있는 무료 JSON API 목록                                                   | 아니요          | 예     | 알 수 없음 |
+| [Pusher Beams](https://pusher.com/beams)                                                            | Android & iOS에 대한 알림을 보냅니다.                                                                              | `apiKey`        | 예     | 알 수 없음 |
+| [QR tag](http://qrtag.net/api/)                                                                     | 읽기 쉬운 QR 코드와 URL 쇼트너를 만듭니다.                                                                         | 아니요          | 예     | 예         |
+| [QR code API](http://goqr.me/api/)                                                                  | QR 코드를 생성하고 해석하여 읽습니다.                                                                              | 아니요          | 예     | 알 수 없음 |
+| [QuickChart](https://quickchart.io/)                                                                | 차트 및 그래프 이미지를 생성합니다.                                                                                | 아니요          | 예     | 예         |
+| [ReqRes](https://reqres.in/)                                                                        | AJAX 요청에 응답할 준비가 된 호스팅된 REST-API                                                                     | 아니요          | 예     | 알 수 없음 |
+| [Scrape Website Email](https://market.mashape.com/tommytcchan/scrape-website-email)                 | URL에서 이메일 주소를 가져옵니다.                                                                                  | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [ScraperApi](https://www.scraperapi.com)                                                            | 확장 가능한 웹 스크래퍼를 쉽게 제작합니다.                                                                         | `apiKey`        | 예     | 알 수 없음 |
+| [ScreenshotAPI.net](https://screenshotapi.net/)                                                     | 픽셀 단위까지 완벽한 웹 사이트 스크린샷을 생성합니다.                                                              | `apiKey`        | 예     | 예         |
+| [SHOUTCLOUD](http://shoutcloud.io/)                                                                 | 영어 문자열을 모두 대문자로 만들어주는 서비스                                                                      | 아니요          | 아니요 | 알 수 없음 |
+| [StackExchange](https://api.stackexchange.com/)                                                     | 개발자들을 위한 Q&A 포럼                                                                                           | `OAuth`         | 예     | 알 수 없음 |
+| [Verse](https://verse.pawelad.xyz/)                                                                 | 가장 좋아하는 오픈 소스 프로젝트의 최신 버전을 확인합니다.                                                         | 아니요          | 예     | 알 수 없음 |
+| [XML to JSON](https://developers.wso2apistore.com/)                                                 | 개발자 유틸리티 통합 API                                                                                           | 아니요          | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
