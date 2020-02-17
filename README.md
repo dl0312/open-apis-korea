@@ -320,14 +320,14 @@
 
 ### 사전
 
-| API                                                 | 설명                                                            | 인증     | HTTPS  | CORS       |
-| --------------------------------------------------- | --------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Lingua Robot](https://www.linguarobot.io)          | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | 예     | 예         |
-| [Merriam-Webster](https://dictionaryapi.com/)       | Dictionary and Thesaurus Data                                   | `apiKey` | 예     | 알 수 없음 |
-| [OwlBot](https://owlbot.info/)                      | Definitions with example sentence and photo if available        | `apiKey` | 예     | 예         |
-| [Oxford](https://developer.oxforddictionaries.com/) | Dictionary Data                                                 | `apiKey` | 예     | 아니요     |
-| [Wordnik](http://developer.wordnik.com)             | Dictionary Data                                                 | `apiKey` | 아니요 | 알 수 없음 |
-| [Words](https://www.wordsapi.com/)                  | Definitions and synonyms for more than 150,000 words            | `apiKey` | 예     | 알 수 없음 |
+| API                                                 | 설명                                        | 인증     | HTTPS  | CORS       |
+| --------------------------------------------------- | ------------------------------------------- | -------- | ------ | ---------- |
+| [Lingua Robot](https://www.linguarobot.io)          | 단어의 정의, 발음, 동의어, 반음어 등        | `apiKey` | 예     | 예         |
+| [Merriam-Webster](https://dictionaryapi.com/)       | 사전 및 동의어 데이터                       | `apiKey` | 예     | 알 수 없음 |
+| [OwlBot](https://owlbot.info/)                      | 단어의 정의를 예문, 사진과 함께 보여줍니다. | `apiKey` | 예     | 예         |
+| [Oxford](https://developer.oxforddictionaries.com/) | 사전 데이터                                 | `apiKey` | 예     | 아니요     |
+| [Wordnik](http://developer.wordnik.com)             | 사전 데이터                                 | `apiKey` | 아니요 | 알 수 없음 |
+| [Words](https://www.wordsapi.com/)                  | 150,000개가 넘는 단어의 정의와 동의어       | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
