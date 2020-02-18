@@ -136,49 +136,49 @@
 
 ### 게임 & 만화
 
-| API                                                               | 설명                                                                         | 인증              | HTTPS | CORS   |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------- | ----- | ------ |
-| [Age of Empires II](https://age-of-empires-2-api.herokuapp.com)   | Get information about Age of Empires II resources                          | 아니요             | 예     | 알 수 없음 |
-| [AmiiboAPI](http://www.amiiboapi.com/)                            | Amiibo Information                                                         | 아니요             | 아니요   | 예      |
-| [Battle.net](https://dev.battle.net/)                             | Blizzard Entertainment                                                     | `apiKey`        | 예     | 알 수 없음 |
-| [Chuck Norris Database](http://www.icndb.com/api/)                | Jokes                                                                      | 아니요             | 아니요   | 알 수 없음 |
-| [Clash of Clans](https://developer.clashofclans.com)              | Clash of Clans Game Information                                            | `apiKey`        | 예     | 알 수 없음 |
-| [Clash Royale](https://developer.clashroyale.com)                 | Clash Royale Game Information                                              | `apiKey`        | 예     | 알 수 없음 |
-| [Comic Vine](https://comicvine.gamespot.com/api/documentation)    | Comics                                                                     | 아니요             | 예     | 알 수 없음 |
-| [Deck of Cards](http://deckofcardsapi.com/)                       | Deck of Cards                                                              | 아니요             | 아니요   | 알 수 없음 |
-| [Destiny The Game](https://github.com/Bungie-net/api)             | Bungie Platform API                                                        | `apiKey`        | 예     | 알 수 없음 |
-| [Dota 2](https://docs.opendota.com/)                              | Provides information about Player stats , Match stats, Rankings for Dota 2 | 아니요             | 예     | 알 수 없음 |
-| [Dungeons and Dragons](http://www.dnd5eapi.co/)                   | Reference for 5th edition spells, classes, monsters, and more              | 아니요             | 아니요   | 아니요    |
-| [Eve Online](https://esi.evetech.net/ui)                          | Third-Party Developer Documentation                                        | `OAuth`         | 예     | 알 수 없음 |
-| [Final Fantasy XIV](https://xivapi.com/)                          | Final Fantasy XIV Game data API                                            | 아니요             | 예     | 예      |
-| [Fortnite](https://fortniteapi.com/)                              | Fortnite Stats & Cosmetics                                                 | `apiKey`        | 예     | 예      |
-| [Fortnite](https://fortnitetracker.com/site-api)                  | Fortnite Stats                                                             | `apiKey`        | 예     | 알 수 없음 |
-| [Giant Bomb](https://www.giantbomb.com/api/documentation)         | Video Games                                                                | 아니요             | 예     | 알 수 없음 |
-| [Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main)         | Guild Wars 2 Game Information                                              | `apiKey`        | 예     | 알 수 없음 |
-| [Halo](https://developer.haloapi.com/)                            | Halo 5 and Halo Wars 2 Information                                         | `apiKey`        | 예     | 알 수 없음 |
-| [Hearthstone](http://hearthstoneapi.com/)                         | Hearthstone Cards Information                                              | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [Hypixel](https://api.hypixel.net/)                               | Hypixel player stats                                                       | `apiKey`        | 예     | 알 수 없음 |
-| [IGDB.com](https://api.igdb.com/)                                 | Video Game Database                                                        | `apiKey`        | 예     | 알 수 없음 |
-| [JokeAPI](https://sv443.net/jokeapi)                              | Programming, Miscellaneous and Dark Jokes                                  | 아니요             | 예     | 예      |
-| [Jokes](https://github.com/15Dkatz/official_joke_api)             | Programming and general jokes                                              | 아니요             | 예     | 알 수 없음 |
-| [Jservice](http://jservice.io)                                    | Jeopardy Question Database                                                 | 아니요             | 아니요   | 알 수 없음 |
-| [Magic The Gathering](http://magicthegathering.io/)               | Magic The Gathering Game Information                                       | 아니요             | 아니요   | 알 수 없음 |
-| [Marvel](http://developer.marvel.com)                             | Marvel Comics                                                              | `apiKey`        | 아니요   | 알 수 없음 |
-| [mod.io](https://docs.mod.io)                                     | Cross Platform Mod API                                                     | `apiKey`        | 예     | 알 수 없음 |
-| [Open Trivia](https://opentdb.com/api_config.php)                 | Trivia Questions                                                           | 아니요             | 예     | 알 수 없음 |
-| [PandaScore](https://api.pandascore.co)                           | E-sports games and results                                                 | `apiKey`        | 예     | 알 수 없음 |
-| [PlayerUnknown's Battlegrounds](https://pubgtracker.com/site-api) | PUBG Stats                                                                 | `apiKey`        | 예     | 알 수 없음 |
-| [Pokéapi](https://pokeapi.co)                                     | Pokémon Information                                                        | 아니요             | 예     | 알 수 없음 |
-| [Pokémon TCG](https://pokemontcg.io)                              | Pokémon TCG Information                                                    | 아니요             | 예     | 알 수 없음 |
-| [Rick and Morty](https://rickandmortyapi.com)                     | All the Rick and Morty information, including images                       | 아니요             | 예     | 예      |
-| [Riot Games](https://developer.riotgames.com/)                    | League of Legends Game Information                                         | `apiKey`        | 예     | 알 수 없음 |
-| [Scryfall](https://scryfall.com/docs/api)                         | Magic: The Gathering database                                              | 아니요             | 예     | 예      |
-| [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API)   | Steam Client Interaction                                                   | `OAuth`         | 예     | 알 수 없음 |
-| [SuperHeroes](https://superheroapi.com)                           | All SuperHeroes and Villains data from all universes under a single API    | `apiKey`        | 예     | 알 수 없음 |
-| [Tronald Dump](https://www.tronalddump.io/)                       | The dumbest things Donald Trump has ever said                              | 아니요             | 예     | 알 수 없음 |
-| [Vainglory](https://developer.vainglorygame.com/)                 | Vainglory Players, Matches and Telemetry                                   | `apiKey`        | 예     | 예      |
-| [Wargaming.net](https://developers.wargaming.net/)                | Wargaming.net info and stats                                               | `apiKey`        | 예     | 아니요    |
-| [xkcd](https://xkcd.com/json.html)                                | Retrieve xkcd comics as JSON                                               | 아니요             | 예     | 아니요    |
+| API                                                               | 설명                                        | 인증              | HTTPS | CORS   |
+| ----------------------------------------------------------------- | ----------------------------------------- | --------------- | ----- | ------ |
+| [Age of Empires II](https://age-of-empires-2-api.herokuapp.com)   | 에이지 오브 엠파이어 II의 리소스에 대한 정보를 얻습니다.         | 아니요             | 예     | 알 수 없음 |
+| [AmiiboAPI](http://www.amiiboapi.com/)                            | 아미보 정보                                    | 아니요             | 아니요   | 예      |
+| [Battle.net](https://dev.battle.net/)                             | 블리자드 엔터테인먼트                               | `apiKey`        | 예     | 알 수 없음 |
+| [Chuck Norris Database](http://www.icndb.com/api/)                | 농담 모음                                     | 아니요             | 아니요   | 알 수 없음 |
+| [Clash of Clans](https://developer.clashofclans.com)              | 클래시 오브 클랜 게임 정보                           | `apiKey`        | 예     | 알 수 없음 |
+| [Clash Royale](https://developer.clashroyale.com)                 | 클래시 로얄 게임 정보                              | `apiKey`        | 예     | 알 수 없음 |
+| [Comic Vine](https://comicvine.gamespot.com/api/documentation)    | 코믹스                                       | 아니요             | 예     | 알 수 없음 |
+| [Deck of Cards](http://deckofcardsapi.com/)                       | 카드 덱                                      | 아니요             | 아니요   | 알 수 없음 |
+| [Destiny The Game](https://github.com/Bungie-net/api)             | 번지 플랫폼 API                                | `apiKey`        | 예     | 알 수 없음 |
+| [Dota 2](https://docs.opendota.com/)                              | 도타 2의 플레이어 통계, 매치 통계, 랭킹 정보를 제공합니다.       | 아니요             | 예     | 알 수 없음 |
+| [Dungeons and Dragons](http://www.dnd5eapi.co/)                   | 던전 앤 드래곤 5번째 에디션의 주문, 클래스, 몬스터 등에 대한 참조   | 아니요             | 아니요   | 아니요    |
+| [Eve Online](https://esi.evetech.net/ui)                          | 이브 온라인 서드파티 개발자 문서                        | `OAuth`         | 예     | 알 수 없음 |
+| [Final Fantasy XIV](https://xivapi.com/)                          | 파이널 판타지 XIV 게임 데이터 API                    | 아니요             | 예     | 예      |
+| [Fortnite](https://fortniteapi.com/)                              | 포트나이트 통계 & 치장 아이템                         | `apiKey`        | 예     | 예      |
+| [Fortnite](https://fortnitetracker.com/site-api)                  | 포트나이트 통계                                  | `apiKey`        | 예     | 알 수 없음 |
+| [Giant Bomb](https://www.giantbomb.com/api/documentation)         | 비디오 게임                                    | 아니요             | 예     | 알 수 없음 |
+| [Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main)         | 길드 워 2 정보                                 | `apiKey`        | 예     | 알 수 없음 |
+| [Halo](https://developer.haloapi.com/)                            | 헤일로 5와 헤일로 워즈 2 정보                        | `apiKey`        | 예     | 알 수 없음 |
+| [Hearthstone](http://hearthstoneapi.com/)                         | 하스스톤 카드 정보                                | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [Hypixel](https://api.hypixel.net/)                               | 하이픽셀 플레이어 통계                              | `apiKey`        | 예     | 알 수 없음 |
+| [IGDB.com](https://api.igdb.com/)                                 | 비디오 게임 데이터베이스                             | `apiKey`        | 예     | 알 수 없음 |
+| [JokeAPI](https://sv443.net/jokeapi)                              | 프로그래밍, 어두운 그리고 이것저것 다양한 농담                | 아니요             | 예     | 예      |
+| [Jokes](https://github.com/15Dkatz/official_joke_api)             | 프로그래밍과 일반적 농담                             | 아니요             | 예     | 알 수 없음 |
+| [Jservice](http://jservice.io)                                    | 《제퍼디!》 게임 쇼의 문제 데이터베이스                  | 아니요             | 아니요   | 알 수 없음 |
+| [Magic The Gathering](http://magicthegathering.io/)               | 매직: 더 개더링 정보                              | 아니요             | 아니요   | 알 수 없음 |
+| [Marvel](http://developer.marvel.com)                             | 마블 코믹스                                    | `apiKey`        | 아니요   | 알 수 없음 |
+| [mod.io](https://docs.mod.io)                                     | 크로스 플랫폼 사이트 모드 API                        | `apiKey`        | 예     | 알 수 없음 |
+| [Open Trivia](https://opentdb.com/api_config.php)                 | 잡학 문제                                     | 아니요             | 예     | 알 수 없음 |
+| [PandaScore](https://api.pandascore.co)                           | E-스포츠 게임과 결과                              | `apiKey`        | 예     | 알 수 없음 |
+| [PlayerUnknown's Battlegrounds](https://pubgtracker.com/site-api) | 배틀그라운드(PUBG) 통계                           | `apiKey`        | 예     | 알 수 없음 |
+| [Pokéapi](https://pokeapi.co)                                     | 포켓몬스터 정보                                  | 아니요             | 예     | 알 수 없음 |
+| [Pokémon TCG](https://pokemontcg.io)                              | 포켓몬스터 TCG 정보                              | 아니요             | 예     | 알 수 없음 |
+| [Rick and Morty](https://rickandmortyapi.com)                     | 이미지를 포함한 모든 릭 앤 모티 정보                     | 아니요             | 예     | 예      |
+| [Riot Games](https://developer.riotgames.com/)                    | 리그 오브 레전드 정보                              | `apiKey`        | 예     | 알 수 없음 |
+| [Scryfall](https://scryfall.com/docs/api)                         | 매직: 더 개더링 데이터베이스                          | 아니요             | 예     | 예      |
+| [Steam](https://developer.valvesoftware.com/wiki/Steam_Web_API)   | 스팀 클라이언트 상호작용                             | `OAuth`         | 예     | 알 수 없음 |
+| [SuperHeroes](https://superheroapi.com)                           | 단일 API로 모든 유니버스의 모든 슈퍼히어로와 악당 데이터를 가져옵니다. | `apiKey`        | 예     | 알 수 없음 |
+| [Tronald Dump](https://www.tronalddump.io/)                       | 도널드 트럼프 대통령이 한 말 중에 가장 바보 같은 말들           | 아니요             | 예     | 알 수 없음 |
+| [Vainglory](https://developer.vainglorygame.com/)                 | 베인글로리 플레이어, 매치와 원격측정                      | `apiKey`        | 예     | 예      |
+| [Wargaming.net](https://developers.wargaming.net/)                | Wargaming.net의 정보와 통계                     | `apiKey`        | 예     | 아니요    |
+| [xkcd](https://xkcd.com/json.html)                                | xkcd 만화를 JSON으로 얻어옵니다.                    | 아니요             | 예     | 아니요    |
 
 **[⬆ 목차로 돌아가기](#목차)**
 ### 과학 & 수학
