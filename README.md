@@ -1,6 +1,9 @@
 # 📒 오픈 API
 
-<div align='center' ><h3 style="margin: 1rem">🇰🇷 한국어 사용자를 위한 서비스에 사용하기 위한 오픈 API 모음 🇰🇷</h3></div>
+
+<h3 align='center'>🇰🇷 한국어 사용자를 위한 서비스에 사용하기 위한 오픈 API 모음 🇰🇷</h3>
+
+<br/>
 
 이 프로젝트에 대한 컨트리뷰트 정보는 [컨트리뷰트 가이드](.github/CONTRIBUTING.md)를 확인해주세요.
 
