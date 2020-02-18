@@ -118,19 +118,19 @@
 
 ### 건강
 
-| API                                                        | 설명                                                                                           | 인증       | HTTPS | CORS   |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [BetterDoctor](https://developer.betterdoctor.com/)        | Detailed information about doctors in your area                                              | `apiKey` | 예     | 알 수 없음 |
-| [Diabetes](http://predictbgl.com/api/)                     | Logging and retrieving diabetes information                                                  | 아니요      | 아니요   | 알 수 없음 |
-| [Flutrack](http://www.flutrack.org/)                       | Influenza-like symptoms with geotracking                                                     | 아니요      | 아니요   | 알 수 없음 |
-| [Healthcare.gov](https://www.healthcare.gov/developers/)   | Educational content about the US Health Insurance Marketplace                                | 아니요      | 예     | 알 수 없음 |
-| [Lexigram](https://docs.lexigram.io/v1/welcome)            | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | `apiKey` | 예     | 알 수 없음 |
-| [Makeup](http://makeup-api.herokuapp.com/)                 | Makeup Information                                                                           | 아니요      | 아니요   | 알 수 없음 |
-| [Medicare](https://data.medicare.gov/developers)           | Access to the data from the CMS - medicare.gov                                               | 아니요      | 예     | 알 수 없음 |
-| [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | National Plan & Provider Enumeration System, info on healthcare providers registered in US   | 아니요      | 예     | 알 수 없음 |
-| [Nutritionix](https://developer.nutritionix.com/)          | Worlds largest verified nutrition database                                                   | `apiKey` | 예     | 알 수 없음 |
-| [openFDA](https://open.fda.gov)                            | Public FDA data about drugs, devices and foods                                               | 아니요      | 예     | 알 수 없음 |
-| [USDA Nutrients](https://ndb.nal.usda.gov/ndb/doc/index)   | National Nutrient Database for Standard Reference                                            | 아니요      | 예     | 알 수 없음 |
+| API                                                        | 설명                                             | 인증       | HTTPS | CORS   |
+| ---------------------------------------------------------- | ---------------------------------------------- | -------- | ----- | ------ |
+| [BetterDoctor](https://developer.betterdoctor.com/)        | 근방에 있는 의사에 대한 자세한 정보                           | `apiKey` | 예     | 알 수 없음 |
+| [Diabetes](http://predictbgl.com/api/)                     | 당뇨병 정보 기록 및 검색                                 | 아니요      | 아니요   | 알 수 없음 |
+| [Flutrack](http://www.flutrack.org/)                       | 지오트래킹으로 인플루엔자 증상 현황을 확인합니다.                    | 아니요      | 아니요   | 알 수 없음 |
+| [Healthcare.gov](https://www.healthcare.gov/developers/)   | 미국 의료 보험 시장 관련 교육 콘텐츠                          | 아니요      | 예     | 알 수 없음 |
+| [Lexigram](https://docs.lexigram.io/v1/welcome)            | 텍스트에서 임상 개념의 언급을 추출하여, 임상 종양학에 대한 접근을 제공하는 NLP | `apiKey` | 예     | 알 수 없음 |
+| [Makeup](http://makeup-api.herokuapp.com/)                 | 메이크업 정보                                        | 아니요      | 아니요   | 알 수 없음 |
+| [Medicare](https://data.medicare.gov/developers)           | medicare.gov의 CMS의 데이터를 접근합니다.                 | 아니요      | 예     | 알 수 없음 |
+| [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | 미국에 등록된 의료 공급업체에 대한 정보                         | 아니요      | 예     | 알 수 없음 |
+| [Nutritionix](https://developer.nutritionix.com/)          | 세계 최대 규모의 검증된 영양 데이터베이스                        | `apiKey` | 예     | 알 수 없음 |
+| [openFDA](https://open.fda.gov)                            | 약, 장치 및 식품에 대한 FDA의 공식 데이터                     | 아니요      | 예     | 알 수 없음 |
+| [USDA Nutrients](https://ndb.nal.usda.gov/ndb/doc/index)   | 표준 참조를 위한 국가 영양 데이터베이스                         | 아니요      | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
@@ -1058,10 +1058,6 @@
 | [ratesapi](https://ratesapi.io)                                                                              | 무료 교환비율과 역사적비율  | 아니요      | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
-
-
-
-
 
 ### URL 쇼트너
 
