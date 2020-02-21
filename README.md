@@ -184,29 +184,29 @@
 
 ### 과학 & 수학
 
-| API                                                                            | 설명                                                                                 | 인증     | HTTPS  | CORS       |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | -------- | ------ | ---------- |
-| [arcsecond.io](https://api.arcsecond.io/)                                      | Multiple astronomy data sources                                                      | 아니요   | 예     | 알 수 없음 |
-| [CORE](https://core.ac.uk/services#api)                                        | Access the world's Open Access research papers                                       | `apiKey` | 예     | 알 수 없음 |
-| [GBIF](http://api.gbif.org/v1/)                                                | Global Biodiversity Information Facility                                             | 아니요   | 예     | 예         |
-| [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki)                  | Access millions of museum specimens from organizations around the world              | 아니요   | 예     | 알 수 없음 |
-| [inspirehep.net](https://inspirehep.net/info/hep/api?ln=en)                    | High Energy Physics info. system                                                     | 아니요   | 예     | 알 수 없음 |
-| [ITIS](https://www.itis.gov/ws_description.html)                               | Integrated Taxonomic Information System                                              | 아니요   | 예     | 알 수 없음 |
-| [Launch Library](https://launchlibrary.net/docs/1.3/api.html)                  | Upcoming Space Launches                                                              | 아니요   | 예     | 알 수 없음 |
-| [Minor Planet Center](http://www.asterank.com/mpc)                             | Asterank.com Information                                                             | 아니요   | 아니요 | 알 수 없음 |
-| [NASA](https://api.nasa.gov)                                                   | NASA data, including imagery                                                         | 아니요   | 예     | 알 수 없음 |
-| [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/)                   | API for getting APOD (Astronomy Image of the Day) images along with metadata         | 아니요   | 예     | 예         |
-| [Newton](https://newton.now.sh/)                                               | Symbolic and Arithmetic Math Calculator                                              | 아니요   | 예     | 알 수 없음 |
-| [Numbers](http://numbersapi.com)                                               | Facts about numbers                                                                  | 아니요   | 아니요 | 알 수 없음 |
-| [Open Notify](http://open-notify.org/Open-Notify-API/)                         | ISS astronauts, current location, etc                                                | 아니요   | 아니요 | 알 수 없음 |
-| [Open Science Framework](https://developer.osf.io)                             | Repository and archive for study designs, research materials, data, manuscripts, etc | 아니요   | 예     | 알 수 없음 |
-| [SHARE](https://share.osf.io/api/v2/)                                          | A free, open, dataset about research and scholarly activities                        | 아니요   | 예     | 알 수 없음 |
-| [SpaceX](https://github.com/r-spacex/SpaceX-API)                               | Company, vehicle, launchpad and launch data                                          | 아니요   | 예     | 알 수 없음 |
-| [Sunrise and Sunset](https://sunrise-sunset.org/api)                           | Sunset and sunrise times for a given latitude and longitude                          | 아니요   | 예     | 알 수 없음 |
-| [Trefle](https://trefle.io/)                                                   | Botanical data for plant species                                                     | `apiKey` | 예     | 알 수 없음 |
-| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Earthquakes data real-time                                                           | 아니요   | 예     | 알 수 없음 |
-| [USGS Water Services](https://waterservices.usgs.gov/)                         | Water quality and level info for rivers and lakes                                    | 아니요   | 예     | 알 수 없음 |
-| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)   | World Data                                                                           | 아니요   | 아니요 | 알 수 없음 |
+| API                                                                            | 설명                                                                           | 인증     | HTTPS  | CORS       |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | -------- | ------ | ---------- |
+| [arcsecond.io](https://api.arcsecond.io/)                                      | 여러 천문학 데이터                                                             | 아니요   | 예     | 알 수 없음 |
+| [CORE](https://core.ac.uk/services#api)                                        | 전 세계의 공개적으로 접근 가능한 연구 보고서에 접근합니다.                     | `apiKey` | 예     | 알 수 없음 |
+| [GBIF](http://api.gbif.org/v1/)                                                | 전 세계 생물 다양성 정보                                                       | 아니요   | 예     | 예         |
+| [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki)                  | 전 세계 조직의 수백만 개의 박물관 견본에 접근합니다.                           | 아니요   | 예     | 알 수 없음 |
+| [inspirehep.net](https://inspirehep.net/info/hep/api?ln=en)                    | 높은 에너지 물리학 정보                                                        | 아니요   | 예     | 알 수 없음 |
+| [ITIS](https://www.itis.gov/ws_description.html)                               | 통합 분류학 정보 시스템                                                        | 아니요   | 예     | 알 수 없음 |
+| [Launch Library](https://launchlibrary.net/docs/1.3/api.html)                  | 다가오는 우주선 발사                                                           | 아니요   | 예     | 알 수 없음 |
+| [Minor Planet Center](http://www.asterank.com/mpc)                             | Asterank.com 정보                                                              | 아니요   | 아니요 | 알 수 없음 |
+| [NASA](https://api.nasa.gov)                                                   | 사진을 포함한 NASA 데이터                                                      | 아니요   | 예     | 알 수 없음 |
+| [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/)                   | 메타데이터와 함께 APOD(Astronomy Image of the Day) 이미지를 가져올 수 있는 API | 아니요   | 예     | 예         |
+| [Newton](https://newton.now.sh/)                                               | 기호 및 산술 함수 계산기                                                       | 아니요   | 예     | 알 수 없음 |
+| [Numbers](http://numbersapi.com)                                               | 숫자에 대한 사실들                                                             | 아니요   | 아니요 | 알 수 없음 |
+| [Open Notify](http://open-notify.org/Open-Notify-API/)                         | ISS 우주비행사, 현재 위치 등                                                   | 아니요   | 아니요 | 알 수 없음 |
+| [Open Science Framework](https://developer.osf.io)                             | 스터디 설계, 연구 자료, 데이터, 원고 등을 위한 저장소와 아카이브               | 아니요   | 예     | 알 수 없음 |
+| [SHARE](https://share.osf.io/api/v2/)                                          | 연구 및 학술 활동에 대한 무료 공개 데이터 세트                                 | 아니요   | 예     | 알 수 없음 |
+| [SpaceX](https://github.com/r-spacex/SpaceX-API)                               | 회사, 차량, 런치패드 및 론칭 데이터                                            | 아니요   | 예     | 알 수 없음 |
+| [Sunrise and Sunset](https://sunrise-sunset.org/api)                           | 주어진 위도 및 경도에 대한 일출 및 일출 시간                                   | 아니요   | 예     | 알 수 없음 |
+| [Trefle](https://trefle.io/)                                                   | 식물 종에 대한 데이터                                                          | `apiKey` | 예     | 알 수 없음 |
+| [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | 실시간 지진 데이터                                                             | 아니요   | 예     | 알 수 없음 |
+| [USGS Water Services](https://waterservices.usgs.gov/)                         | 강과 호수에 대한 수질과 수위 정보                                              | 아니요   | 예     | 알 수 없음 |
+| [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)   | 가난이 없는 세상을 위해 일합니다.                                              | 아니요   | 아니요 | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
