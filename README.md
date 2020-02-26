@@ -313,18 +313,18 @@
 
 ### 뉴스
 
-| API                                                                 | 설명                                                                                          | 인증       | HTTPS | CORS   |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [Associated Press](https://developer.ap.org/)                       | Search for news and metadata from Associated Press                                          | `apiKey` | 예     | 알 수 없음 |
-| [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | Provides access to millions of pages of historic US newspapers from the Library of Congress | 아니요      | 아니요   | 알 수 없음 |
-| [Currents](https://currentsapi.services/)                           | Latest news published in various news sources, blogs and forums                             | `apiKey` | 예     | 예      |
-| [Feedbin](https://github.com/feedbin/feedbin-api)                   | RSS reader                                                                                  | `OAuth`  | 예     | 알 수 없음 |
-| [Feedster](https://api.feedster.me/v1/docs/)                        | Searchable and categorized collections of RSS feeds                                         | `apiKey` | 예     | 알 수 없음 |
-| [New York Times](https://developer.nytimes.com/)                    | Provides news                                                                               | `apiKey` | 예     | 알 수 없음 |
-| [News](https://newsapi.org/)                                        | Headlines currently published on a range of news sources and blogs                          | `apiKey` | 예     | 알 수 없음 |
-| [NPR One](http://dev.npr.org/api/)                                  | Personalized news listening experience from NPR                                             | `OAuth`  | 예     | 알 수 없음 |
-| [The Guardian](http://open-platform.theguardian.com/)               | Access all the content the Guardian creates, categorised by tags and section                | `apiKey` | 예     | 알 수 없음 |
-| [The Old Reader](https://github.com/theoldreader/api)               | RSS reader                                                                                  | `apiKey` | 예     | 알 수 없음 |
+| API                                                                 | 설명                                             | 인증       | HTTPS | CORS   |
+| ------------------------------------------------------------------- | ---------------------------------------------- | -------- | ----- | ------ |
+| [Associated Press](https://developer.ap.org/)                       | AP 통신에서 뉴스 및 메타데이터를 검색합니다.                     | `apiKey` | 예     | 알 수 없음 |
+| [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | 의회 도서관에 있는 수백만 페이지의 역사적인 미국 신문에 접근할 수 있도록 합니다. | 아니요      | 아니요   | 알 수 없음 |
+| [Currents](https://currentsapi.services/)                           | 다양한 뉴스 출처, 블로그 및 포럼에 게시된 최신 뉴스                 | `apiKey` | 예     | 예      |
+| [Feedbin](https://github.com/feedbin/feedbin-api)                   | RSS 독자                                         | `OAuth`  | 예     | 알 수 없음 |
+| [Feedster](https://api.feedster.me/v1/docs/)                        | 검색 가능하고 분류된 RSS 피드 모음                          | `apiKey` | 예     | 알 수 없음 |
+| [New York Times](https://developer.nytimes.com/)                    | 뉴욕타임즈 뉴스                                       | `apiKey` | 예     | 알 수 없음 |
+| [News](https://newsapi.org/)                                        | 현재 다양한 뉴스 출처와 블로그에 게시된 헤드라인                    | `apiKey` | 예     | 알 수 없음 |
+| [NPR One](http://dev.npr.org/api/)                                  | NPR의 맞춤형 뉴스 청취 경험                              | `OAuth`  | 예     | 알 수 없음 |
+| [The Guardian](http://open-platform.theguardian.com/)               | 태그 및 섹션으로 분류된 가디언이 작성하는 모든 컨텐츠에 접근합니다.         | `apiKey` | 예     | 알 수 없음 |
+| [The Old Reader](https://github.com/theoldreader/api)               | RSS 독자                                         | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
