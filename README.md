@@ -386,16 +386,16 @@
 
 ### 머신러닝
 
-| API                                                                               | 설명                                                      | 인증       | HTTPS | CORS   |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------- | -------- | ----- | ------ |
-| [Clarifai](https://developer.clarifai.com/)                                       | Computer Vision                                         | `OAuth`  | 예     | 알 수 없음 |
-| [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | 예     | 예      |
-| [Deepcode](https://www.deepcode.ai/docs/Overview%252FOverview)                    | AI for code review                                      | 아니요      | 예     | 알 수 없음 |
-| [Dialogflow](https://dialogflow.com)                                              | Natural Language Processing                             | `apiKey` | 예     | 알 수 없음 |
-| [Keen IO](https://keen.io/)                                                       | Data Analytics                                          | `apiKey` | 예     | 알 수 없음 |
-| [Time Door](https://timedoor.io)                                                  | A time series analysis API                              | `apiKey` | 예     | 예      |
-| [Unplugg](https://unplu.gg/test_api.html)                                         | Forecasting API for timeseries data                     | `apiKey` | 예     | 알 수 없음 |
-| [Wit.ai](https://wit.ai/)                                                         | Natural Language Processing                             | `OAuth`  | 예     | 알 수 없음 |
+| API                                                                               | 설명                     | 인증       | HTTPS | CORS   |
+| --------------------------------------------------------------------------------- | ---------------------- | -------- | ----- | ------ |
+| [Clarifai](https://developer.clarifai.com/)                                       | 컴퓨터 비전                 | `OAuth`  | 예     | 알 수 없음 |
+| [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | 이미지 캡션, 얼굴 인식, NSFW 분류 | `apiKey` | 예     | 예      |
+| [Deepcode](https://www.deepcode.ai/docs/Overview%252FOverview)                    | 코드 리뷰를 위한 AI           | 아니요      | 예     | 알 수 없음 |
+| [Dialogflow](https://dialogflow.com)                                              | 자연어 처리                 | `apiKey` | 예     | 알 수 없음 |
+| [Keen IO](https://keen.io/)                                                       | 데이터 분석                 | `apiKey` | 예     | 알 수 없음 |
+| [Time Door](https://timedoor.io)                                                  | 시계열 분석 API             | `apiKey` | 예     | 예      |
+| [Unplugg](https://unplu.gg/test_api.html)                                         | 시계열 데이터 예측 API         | `apiKey` | 예     | 알 수 없음 |
+| [Wit.ai](https://wit.ai/)                                                         | 자연어 처리                 | `OAuth`  | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
