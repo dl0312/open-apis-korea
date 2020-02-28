@@ -419,16 +419,16 @@
 
 ### 보안
 
-| API                                                                                         | 설명                                                                                     | 인증       | HTTPS | CORS   |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- | ----- | ------ |
-| [Censys.io](https://censys.io/api)                                                          | Search engine for Internet connected host and devices                                  | `apiKey` | 예     | 아니요    |
-| [CRXcavator](https://crxcavator.io/apidocs)                                                 | Chrome extension risk scoring                                                          | `apiKey` | 예     | 알 수 없음 |
-| [FilterLists](https://filterlists.com/api)                                                  | Lists of filters for adblockers and firewalls                                          | 아니요      | 예     | 알 수 없음 |
-| [HaveIBeenPwned](https://haveibeenpwned.com/API/v3)                                         | Passwords which have previously been exposed in data breaches                          | `apiKey` | 예     | 알 수 없음 |
-| [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database                                                   | 아니요      | 예     | 알 수 없음 |
-| [SecurityTrails](https://securitytrails.com/corp/apidocs)                                   | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | 예     | 알 수 없음 |
-| [Shodan](https://developer.shodan.io/)                                                      | Search engine for Internet connected devices                                           | `apiKey` | 예     | 알 수 없음 |
-| [UK Police](https://data.police.uk/docs/)                                                   | UK Police data                                                                         | 아니요      | 예     | 알 수 없음 |
+| API                                                                                         | 설명                                       | 인증       | HTTPS | CORS   |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------- | -------- | ----- | ------ |
+| [Censys.io](https://censys.io/api)                                                          | 인터넷에 연결된 호스트 및 장치를 검색합니다.                | `apiKey` | 예     | 아니요    |
+| [CRXcavator](https://crxcavator.io/apidocs)                                                 | 크롬 확장 프로그램 위험 점수                         | `apiKey` | 예     | 알 수 없음 |
+| [FilterLists](https://filterlists.com/api)                                                  | 애드블록 및 방화벽에 대한 필터 목록                     | 아니요      | 예     | 알 수 없음 |
+| [HaveIBeenPwned](https://haveibeenpwned.com/API/v3)                                         | 이전에 데이터 침해에 노출된 암호                       | `apiKey` | 예     | 알 수 없음 |
+| [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | 미국 국가 취약성 데이터베이스                         | 아니요      | 예     | 알 수 없음 |
+| [SecurityTrails](https://securitytrails.com/corp/apidocs)                                   | 현재 및 과거 WHOIS 및 DNS 레코드같은 도메인 및 IP 관련 정보 | `apiKey` | 예     | 알 수 없음 |
+| [Shodan](https://developer.shodan.io/)                                                      | 인터넷에 연결된 장치를 위한 검색 엔진                    | `apiKey` | 예     | 알 수 없음 |
+| [UK Police](https://data.police.uk/docs/)                                                   | 영국 경찰 데이터                                | 아니요      | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
