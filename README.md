@@ -434,26 +434,26 @@
 
 ### 비디오
 
-| API                                                                                                | 설명                                               | 인증              | HTTPS | CORS   |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------- | ----- | ------ |
-| [An API of Ice And Fire](https://anapioficeandfire.com/)                                           | Game Of Thrones API                              | 아니요             | 예     | 알 수 없음 |
-| [Breaking Bad](https://breakingbadapi.com/documentation)                                           | Breaking Bad API                                 | 아니요             | 예     | 알 수 없음 |
-| [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes)                             | Some Breaking Bad quotes                         | 아니요             | 예     | 알 수 없음 |
-| [Czech Television](http://www.ceskatelevize.cz/xml/tv-program/)                                    | TV programme of Czech TV                         | 아니요             | 아니요   | 알 수 없음 |
-| [Dailymotion](https://developer.dailymotion.com/)                                                  | Dailymotion Developer API                        | `OAuth`         | 예     | 알 수 없음 |
-| [Harry Potter](https://www.potterapi.com/)                                                         | Harry Potter API                                 | `apiKey`        | 예     | 예      |
-| [Open Movie Database](http://www.omdbapi.com/)                                                     | Movie information                                | `apiKey`        | 예     | 알 수 없음 |
-| [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | Television                                       | 아니요             | 예     | 알 수 없음 |
-| [STAPI](http://stapi.co)                                                                           | Information on all things Star Trek              | 아니요             | 아니요   | 아니요    |
-| [SWAPI](https://swapi.co)                                                                          | Star Wars Information                            | 아니요             | 예     | 알 수 없음 |
-| [The Lord of the Rings](https://the-one-api.herokuapp.com/)                                        | The Lord of the Rings API                        | `apiKey`        | 예     | 알 수 없음 |
-| [TMDb](https://www.themoviedb.org/documentation/api)                                               | Community-based movie data                       | `apiKey`        | 예     | 알 수 없음 |
-| [Trakt](https://trakt.tv/b/api-docs)                                                               | Movie and TV Data                                | `apiKey`        | 예     | 예      |
-| [TVDB](https://api.thetvdb.com/swagger)                                                            | Television data                                  | `apiKey`        | 예     | 알 수 없음 |
-| [TVMaze](http://www.tvmaze.com/api)                                                                | TV Show Data                                     | 아니요             | 아니요   | 알 수 없음 |
-| [Utelly](https://market.mashape.com/utelly/utelly)                                                 | Check where a tv show or movie is available      | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [Vimeo](https://developer.vimeo.com/)                                                              | Vimeo Developer API                              | `OAuth`         | 예     | 알 수 없음 |
-| [YouTube](https://developers.google.com/youtube/)                                                  | Add YouTube functionality to your sites and apps | `OAuth`         | 예     | 알 수 없음 |
+| API                                                                                                | 설명                             | 인증              | HTTPS | CORS   |
+| -------------------------------------------------------------------------------------------------- | ------------------------------ | --------------- | ----- | ------ |
+| [An API of Ice And Fire](https://anapioficeandfire.com/)                                           | 왕좌의 게임 API                     | 아니요             | 예     | 알 수 없음 |
+| [Breaking Bad](https://breakingbadapi.com/documentation)                                           | 브레이킹 배드 API                    | 아니요             | 예     | 알 수 없음 |
+| [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes)                             | 브레이킹 배드 대사                     | 아니요             | 예     | 알 수 없음 |
+| [Czech Television](http://www.ceskatelevize.cz/xml/tv-program/)                                    | 체코 TV의 TV 프로그램                 | 아니요             | 아니요   | 알 수 없음 |
+| [Dailymotion](https://developer.dailymotion.com/)                                                  | 데일리모션 개발자 API                  | `OAuth`         | 예     | 알 수 없음 |
+| [Harry Potter](https://www.potterapi.com/)                                                         | 해라포터 API                       | `apiKey`        | 예     | 예      |
+| [Open Movie Database](http://www.omdbapi.com/)                                                     | 영화 정보                          | `apiKey`        | 예     | 알 수 없음 |
+| [Ron Swanson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) | TV                             | 아니요             | 예     | 알 수 없음 |
+| [STAPI](http://stapi.co)                                                                           | 스타트랙에 대한 모든 정보                 | 아니요             | 아니요   | 아니요    |
+| [SWAPI](https://swapi.co)                                                                          | 스타워즈 정보                        | 아니요             | 예     | 알 수 없음 |
+| [The Lord of the Rings](https://the-one-api.herokuapp.com/)                                        | 반지의 제왕 API                     | `apiKey`        | 예     | 알 수 없음 |
+| [TMDb](https://www.themoviedb.org/documentation/api)                                               | 커뮤니티 기반의 영화 데이터                | `apiKey`        | 예     | 알 수 없음 |
+| [Trakt](https://trakt.tv/b/api-docs)                                                               | 영화와 TV 데이터                     | `apiKey`        | 예     | 예      |
+| [TVDB](https://api.thetvdb.com/swagger)                                                            | TV 데이터                         | `apiKey`        | 예     | 알 수 없음 |
+| [TVMaze](http://www.tvmaze.com/api)                                                                | TV쇼 데이터                        | 아니요             | 아니요   | 알 수 없음 |
+| [Utelly](https://market.mashape.com/utelly/utelly)                                                 | TV 프로그램 또는 영화가 시청가능한 곳을 확인합니다. | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [Vimeo](https://developer.vimeo.com/)                                                              | 비메오 개발자 API                    | `OAuth`         | 예     | 알 수 없음 |
+| [YouTube](https://developers.google.com/youtube/)                                                  | 사이트 및 앱에 YouTube 기능을 추가합니다.    | `OAuth`         | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
