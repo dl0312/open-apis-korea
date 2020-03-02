@@ -507,20 +507,20 @@
 
 | API                                                   | 설명                                                         | 인증       | HTTPS | CORS   |
 | ----------------------------------------------------- | ---------------------------------------------------------- | -------- | ----- | ------ |
-| [Flickr](https://www.flickr.com/services/api/)        | Flickr Services                                            | `OAuth`  | 예     | 알 수 없음 |
-| [Getty Images](http://developers.gettyimages.com/en/) | Build applications using the world's most powerful imagery | `OAuth`  | 예     | 알 수 없음 |
-| [Gfycat](https://developers.gfycat.com/api/)          | Jiffier GIFs                                               | `OAuth`  | 예     | 알 수 없음 |
-| [Giphy](https://developers.giphy.com/docs/)           | Get all your gifs                                          | `apiKey` | 예     | 알 수 없음 |
-| [Gyazo](https://gyazo.com/api/docs)                   | Upload images                                              | `apiKey` | 예     | 알 수 없음 |
-| [Imgur](https://apidocs.imgur.com/)                   | Images                                                     | `OAuth`  | 예     | 알 수 없음 |
-| [Lorem Picsum](https://picsum.photos/)                | Images from Unsplash                                       | 아니요      | 예     | 알 수 없음 |
-| [Pexels](https://www.pexels.com/api/)                 | Free Stock Photos and Videos                               | `apiKey` | 예     | 예      |
-| [Pixabay](https://pixabay.com/sk/service/about/api/)  | Photography                                                | `apiKey` | 예     | 알 수 없음 |
-| [Pixhost](https://pixhost.org/api/index.html)         | Upload images, photos, galleries                           | 아니요      | 예     | 알 수 없음 |
-| [PlaceKitten](https://placekitten.com/)               | Resizable kitten placeholder images                        | 아니요      | 예     | 알 수 없음 |
-| [ScreenShotLayer](https://screenshotlayer.com)        | URL 2 Image                                                | 아니요      | 예     | 알 수 없음 |
-| [Unsplash](https://unsplash.com/developers)           | Photography                                                | `OAuth`  | 예     | 알 수 없음 |
-| [Wallhaven](https://wallhaven.cc/help/api)            | Wallpapers                                                 | `apiKey` | 예     | 알 수 없음 |
+| [Flickr](https://www.flickr.com/services/api/)        | 플리커 서비스                                            | `OAuth`  | 예     | 알 수 없음 |
+| [Getty Images](http://developers.gettyimages.com/en/) | 세계에서 가장 강력한 이미지를 사용하여 애플리케이션을 만듭니다. | `OAuth`  | 예     | 알 수 없음 |
+| [Gfycat](https://developers.gfycat.com/api/)          | 짧은 GIF                                               | `OAuth`  | 예     | 알 수 없음 |
+| [Giphy](https://developers.giphy.com/docs/)           | 모든 GIF를 얻는다.                                          | `apiKey` | 예     | 알 수 없음 |
+| [Gyazo](https://gyazo.com/api/docs)                   | 이미지 업로드                                             | `apiKey` | 예     | 알 수 없음 |
+| [Imgur](https://apidocs.imgur.com/)                   | 이미지                                                     | `OAuth`  | 예     | 알 수 없음 |
+| [Lorem Picsum](https://picsum.photos/)                | Unsplash 이미지                                     | 아니요      | 예     | 알 수 없음 |
+| [Pexels](https://www.pexels.com/api/)                 | 무료 사진 및 비디오                             | `apiKey` | 예     | 예      |
+| [Pixabay](https://pixabay.com/sk/service/about/api/)  | 사진                                                | `apiKey` | 예     | 알 수 없음 |
+| [Pixhost](https://pixhost.org/api/index.html)         | 이미지, 사진, 갤러리 업로드                         | 아니요      | 예     | 알 수 없음 |
+| [PlaceKitten](https://placekitten.com/)               | 크기 조정 가능한 고양이 플레이스홀더 이미지                       | 아니요      | 예     | 알 수 없음 |
+| [ScreenShotLayer](https://screenshotlayer.com)        | 해당 URL을 Image로 바꿔줍니다.                                                | 아니요      | 예     | 알 수 없음 |
+| [Unsplash](https://unsplash.com/developers)           | 사진                                                | `OAuth`  | 예     | 알 수 없음 |
+| [Wallhaven](https://wallhaven.cc/help/api)            | 월페이퍼                                                 | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
