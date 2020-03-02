@@ -479,14 +479,14 @@
 
 ### 사기 예방
 
-| API                                                                                          | 설명                                                                    | 인증       | HTTPS | CORS   |
-| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------- | ----- | ------ |
-| [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order)                     | Screen order information using AI to detect frauds                    | `apiKey` | 예     | 알 수 없음 |
-| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/identity-check-api/)     | Global identity verification with phone, address, email and IP        | `apiKey` | 예     | 알 수 없음 |
-| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/phone-reputation-api/)   | Phone reputation to detect spammy phones                              | `apiKey` | 예     | 알 수 없음 |
-| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/reverse-phone-api/)      | Get an owner’s name, address, demographics based on the phone number  | `apiKey` | 예     | 알 수 없음 |
-| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/phone-intelligence-api/) | Phone number validation, line_type, carrier append                    | `apiKey` | 예     | 알 수 없음 |
-| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/reverse-address-api/)    | Get normalized physical address, residents, address type and validity | `apiKey` | 예     | 알 수 없음 |
+| API                                                                                          | 설명                                    | 인증       | HTTPS | CORS   |
+| -------------------------------------------------------------------------------------------- | ------------------------------------- | -------- | ----- | ------ |
+| [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order)                     | 부정 행위를 탐지하는 AI를 사용하여 주문 정보를 차단합니다.    | `apiKey` | 예     | 알 수 없음 |
+| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/identity-check-api/)     | 전화, 주소, 이메일 및 IP를 통해 글로벌 ID를 확인합니다.   | `apiKey` | 예     | 알 수 없음 |
+| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/phone-reputation-api/)   | 스팸 전화를 감지하기 위한 전화번호의 평판도              | `apiKey` | 예     | 알 수 없음 |
+| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/reverse-phone-api/)      | 전화 번호를 기준으로 사용자 이름, 주소, 인구 통계를 가져옵니다. | `apiKey` | 예     | 알 수 없음 |
+| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/phone-intelligence-api/) | 전화 번호 유효성 검사                          | `apiKey` | 예     | 알 수 없음 |
+| [Whitepages Pro](https://pro.whitepages.com/developer/documentation/reverse-address-api/)    | 정규화된 물리적 주소, 거주자, 주소 유형 및 유효성 데이터     | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
