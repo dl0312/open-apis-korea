@@ -710,12 +710,12 @@
 
 ### 오픈 소스 프로젝트
 
-| API                                                     | 설명                           | 인증     | HTTPS  | CORS       |
-| ------------------------------------------------------- | ------------------------------ | -------- | ------ | ---------- |
-| [Countly](http://resources.count.ly/docs)               | Countly web analytics          | 아니요   | 아니요 | 알 수 없음 |
-| [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org                     | 아니요   | 예     | 알 수 없음 |
-| [Evil Insult Generator](https://evilinsult.com/api)     | Evil Insults                   | 아니요   | 예     | 예         |
-| [Libraries.io](https://libraries.io/api)                | Open source software libraries | `apiKey` | 예     | 알 수 없음 |
+| API                                                     | 설명                            | 인증     | HTTPS  | CORS       |
+| ------------------------------------------------------- | ------------------------------- | -------- | ------ | ---------- |
+| [Countly](http://resources.count.ly/docs)               | 카우틀리 웹 분석                | 아니요   | 아니요 | 알 수 없음 |
+| [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | Drupal.org                      | 아니요   | 예     | 알 수 없음 |
+| [Evil Insult Generator](https://evilinsult.com/api)     | 악마의 모욕                     | 아니요   | 예     | 예         |
+| [Libraries.io](https://libraries.io/api)                | 오픈 소스 소프트웨어 라이브러리 | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
