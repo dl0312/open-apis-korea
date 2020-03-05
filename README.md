@@ -916,13 +916,13 @@
 
 ### 차량
 
-| API                                                                    | 설명                                                                                             | 인증     | HTTPS | CORS       |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------- | ----- | ---------- |
-| [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe                      | 아니요   | 예    | 알 수 없음 |
-| [Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default)         | Vehicle info, pricing, configuration, plus much more                                             | `apiKey` | 예    | 아니요     |
-| [Mercedes-Benz](https://developer.mercedes-benz.com/apis)              | Telematics data, remotely access vehicle functions, car configurator, locate service dealers     | `apiKey` | 예    | 아니요     |
-| [NHTSA](https://vpic.nhtsa.dot.gov/api/)                               | NHTSA Product Information Catalog and Vehicle Listing                                            | 아니요   | 예    | 알 수 없음 |
-| [Smartcar](https://smartcar.com/docs/)                                 | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth`  | 예    | 예         |
+| API                                                                    | 설명                                                                                                           | 인증     | HTTPS | CORS       |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------- | ----- | ---------- |
+| [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | Fundação Instituto de Pesquisas Econômicas의 차량 정보 - Fipe                                                  | 아니요   | 예    | 알 수 없음 |
+| [Kelley Blue Book](http://developer.kbb.com/#!/data/1-Default)         | 차량 정보, 가격, 구성 및 기타 정보                                                                             | `apiKey` | 예    | 아니요     |
+| [Mercedes-Benz](https://developer.mercedes-benz.com/apis)              | 텔레매틱스 데이터, 원격으로 차량 기능, 차량 구성 도구, 서비스 딜러점을 찾습니다.                               | `apiKey` | 예    | 아니요     |
+| [NHTSA](https://vpic.nhtsa.dot.gov/api/)                               | NHTSA 제품 정보 카탈로그 및 차량 목록                                                                          | 아니요   | 예    | 알 수 없음 |
+| [Smartcar](https://smartcar.com/docs/)                                 | 차량을 잠그거나 잠금 해제하고 주행 기록계 수치 및 위치와 같은 데이터를 가져옵니다. 대부분의 신차에 적용됩니다. | `OAuth`  | 예    | 예         |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
