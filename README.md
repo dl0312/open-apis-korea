@@ -980,15 +980,15 @@
 
 ### 텍스트 분석
 
-| API                                                                                                                       | 설명                                                                                       | 인증            | HTTPS | CORS       |
-| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------- | ----- | ---------- |
-| [Aylien Text Analysis](http://docs.aylien.com/)                                                                           | A collection of information retrieval and natural language APIs                            | `apiKey`        | 예    | 알 수 없음 |
-| [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api)                                          | Natural language processing and text analysis                                              | `apiKey`        | 예    | 예         |
-| [Detect Language](https://detectlanguage.com/)                                                                            | Detects text language                                                                      | `apiKey`        | 예    | 알 수 없음 |
-| [Google Cloud Natural](https://cloud.google.com/natural-language/docs/)                                                   | Natural language understanding technology, including sentiment, entity and syntax analysis | `apiKey`        | 예    | 알 수 없음 |
-| [Language Identification](https://rapidapi.com/BigLobster/api/language-identification-prediction)                         | Automatic language detection for any texts, supports over 175 languages                    | `X-Mashape-Key` | 예    | 알 수 없음 |
-| [Semantira](https://semantria.readme.io/docs)                                                                             | Text Analytics with sentiment analysis, categorization & named entity extraction           | `OAuth`         | 예    | 알 수 없음 |
-| [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) | Natural language processing for advanced text analysis                                     | `OAuth`         | 예    | 알 수 없음 |
+| API                                                                                                                       | 설명                                                              | 인증            | HTTPS | CORS       |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ----- | ---------- |
+| [Aylien Text Analysis](http://docs.aylien.com/)                                                                           | 정보 검색 및 자연어 API의 집합                                    | `apiKey`        | 예    | 알 수 없음 |
+| [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api)                                          | 자연어 처리 및 텍스트 분석                                        | `apiKey`        | 예    | 예         |
+| [Detect Language](https://detectlanguage.com/)                                                                            | 텍스트 언어를 감지합니다.                                         | `apiKey`        | 예    | 알 수 없음 |
+| [Google Cloud Natural](https://cloud.google.com/natural-language/docs/)                                                   | 감성 및 구문 분석을 포함한 자연어 이해 기술                       | `apiKey`        | 예    | 알 수 없음 |
+| [Language Identification](https://rapidapi.com/BigLobster/api/language-identification-prediction)                         | 모든 텍스트에 대한 자동 언어 감지합니다. (175개 이상의 언어 지원) | `X-Mashape-Key` | 예    | 알 수 없음 |
+| [Semantira](https://semantria.readme.io/docs)                                                                             | 감성 분석, 분류 및 명명된 엔티티를 추출하는 텍스트 분석           | `OAuth`         | 예    | 알 수 없음 |
+| [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) | 고급 텍스트 분석을 위한 자연 언어 처리                            | `OAuth`         | 예    | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
