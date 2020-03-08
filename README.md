@@ -1005,11 +1005,11 @@
 
 ### 특허
 
-| API                                                                           | 설명                              | 인증     | HTTPS | CORS       |
-| ----------------------------------------------------------------------------- | --------------------------------- | -------- | ----- | ---------- |
-| [EPO](https://developers.epo.org/)                                            | European patent search system api | `OAuth`  | 예    | 알 수 없음 |
-| [TIPO](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00) | Taiwan patent search system api   | `apiKey` | 예    | 알 수 없음 |
-| [USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility)  | USA patent api services           | 아니요   | 예    | 알 수 없음 |
+| API                                                                           | 설명                    | 인증     | HTTPS | CORS       |
+| ----------------------------------------------------------------------------- | ----------------------- | -------- | ----- | ---------- |
+| [EPO](https://developers.epo.org/)                                            | 유럽 특허검색시스템 API | `OAuth`  | 예    | 알 수 없음 |
+| [TIPO](https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00) | 대만 특허검색시스템 API | `apiKey` | 예    | 알 수 없음 |
+| [USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility)  | 미국 특허 API 서비스    | 아니요   | 예    | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
