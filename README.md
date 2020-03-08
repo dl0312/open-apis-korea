@@ -1113,8 +1113,6 @@
 - [API store](https://www.apistore.co.kr)
 - [공공데이터포털](https://www.data.go.kr)
 - [Naver Developers](https://developers.naver.com)
-
-  - [Kakao Developers](https://developers.kakao.com)
-
+- [Kakao Developers](https://developers.kakao.com)
 - [Google Developers](https://developers.google.com)
 - [facebook for developers](https://developers.facebook.com)
