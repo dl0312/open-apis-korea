@@ -1055,11 +1055,11 @@
 
 | API                                                                        | 설명                                               | 인증     | HTTPS | CORS       |
 | -------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ----- | ---------- |
-| [Bitly](http://dev.bitly.com/get_started.html)                             | URL shortener and link management                  | `OAuth`  | 예    | 알 수 없음 |
-| [CleanURI](https://cleanuri.com/docs)                                      | URL shortener service                              | `아니요` | 예    | 예         |
-| [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | Monitor, compare and optimize your marketing links | `apiKey` | 예    | 알 수 없음 |
-| [Rebrandly](https://developers.rebrandly.com/v1/docs)                      | Custom URL shortener for sharing branded links     | `apiKey` | 예    | 알 수 없음 |
-| [Relink](https://rel.ink)                                                  | Free and secure URL shortener                      | 아니요   | 예    | 예         |
+| [Bitly](http://dev.bitly.com/get_started.html)                             | URL 쇼트너와 링크 관리                 | `OAuth`  | 예    | 알 수 없음 |
+| [CleanURI](https://cleanuri.com/docs)                                      | URL 쇼트너 서비스                         | `아니요` | 예    | 예         |
+| [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | 당신의 마케팅 링크를 모니터하고 비교하고 최적화합니다. | `apiKey` | 예    | 알 수 없음 |
+| [Rebrandly](https://developers.rebrandly.com/v1/docs)                      | URL 쇼트너 브랜드 링크 커스텀     | `apiKey` | 예    | 알 수 없음 |
+| [Relink](https://rel.ink)                                                  | 안전하고 무료인 URL 쇼트너                      | 아니요   | 예    | 예         |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
