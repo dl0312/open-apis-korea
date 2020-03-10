@@ -1025,14 +1025,14 @@
 
 ### 환경
 
-| API                                                                                                    | 설명                                                                           | 인증     | HTTPS  | CORS       |
-| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | -------- | ------ | ---------- |
-| [AirVisual](https://airvisual.com/api)                                                                 | Air quality and weather data                                                   | `apiKey` | 예     | 알 수 없음 |
-| [GrünstromIndex](https://www.corrently.de/hintergrund/gruenstromindex/index.html)                      | Green Power Index for Germany (Grünstromindex/GSI)                             | 아니요   | 아니요 | 예         |
-| [OpenAQ](https://docs.openaq.org/)                                                                     | Open air quality data                                                          | `apiKey` | 예     | 알 수 없음 |
-| [PM25.in](http://www.pm25.in/api_doc)                                                                  | Air quality of China                                                           | `apiKey` | 아니요 | 알 수 없음 |
-| [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/)                                           | Energy production photovoltaic (PV) energy systems                             | `apiKey` | 예     | 알 수 없음 |
-| [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | The Official Carbon Intensity API for Great Britain developed by National Grid | 아니요   | 예     | 알 수 없음 |
+| API                                                                                                    | 설명                                               | 인증     | HTTPS  | CORS       |
+| ------------------------------------------------------------------------------------------------------ | -------------------------------------------------- | -------- | ------ | ---------- |
+| [AirVisual](https://airvisual.com/api)                                                                 | 공기 질과 날씨 데이터                              | `apiKey` | 예     | 알 수 없음 |
+| [GrünstromIndex](https://www.corrently.de/hintergrund/gruenstromindex/index.html)                      | 독일의 녹색 전력 지수(Grünstromindex/GSI).         | 아니요   | 아니요 | 예         |
+| [OpenAQ](https://docs.openaq.org/)                                                                     | 공개 공기 질 데이터                                | `apiKey` | 예     | 알 수 없음 |
+| [PM25.in](http://www.pm25.in/api_doc)                                                                  | 중국의 공기 질                                     | `apiKey` | 아니요 | 알 수 없음 |
+| [PVWatts](https://developer.nrel.gov/docs/solar/pvwatts/v6/)                                           | 에너지 생산 광전(PV) 에너지 시스템                 | `apiKey` | 예     | 알 수 없음 |
+| [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0) | National Grid에서 개발한 영국 공식 탄소 집약도 API | 아니요   | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
@@ -1053,13 +1053,13 @@
 
 ### URL 쇼트너
 
-| API                                                                        | 설명                                               | 인증     | HTTPS | CORS       |
-| -------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ----- | ---------- |
-| [Bitly](http://dev.bitly.com/get_started.html)                             | URL 쇼트너와 링크 관리                 | `OAuth`  | 예    | 알 수 없음 |
-| [CleanURI](https://cleanuri.com/docs)                                      | URL 쇼트너 서비스                         | `아니요` | 예    | 예         |
+| API                                                                        | 설명                                                   | 인증     | HTTPS | CORS       |
+| -------------------------------------------------------------------------- | ------------------------------------------------------ | -------- | ----- | ---------- |
+| [Bitly](http://dev.bitly.com/get_started.html)                             | URL 쇼트너와 링크 관리                                 | `OAuth`  | 예    | 알 수 없음 |
+| [CleanURI](https://cleanuri.com/docs)                                      | URL 쇼트너 서비스                                      | `아니요` | 예    | 예         |
 | [ClickMeter](https://support.clickmeter.com/hc/en-us/categories/201474986) | 당신의 마케팅 링크를 모니터하고 비교하고 최적화합니다. | `apiKey` | 예    | 알 수 없음 |
-| [Rebrandly](https://developers.rebrandly.com/v1/docs)                      | URL 쇼트너 브랜드 링크 커스텀     | `apiKey` | 예    | 알 수 없음 |
-| [Relink](https://rel.ink)                                                  | 안전하고 무료인 URL 쇼트너                      | 아니요   | 예    | 예         |
+| [Rebrandly](https://developers.rebrandly.com/v1/docs)                      | URL 쇼트너 브랜드 링크 커스텀                          | `apiKey` | 예    | 알 수 없음 |
+| [Relink](https://rel.ink)                                                  | 안전하고 무료인 URL 쇼트너                             | 아니요   | 예    | 예         |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
