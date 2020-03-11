@@ -548,13 +548,13 @@
 | [Reddit](https://www.reddit.com/dev/api)                               | 인터넷의 홈페이지                                                                         | `OAuth`  | 예    | 알 수 없음 |
 | [SharedCount](http://docs.sharedcount.com/)                            | 특정 URL의 소셜 미디어 좋아요와 공유 데이터                                               | `apiKey` | 예    | 알 수 없음 |
 | [Slack](https://api.slack.com/)                                        | 팀 메시지 교환 시스템                                                                     | `OAuth`  | 예    | 알 수 없음 |
-| [Telegram Bot](https://core.telegram.org/bots/api)                     | Simplified HTTP version of the MTProto API for bots                                       | `OAuth`  | 예    | 알 수 없음 |
-| [Telegram MTProto](https://core.telegram.org/api#getting-started)      | Read and write Telegram data                                                              | `OAuth`  | 예    | 알 수 없음 |
-| [Trash Nothing](https://trashnothing.com/developer)                    | A freecycling community with thousands of free items posted every day                     | `OAuth`  | 예    | 예         |
-| [Tumblr](https://www.tumblr.com/docs/en/api/v2)                        | Read and write Tumblr Data                                                                | `OAuth`  | 예    | 알 수 없음 |
-| [Twitch](https://dev.twitch.tv/docs)                                   | Game Streaming API                                                                        | `OAuth`  | 예    | 알 수 없음 |
-| [Twitter](https://developer.twitter.com/en/docs)                       | Read and write Twitter data                                                               | `OAuth`  | 예    | 아니요     |
-| [vk](https://vk.com/dev/sites)                                         | Read and write vk data                                                                    | `OAuth`  | 예    | 알 수 없음 |
+| [Telegram Bot](https://core.telegram.org/bots/api)                     | 봇을 위한 MTProto API의 HTTP 버전을 단순화합니다.                                         | `OAuth`  | 예    | 알 수 없음 |
+| [Telegram MTProto](https://core.telegram.org/api#getting-started)      | 텔레그램 데이터를 읽고 씁니다.                                                            | `OAuth`  | 예    | 알 수 없음 |
+| [Trash Nothing](https://trashnothing.com/developer)                    | 매일 수천 개의 무료 아이템이 올라오는 무료 자전거 커뮤니티입니다.                         | `OAuth`  | 예    | 예         |
+| [Tumblr](https://www.tumblr.com/docs/en/api/v2)                        | 텀블러 데이터를 읽고 씁니다.                                                              | `OAuth`  | 예    | 알 수 없음 |
+| [Twitch](https://dev.twitch.tv/docs)                                   | 게임 스트리밍 API                                                                         | `OAuth`  | 예    | 알 수 없음 |
+| [Twitter](https://developer.twitter.com/en/docs)                       | 트위터 데이터를 읽고 씁니다.                                                              | `OAuth`  | 예    | 아니요     |
+| [vk](https://vk.com/dev/sites)                                         | vk 데이터를 읽고 씁니다.                                                                  | `OAuth`  | 예    | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
