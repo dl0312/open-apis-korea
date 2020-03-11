@@ -994,12 +994,12 @@
 
 ### 트래킹
 
-| API                                              | 설명                                                                    | 인증     | HTTPS  | CORS       |
-| ------------------------------------------------ | ----------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Postmon](http://postmon.com.br)                 | An API to query Brazilian ZIP codes and orders easily, quickly and free | 아니요   | 아니요 | 알 수 없음 |
-| [Sweden](https://developer.postnord.com/docs2)   | Provides information about parcels in transport                         | `apiKey` | 아니요 | 알 수 없음 |
-| [UPS](https://www.ups.com/upsdeveloperkit)       | Shipment and Address information                                        | `apiKey` | 예     | 알 수 없음 |
-| [WhatPulse](https://whatpulse.org/pages/webapi/) | Small application that measures your keyboard/mouse usage               | 아니요   | 예     | 알 수 없음 |
+| API                                              | 설명                                                               | 인증     | HTTPS  | CORS       |
+| ------------------------------------------------ | ------------------------------------------------------------------ | -------- | ------ | ---------- |
+| [Postmon](http://postmon.com.br)                 | 쉽고, 빠르고, 무료로 브라질 ZIP 코드를 쿼리하고 주문할 수 있는 API | 아니요   | 아니요 | 알 수 없음 |
+| [Sweden](https://developer.postnord.com/docs2)   | 운송 중인 소포에 대한 정보를 제공합니다.                           | `apiKey` | 아니요 | 알 수 없음 |
+| [UPS](https://www.ups.com/upsdeveloperkit)       | 발송 및 주소 정보                                                  | `apiKey` | 예     | 알 수 없음 |
+| [WhatPulse](https://whatpulse.org/pages/webapi/) | 키보드/마우스 사용량을 측정하는 어플리캐이션                       | 아니요   | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
