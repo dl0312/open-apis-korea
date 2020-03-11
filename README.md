@@ -1015,11 +1015,11 @@
 
 ### 행사
 
-| API                                                                                                                             | 설명                                  | 인증     | HTTPS | CORS       |
-| ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | -------- | ----- | ---------- |
-| [Eventbrite](https://www.eventbrite.com/developer/v3/)                                                                          | Find events                           | `OAuth`  | 예    | 알 수 없음 |
-| [Picatic](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) | Sell tickets anywhere                 | `apiKey` | 예    | 알 수 없음 |
-| [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/)                                       | Search events, attractions, or venues | `apiKey` | 예    | 알 수 없음 |
+| API                                                                                                                             | 설명                               | 인증     | HTTPS | CORS       |
+| ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | -------- | ----- | ---------- |
+| [Eventbrite](https://www.eventbrite.com/developer/v3/)                                                                          | 행사를 찾아보세요                  | `OAuth`  | 예    | 알 수 없음 |
+| [Picatic](http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto) | 어디서든 티켓을 팔아보세요.        | `apiKey` | 예    | 알 수 없음 |
+| [Ticketmaster](http://developer.ticketmaster.com/products-and-docs/apis/getting-started/)                                       | 행사, 명소 또는 장소를 검색합니다. | `apiKey` | 예    | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
