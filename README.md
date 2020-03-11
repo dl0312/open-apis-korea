@@ -957,24 +957,24 @@
 
 ### 테스트 데이터
 
-| API                                                                        | 설명                                                 | 인증            | HTTPS  | CORS       |
-| -------------------------------------------------------------------------- | ---------------------------------------------------- | --------------- | ------ | ---------- |
-| [Adorable Avatars](http://avatars.adorable.io)                             | Generate random cartoon avatars                      | 아니요          | 예     | 알 수 없음 |
-| [Bacon Ipsum](https://baconipsum.com/json-api/)                            | A Meatier Lorem Ipsum Generator                      | 아니요          | 예     | 알 수 없음 |
-| [Dicebear Avatars](https://avatars.dicebear.com/)                          | Generate random pixel-art avatars                    | 아니요          | 예     | 아니요     |
-| [FakeJSON](https://fakejson.com)                                           | Service to generate test and fake data               | `apiKey`        | 예     | 예         |
-| [FHIR](http://fhirtest.uhn.ca/home)                                        | Fast Healthcare Interoperability Resources test data | 아니요          | 예     | 알 수 없음 |
-| [Hipster Ipsum](http://hipsterjesus.com/)                                  | Generates Hipster Ipsum text                         | 아니요          | 아니요 | 알 수 없음 |
-| [Identicon](https://www.kwelo.com/media/identicon/)                        | Generates abstract avatar image                      | 아니요          | 예     | 예         |
-| [JSONPlaceholder](http://jsonplaceholder.typicode.com/)                    | Fake data for testing and prototyping                | 아니요          | 아니요 | 알 수 없음 |
-| [Lorem Text](https://market.mashape.com/montanaflynn/lorem-text-generator) | Generates Lorem Ipsum text                           | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [LoremPicsum](http://lorempicsum.com)                                      | Generate placeholder pictures                        | 아니요          | 아니요 | 알 수 없음 |
-| [Loripsum](http://loripsum.net/)                                           | The "lorem ipsum" generator that doesn't suck        | 아니요          | 아니요 | 알 수 없음 |
-| [RandomUser](https://randomuser.me)                                        | Generates random user data                           | 아니요          | 예     | 알 수 없음 |
-| [RoboHash](https://robohash.org/)                                          | Generate random robot/alien avatars                  | 아니요          | 예     | 알 수 없음 |
-| [This Person Does not Exist](https://thispersondoesnotexist.com)           | Generates real-life faces of people who do not exist | 아니요          | 예     | 알 수 없음 |
-| [UI Names](https://github.com/thm/uinames)                                 | Generate random fake names                           | 아니요          | 예     | 알 수 없음 |
-| [예 아니요](https://yesno.wtf/api)                                         | Generate yes or no randomly                          | 아니요          | 예     | 알 수 없음 |
+| API                                                                        | 설명                                               | 인증            | HTTPS  | CORS       |
+| -------------------------------------------------------------------------- | -------------------------------------------------- | --------------- | ------ | ---------- |
+| [Adorable Avatars](http://avatars.adorable.io)                             | 랜덤 만화 아바타를 생성합니다.                     | 아니요          | 예     | 알 수 없음 |
+| [Bacon Ipsum](https://baconipsum.com/json-api/)                            | Meatier Lorem Ipsum 생성기                         | 아니요          | 예     | 알 수 없음 |
+| [Dicebear Avatars](https://avatars.dicebear.com/)                          | 임의의 픽셀아트 아바타를 생성합니다.               | 아니요          | 예     | 아니요     |
+| [FakeJSON](https://fakejson.com)                                           | 테스트 및 가짜 데이터를 생성하는 서비스            | `apiKey`        | 예     | 예         |
+| [FHIR](http://fhirtest.uhn.ca/home)                                        | 신속한 의료 상호 운용성의 리소스 테스트 데이터     | 아니요          | 예     | 알 수 없음 |
+| [Hipster Ipsum](http://hipsterjesus.com/)                                  | Hipster Ipsum를 생성합니다.                        | 아니요          | 아니요 | 알 수 없음 |
+| [Identicon](https://www.kwelo.com/media/identicon/)                        | 가상의 아바타 이미지를 생성합니다.                 | 아니요          | 예     | 예         |
+| [JSONPlaceholder](http://jsonplaceholder.typicode.com/)                    | 가짜 데이터를 테스트 및 프로토타이핑합니다.        | 아니요          | 아니요 | 알 수 없음 |
+| [Lorem Text](https://market.mashape.com/montanaflynn/lorem-text-generator) | Lorem Ipsum를 생성합니다.                          | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [LoremPicsum](http://lorempicsum.com)                                      | 플레이스홀더 사진을 생성합니다.                    | 아니요          | 아니요 | 알 수 없음 |
+| [Loripsum](http://loripsum.net/)                                           | Lorem Ipsum를 생성합니다.                          | 아니요          | 아니요 | 알 수 없음 |
+| [RandomUser](https://randomuser.me)                                        | 임의의 사용자 데이터를 생성합니다.                 | 아니요          | 예     | 알 수 없음 |
+| [RoboHash](https://robohash.org/)                                          | 임의의 로봇/외계인 아바타를 생성합니다.            | 아니요          | 예     | 알 수 없음 |
+| [This Person Does not Exist](https://thispersondoesnotexist.com)           | 존재하지 않는 사람들의 실제같은 얼굴을 생성합니다. | 아니요          | 예     | 알 수 없음 |
+| [UI Names](https://github.com/thm/uinames)                                 | 임의의 가짜 이름을 생성합니다.                     | 아니요          | 예     | 알 수 없음 |
+| [예 아니요](https://yesno.wtf/api)                                         | 임의로 예 또는 아니요를 생성합니다.                | 아니요          | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
