@@ -676,35 +676,35 @@
 
 ### 오픈 데이터
 
-| API                                                                         | 설명                                                                                               | 인증            | HTTPS  | CORS       |
-| --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------- | ------ | ---------- |
-| [18F](http://18f.github.io/API-All-the-X/)                                  | Unofficial US Federal Government API Development                                                   | 아니요          | 아니요 | 알 수 없음 |
-| [Abbreviation](https://market.mashape.com/daxeel/abbreviations)             | Get abbreviations and meanings                                                                     | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [Archive.org](https://archive.readme.io/docs)                               | The Internet Archive                                                                               | 아니요          | 예     | 알 수 없음 |
-| [ARSAT](https://datos.arsat.com.ar/developers/)                             | ARSAT public data                                                                                  | `apiKey`        | 예     | 알 수 없음 |
-| [Callook.info](https://callook.info)                                        | United States ham radio callsigns                                                                  | 아니요          | 예     | 알 수 없음 |
-| [CARTO](https://carto.com/)                                                 | Location Information Prediction                                                                    | `apiKey`        | 예     | 알 수 없음 |
-| [Celebinfo](https://market.mashape.com/daxeel/celebinfo/)                   | Celebrity information                                                                              | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [CivicFeed](https://developers.civicfeed.com/)                              | News articles and public datasets                                                                  | `apiKey`        | 예     | 알 수 없음 |
-| [Datakick](https://www.datakick.org/api)                                    | The open product database                                                                          | `apiKey`        | 예     | 알 수 없음 |
-| [Enigma Public](http://docs.enigma.com/public/public_v20_api_about)         | Broadest collection of public data                                                                 | `apiKey`        | 예     | 예         |
-| [fonoApi](https://fonoapi.freshpixl.com/)                                   | Mobile Device 설명                                                                                 | 아니요          | 예     | 알 수 없음 |
-| [French Address Search](https://geo.api.gouv.fr/adresse)                    | Address search via the French Government                                                           | 아니요          | 예     | 알 수 없음 |
-| [LinkPreview](https://www.linkpreview.net)                                  | Get JSON formatted summary with title, description and preview image for any requested URL         | `apiKey`        | 예     | 예         |
-| [Marijuana Strains](http://strains.evanbusse.com/)                          | Marijuana strains, races, flavors and effects                                                      | `apiKey`        | 아니요 | 알 수 없음 |
-| [Microlink.io](https://microlink.io)                                        | Extract structured data from any website                                                           | 아니요          | 예     | 예         |
-| [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries                                         | `apiKey`        | 예     | 알 수 없음 |
-| [Qmeta](https://api.qmeta.net/)                                             | Global Search Engine                                                                               | `apiKey`        | 예     | 알 수 없음 |
-| [Quandl](https://www.quandl.com/)                                           | Stock Market Data                                                                                  | 아니요          | 예     | 알 수 없음 |
-| [Recreation Information Database](https://ridb.recreation.gov/)             | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)    | `apiKey`        | 예     | 알 수 없음 |
-| [Scoop.it](http://www.scoop.it/dev)                                         | Content Curation Service                                                                           | `apiKey`        | 아니요 | 알 수 없음 |
-| [Teleport](https://developers.teleport.org/)                                | Quality of Life Data                                                                               | 아니요          | 예     | 알 수 없음 |
-| [Universities List](https://github.com/Hipo/university-domains-list)        | University names, countries and domains                                                            | 아니요          | 예     | 알 수 없음 |
-| [University of Oslo](https://data.uio.no/)                                  | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | 아니요          | 예     | 알 수 없음 |
-| [UPC database](https://upcdatabase.org/api)                                 | More than 1.5 million barcode numbers from all around the world                                    | `apiKey`        | 예     | 알 수 없음 |
-| [Wikidata](https://www.wikidata.org/w/api.php?action=help)                  | Collaboratively edited knowledge base operated by the Wikimedia Foundation                         | `OAuth`         | 예     | 알 수 없음 |
-| [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)                   | Mediawiki Encyclopedia                                                                             | 아니요          | 예     | 알 수 없음 |
-| [Yelp](https://www.yelp.com/developers/documentation/v3)                    | Find Local Business                                                                                | `OAuth`         | 예     | 알 수 없음 |
+| API                                                                         | 설명                                                                                      | 인증            | HTTPS  | CORS       |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------- | ------ | ---------- |
+| [18F](http://18f.github.io/API-All-the-X/)                                  | 비공식 미국 연방정부 API                                                                  | 아니요          | 아니요 | 알 수 없음 |
+| [Abbreviation](https://market.mashape.com/daxeel/abbreviations)             | 약어와 의미                                                                               | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [Archive.org](https://archive.readme.io/docs)                               | 인터넷 아카이브                                                                           | 아니요          | 예     | 알 수 없음 |
+| [ARSAT](https://datos.arsat.com.ar/developers/)                             | ARSAT 공공 데이터                                                                         | `apiKey`        | 예     | 알 수 없음 |
+| [Callook.info](https://callook.info)                                        | 미국 미국 햄 라디오 콜사인                                                                | 아니요          | 예     | 알 수 없음 |
+| [CARTO](https://carto.com/)                                                 | 위치 정보 예측                                                                            | `apiKey`        | 예     | 알 수 없음 |
+| [Celebinfo](https://market.mashape.com/daxeel/celebinfo/)                   | 유명인사 정보                                                                             | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [CivicFeed](https://developers.civicfeed.com/)                              | 뉴스 기사 및 공개 데이터셋                                                                | `apiKey`        | 예     | 알 수 없음 |
+| [Datakick](https://www.datakick.org/api)                                    | 공개 제품 데이터베이스                                                                    | `apiKey`        | 예     | 알 수 없음 |
+| [Enigma Public](http://docs.enigma.com/public/public_v20_api_about)         | 가장 광범위한 공용 데이터 목록                                                            | `apiKey`        | 예     | 예         |
+| [fonoApi](https://fonoapi.freshpixl.com/)                                   | 모바일 기기 설명                                                                          | 아니요          | 예     | 알 수 없음 |
+| [French Address Search](https://geo.api.gouv.fr/adresse)                    | 프랑스 정부를 통한 주소 검색                                                              | 아니요          | 예     | 알 수 없음 |
+| [LinkPreview](https://www.linkpreview.net)                                  | 요청된 URL에 대한 제목, 설명 및 미리보기 이미지가 포함된 JSON 형식의 요약본을 가져옵니다. | `apiKey`        | 예     | 예         |
+| [Marijuana Strains](http://strains.evanbusse.com/)                          | 마리화나의 종, 맛과 효과                                                                  | `apiKey`        | 아니요 | 알 수 없음 |
+| [Microlink.io](https://microlink.io)                                        | 웹 사이트에서 구조화된 데이터를 추출합니다.                                               | 아니요          | 예     | 예         |
+| [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | 여러 국가의 기업 및 이사들에 대한 데이터                                                  | `apiKey`        | 예     | 알 수 없음 |
+| [Qmeta](https://api.qmeta.net/)                                             | 글로벌 서치 엔진                                                                          | `apiKey`        | 예     | 알 수 없음 |
+| [Quandl](https://www.quandl.com/)                                           | 주식 시장 데이터                                                                          | 아니요          | 예     | 알 수 없음 |
+| [Recreation Information Database](https://ridb.recreation.gov/)             | 레크리에이션 지역, 연방 토지, 유적지, 박물관 및 기타 관광지/자원(미국)                    | `apiKey`        | 예     | 알 수 없음 |
+| [Scoop.it](http://www.scoop.it/dev)                                         | 콘텐츠 큐레이션 서비스                                                                    | `apiKey`        | 아니요 | 알 수 없음 |
+| [Teleport](https://developers.teleport.org/)                                | 삶의 질 데이터                                                                            | 아니요          | 예     | 알 수 없음 |
+| [Universities List](https://github.com/Hipo/university-domains-list)        | 대학 이름, 국가 및 도메인                                                                 | 아니요          | 예     | 알 수 없음 |
+| [University of Oslo](https://data.uio.no/)                                  | 오슬로 대학교(노르웨이)의 과정, 강의 동영상, 강좌 등에 대한 자세한 정보                   | 아니요          | 예     | 알 수 없음 |
+| [UPC database](https://upcdatabase.org/api)                                 | 전 세계의 150만 개 이상의 바코드 번호                                                     | `apiKey`        | 예     | 알 수 없음 |
+| [Wikidata](https://www.wikidata.org/w/api.php?action=help)                  | 위키미디어 재단에서 공동으로 편집한 기술 자료                                             | `OAuth`         | 예     | 알 수 없음 |
+| [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)                   | 미디어위키 백과사전                                                                       | 아니요          | 예     | 알 수 없음 |
+| [Yelp](https://www.yelp.com/developers/documentation/v3)                    | 로컬 비즈니스를 찾습니다.                                                                 | `OAuth`         | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
