@@ -572,28 +572,28 @@
 
 ### 스포츠 & 피트니스
 
-| API                                                                          | 설명                                                                                        | 인증            | HTTPS  | CORS       |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------- | ------ | ---------- |
-| [balldontlie](https://balldontlie.io)                                        | Ballldontlie provides access to stats data from the NBA                                     | 아니요          | 예     | 예         |
-| [BikeWise](https://www.bikewise.org/documentation/api_v2)                    | Bikewise is a place to learn about and report bike crashes, hazards and thefts              | 아니요          | 예     | 알 수 없음 |
-| [Canadian Football League (CFL)](http://api.cfl.ca/)                         | Official JSON API providing real-time league, team and player statistics about the CFL      | `apiKey`        | 예     | 아니요     |
-| [Cartola FC](https://github.com/wgenial/cartrolandofc)                       | The Cartola FC API serves to check the partial points of your team                          | 아니요          | 예     | 알 수 없음 |
-| [City Bikes](http://api.citybik.es/v2/)                                      | City Bikes around the world                                                                 | 아니요          | 아니요 | 알 수 없음 |
-| [Cricket Live Scores](https://market.mashape.com/dev132/cricket-live-scores) | Live cricket scores                                                                         | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [Ergast F1](http://ergast.com/mrd/)                                          | F1 data from the beginning of the world championships in 1950                               | 아니요          | 예     | 알 수 없음 |
-| [Fitbit](https://dev.fitbit.com/)                                            | Fitbit Information                                                                          | `OAuth`         | 예     | 알 수 없음 |
-| [Football (Soccer) Videos](https://www.scorebat.com/video-api/)              | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | 아니요          | 예     | 예         |
-| [Football Prediction](https://boggio-analytics.com/fp-api/)                  | Predictions for upcoming football matches, odds, results and stats                          | `X-Mashape-Key` | 예     | 알 수 없음 |
-| [Football-Data.org](http://api.football-data.org/index)                      | Football Data                                                                               | 아니요          | 아니요 | 알 수 없음 |
-| [JCDecaux Bike](https://developer.jcdecaux.com/)                             | JCDecaux's self-service bicycles                                                            | `apiKey`        | 예     | 알 수 없음 |
-| [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description)        | Current and historical NBA Statistics                                                       | 아니요          | 예     | 알 수 없음 |
-| [NFL Arrests](http://nflarrest.com/api/)                                     | NFL Arrest Data                                                                             | 아니요          | 아니요 | 알 수 없음 |
-| [NHL Records and Stats](https://gitlab.com/dword4/nhlapi)                    | NHL historical data and statistics                                                          | 아니요          | 예     | 알 수 없음 |
-| [Pro Motocross](http://promotocrossapi.com)                                  | The RESTful AMA Pro Motocross lap times for every racer on the start gate                   | 아니요          | 아니요 | 알 수 없음 |
-| [Strava](https://strava.github.io/api/)                                      | Connect with athletes, activities and more                                                  | `OAuth`         | 예     | 알 수 없음 |
-| [SuredBits](https://suredbits.com/api/)                                      | Query sports data, including teams, players, games, scores and statistics                   | 아니요          | 아니요 | 아니요     |
-| [TheSportsDB](https://www.thesportsdb.com/api.php)                           | Crowd-Sourced Sports Data and Artwork                                                       | `apiKey`        | 예     | 예         |
-| [Wger](https://wger.de/en/software/api)                                      | Workout manager data as exercises, muscles or equipment                                     | `apiKey`        | 예     | 알 수 없음 |
+| API                                                                          | 설명                                                                       | 인증            | HTTPS  | CORS       |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------- | ------ | ---------- |
+| [balldontlie](https://balldontlie.io)                                        | Balldontlie는 NBA 통계 데이터에 접근할 수 있도록 합니다.                   | 아니요          | 예     | 예         |
+| [BikeWise](https://www.bikewise.org/documentation/api_v2)                    | BikeWise는 자전거 충돌, 위험 요소 및 도난에 대해 배우고 보고하는 곳입니다. | 아니요          | 예     | 알 수 없음 |
+| [Canadian Football League (CFL)](http://api.cfl.ca/)                         | CFL에 대한 실시간 리그, 팀 및 플레이어 통계를 제공하는 공식 JSON API       | `apiKey`        | 예     | 아니요     |
+| [Cartola FC](https://github.com/wgenial/cartrolandofc)                       | Cartola FC API는 당신의 팀의 부분 포인트 정보를 제공합니다.                | 아니요          | 예     | 알 수 없음 |
+| [City Bikes](http://api.citybik.es/v2/)                                      | 전세계의 City Bikes                                                        | 아니요          | 아니요 | 알 수 없음 |
+| [Cricket Live Scores](https://market.mashape.com/dev132/cricket-live-scores) | 실시간 크리켓 스코어                                                       | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [Ergast F1](http://ergast.com/mrd/)                                          | 1950년 세계 챔피언십의 시작부터 지금까지의 F1 데이터                       | 아니요          | 예     | 알 수 없음 |
+| [Fitbit](https://dev.fitbit.com/)                                            | 핏빗 정보                                                                  | `OAuth`         | 예     | 알 수 없음 |
+| [Football (Soccer) Videos](https://www.scorebat.com/video-api/)              | 프리미어 리그, 분데스리가, 세리에 A 등의 골과 하이라이트를 위한 내장 코드  | 아니요          | 예     | 예         |
+| [Football Prediction](https://boggio-analytics.com/fp-api/)                  | 다가오는 축구 경기, 승산, 결과 및 통계 예측                                | `X-Mashape-Key` | 예     | 알 수 없음 |
+| [Football-Data.org](http://api.football-data.org/index)                      | 축구 데이터                                                                | 아니요          | 아니요 | 알 수 없음 |
+| [JCDecaux Bike](https://developer.jcdecaux.com/)                             | JCDecaux의 셀프 서비스 자전거                                              | `apiKey`        | 예     | 알 수 없음 |
+| [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description)        | 현재 및 과거 NBA 통계                                                      | 아니요          | 예     | 알 수 없음 |
+| [NFL Arrests](http://nflarrest.com/api/)                                     | NFL 어레스트의 데이터                                                      | 아니요          | 아니요 | 알 수 없음 |
+| [NHL Records and Stats](https://gitlab.com/dword4/nhlapi)                    | NHL 기록 데이터 및 통계                                                    | 아니요          | 예     | 알 수 없음 |
+| [Pro Motocross](http://promotocrossapi.com)                                  | 출발 관문에 있는 모든 레이서의 RESTful AMA 프로 모토크로스 랩타임          | 아니요          | 아니요 | 알 수 없음 |
+| [Strava](https://strava.github.io/api/)                                      | 운동선수, 활동 등과 연결합니다.                                            | `OAuth`         | 예     | 알 수 없음 |
+| [SuredBits](https://suredbits.com/api/)                                      | 팀, 플레이어, 게임, 점수 및 통계를 포함한 스포츠 데이터를 검색합니다.      | 아니요          | 아니요 | 아니요     |
+| [TheSportsDB](https://www.thesportsdb.com/api.php)                           | 크라우드 소스를 통한 스포츠 자료 및 아트워크                               | `apiKey`        | 예     | 예         |
+| [Wger](https://wger.de/en/software/api)                                      | 운동, 근육 또는 장비에 대한 운동 관리 데이터                               | `apiKey`        | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
