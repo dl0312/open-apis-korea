@@ -5,10 +5,10 @@ import sys
 
 anchor = '###'
 min_entries_per_section = 3
-auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', 'No']
-punctuation = ['.', '?', '!']
-https_keys = ['Yes', 'No']
-cors_keys = ['Yes', 'No', 'Unknown']
+auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', '❌']
+punctuation = ['?', '!']
+https_keys = ['✅', '❌', '알 수 없음']
+cors_keys = ['✅', '❌', '알 수 없음']
 
 index_title = 0
 index_desc = 1
@@ -22,7 +22,7 @@ errors = []
 title_links = []
 previous_links = []
 anchor_re = re.compile(anchor + '\s(.+)')
-section_title_re = re.compile('\*\s\[(.*)\]')
+section_title_re = re.compile('\-\s.*\((.*)\)')
 link_re = re.compile('\[(.+)\]\((http.*)\)')
 
 
@@ -44,7 +44,7 @@ def check_alphabetical(lines):
             sections[category] = []
             section_line_num[category] = line_num
             continue
-        if not line.startswith('|') or line.startswith('|---'):
+        if not line.startswith('|') or line.startswith('| --'):
             continue
         raw_title = [x.strip() for x in line.split('|')[1:-1]][0]
         title_re_match = link_re.match(raw_title)
@@ -53,7 +53,8 @@ def check_alphabetical(lines):
 
     for category, entries in sections.items():
         if sorted(entries) != entries:
-            add_error(section_line_num[category], "{} section is not in alphabetical order".format(category))
+            add_error(
+                section_line_num[category], "{} section is not in alphabetical order".format(category))
 
 
 def check_entry(line_num, segments):
@@ -67,31 +68,30 @@ def check_entry(line_num, segments):
         # do not allow "... API" in the entry title
         title = title_re_match.group(1)
         if title.upper().endswith(' API'):
-            add_error(line_num, 'Title should not end with "... API". Every entry is an API here!')
+            add_error(
+                line_num, 'Title should not end with "... API". Every entry is an API here!')
         # do not allow duplicate links
         link = title_re_match.group(2)
         if link in previous_links:
-            add_error(line_num, 'Duplicate link - entries should only be included in one section')
+            add_error(
+                line_num, 'Duplicate link - entries should only be included in one section')
         else:
             previous_links.append(link)
     # END Title
     # START Description
-    # first character should be capitalized
-    char = segments[index_desc][0]
-    if char.upper() != char:
-        add_error(line_num, "first character of description is not capitalized")
     # last character should not punctuation
     char = segments[index_desc][-1]
     if char in punctuation:
         add_error(line_num, "description should not end with {}".format(char))
     desc_length = len(segments[index_desc])
     if desc_length > 100:
-        add_error(line_num, "description should not exceed 100 characters (currently {})".format(desc_length))
+        add_error(line_num, "description should not exceed 100 characters (currently {})".format(
+            desc_length))
     # END Description
     # START Auth
     # values should conform to valid options only
     auth = segments[index_auth]
-    if auth != 'No' and (not auth.startswith('`') or not auth.endswith('`')):
+    if auth != '❌' and (not auth.startswith('`') or not auth.endswith('`')):
         add_error(line_num, "auth value is not enclosed with `backticks`")
     if auth.replace('`', '') not in auth_keys:
         add_error(line_num, "{} is not a valid Auth option".format(auth))
@@ -124,13 +124,14 @@ def check_format(filename):
     category_line = 0
     for line_num, line in enumerate(lines):
         if section_title_re.match(line):
-            title_links.append(section_title_re.match(line).group(1))
+            title_links.append(section_title_re.match(line).group(1)[1:])
         # check each section for the minimum number of entries
         if line.startswith(anchor):
             match = anchor_re.match(line)
             if match:
-                if match.group(1) not in title_links:
-                    add_error(line_num, "section header ({}) not added as a title link".format(match.group(1)))
+                if match.group(1).lower().replace(' & ', '--').replace(' ', '-') not in title_links:
+                    add_error(line_num, "section header ({}) not added as a title link".format(
+                        match.group(1)))
             else:
                 add_error(line_num, "section header is not formatted correctly")
             if num_in_category < min_entries_per_section:
@@ -141,7 +142,7 @@ def check_format(filename):
             num_in_category = 0
             continue
         # skips lines that we do not care about
-        if not line.startswith('|') or line.startswith('|---'):
+        if not line.startswith('|') or line.startswith('| API') or line.startswith('| --'):
             continue
         num_in_category += 1
         segments = line.split('|')[1:-1]
@@ -152,8 +153,9 @@ def check_format(filename):
         # START Global
         for segment in segments:
             # every line segment should start and end with exactly 1 space
-            if len(segment) - len(segment.lstrip()) != 1 or len(segment) - len(segment.rstrip()) != 1:
-                add_error(line_num, "each segment must start and end with exactly 1 space")
+            if len(segment) - len(segment.lstrip()) != 1:
+                add_error(
+                    line_num, "each segment must start and end with exactly 1 space")
         # END Global
         segments = [seg.strip() for seg in segments]
         check_entry(line_num, segments)
