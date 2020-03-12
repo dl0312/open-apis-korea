@@ -772,20 +772,20 @@
 
 | API                                                                       | 설명                                                                   | 인증     | HTTPS  | CORS       |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Advice Slip](http://api.adviceslip.com/)                                 | Generate random advice slips                                           | 아니요   | 예     | 알 수 없음 |
-| [chucknorris.io](https://api.chucknorris.io)                              | JSON API for hand curated Chuck Norris jokes                           | 아니요   | 예     | 알 수 없음 |
-| [FavQs.com](https://favqs.com/api)                                        | FavQs allows you to collect, discover and share your favorite quotes   | `apiKey` | 예     | 알 수 없음 |
-| [FOAAS](http://www.foaas.com/)                                            | Fuck Off As A Service                                                  | 아니요   | 아니요 | 알 수 없음 |
-| [Forismatic](http://forismatic.com/en/api/)                               | Inspirational Quotes                                                   | 아니요   | 아니요 | 알 수 없음 |
-| [icanhazdadjoke](https://icanhazdadjoke.com/api)                          | The largest selection of dad jokes on the internet                     | 아니요   | 예     | 알 수 없음 |
-| [kanye.rest](https://kanye.rest)                                          | REST API for random Kanye West quotes                                  | 아니요   | 예     | 예         |
-| [Medium](https://github.com/Medium/medium-api-docs)                       | Community of readers and writers offering unique perspectives on ideas | `OAuth`  | 예     | 알 수 없음 |
-| [NaMoMemes](https://github.com/theIYD/NaMoMemes)                          | Memes on Narendra Modi                                                 | 아니요   | 예     | 알 수 없음 |
-| [Programming Quotes](https://github.com/skolakoda/programming-quotes-api) | Programming Quotes API for open source projects                        | 아니요   | 예     | 알 수 없음 |
-| [Quote Garden](https://pprathameshmore.github.io/QuoteGarden/)            | REST API for more than 5000 famous quotes                              | 아니요   | 예     | 알 수 없음 |
-| [Quotes on Design](https://quotesondesign.com/api/)                       | Inspirational Quotes                                                   | 아니요   | 예     | 알 수 없음 |
-| [Traitify](https://app.traitify.com/developer)                            | Assess, collect and analyze Personality                                | 아니요   | 예     | 알 수 없음 |
-| [tronalddump.io](https://www.tronalddump.io)                              | Api & web archive for the things Donald Trump has said                 | 아니요   | 예     | 알 수 없음 |
+| [Advice Slip](http://api.adviceslip.com/)                                 | 임의의 advice slips을 생성합니다.                                      | 아니요   | 예     | 알 수 없음 |
+| [chucknorris.io](https://api.chucknorris.io)                              | 직접 큐레이션한 척 노리스 농담 JSON API                                | 아니요   | 예     | 알 수 없음 |
+| [FavQs.com](https://favqs.com/api)                                        | 좋아하는 인용구를 수집, 검색 및 공유할 수 있습니다.                    | `apiKey` | 예     | 알 수 없음 |
+| [FOAAS](http://www.foaas.com/)                                            | **F**uck **O**ff **A**s **A** **S**ervice                              | 아니요   | 아니요 | 알 수 없음 |
+| [Forismatic](http://forismatic.com/en/api/)                               | 영감을 주는 명언                                                       | 아니요   | 아니요 | 알 수 없음 |
+| [icanhazdadjoke](https://icanhazdadjoke.com/api)                          | 인터넷의 미국식 아재 농담 모음                                         | 아니요   | 예     | 알 수 없음 |
+| [kanye.rest](https://kanye.rest)                                          | 칸예 웨스트 인용구 REST API                                            | 아니요   | 예     | 예         |
+| [Medium](https://github.com/Medium/medium-api-docs)                       | 독자와 아이디어에 대한 독특한 관점을 제공하는 독자와 작가들의 커뮤니티 | `OAuth`  | 예     | 알 수 없음 |
+| [NaMoMemes](https://github.com/theIYD/NaMoMemes)                          | 나렌드라 모디 밈                                                       | 아니요   | 예     | 알 수 없음 |
+| [Programming Quotes](https://github.com/skolakoda/programming-quotes-api) | 오픈 소스 프로젝트를 위한 프로그래밍 인용구 API                        | 아니요   | 예     | 알 수 없음 |
+| [Quote Garden](https://pprathameshmore.github.io/QuoteGarden/)            | 5000개 이상의 유명한 인용구를 제공하는 REST API                        | 아니요   | 예     | 알 수 없음 |
+| [Quotes on Design](https://quotesondesign.com/api/)                       | 영감을 주는 인용구                                                     | 아니요   | 예     | 알 수 없음 |
+| [Traitify](https://app.traitify.com/developer)                            | 성격을 평가, 수집 및 분석합니다.                                       | 아니요   | 예     | 알 수 없음 |
+| [tronalddump.io](https://www.tronalddump.io)                              | 도널드 트럼프 대통령이 말한 것들에 대한 API & 웹 아카이브입니다.       | 아니요   | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
