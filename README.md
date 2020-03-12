@@ -56,7 +56,7 @@
 - [♻️ 환경](#환경)
 - [💱 환전소](#환전소)
 - [✂️ URL 쇼트너](#URL-쇼트너)
-- [네이버](#네이버)
+- [👒 네이버](#네이버)
 - [카카오](#카카오)
 - [🧞‍♂️ 참고 자료](#참고-자료)
 
@@ -894,24 +894,24 @@
 
 ### 직업
 
-| API                                                                                      | 설명                                                                       | 인증     | HTTPS  | CORS       |
-| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Adzuna](https://developer.adzuna.com/overview)                                          | 일자리 게시판 모음     | `apiKey` | 예     | 알 수 없음 |
-| [Authentic Jobs](https://authenticjobs.com/api/docs)                                     | 디자이너, 해커 및 창의적인 전문가를 위한 일자리 게시판         | `apiKey` | 예     | 알 수 없음 |
-| [Careerjet](https://www.careerjet.com/partners/api/)                                     | 일자리 검색 엔진                      | `apiKey` | 아니요 | 알 수 없음 |
-| [Github Jobs](https://jobs.github.com/api)                                               | 소프트웨어 개발자를 위한 일자리   | 아니요   | 예     | 예         |
-| [GraphQL Jobs](https://api.graphql.jobs)                                                 | GraphQL을 이용한 일자리       | 아니요   | 예     | 예         |
-| [Indeed](https://www.indeed.com/publisher)                                               | 일자리 게시판 모음     | `apiKey` | 예     | 알 수 없음 |
-| [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 |일자리 모음                                | `apiKey` | 예     | 알 수 없음 |
-| [Jooble](https://us.jooble.org/api/about)                                                | 일자리 검색 엔진       | `apiKey` | 예     | 알 수 없음 |
-| [Juju](http://www.juju.com/publisher/spec/)                                              | 일자리 검색 엔진             | `apiKey` | 아니요 | 알 수 없음 |
-| [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | 일자리 제목, 기술 및 관련 작업 데이터                   | 아니요   | 아니요 | 알 수 없음 |
-| [Reed](https://www.reed.co.uk/developers)                                                | 일자리 게시판 모음    | `apiKey` | 예     | 알 수 없음 |
-| [Search.gov Jobs](https://search.gov/developer/jobs.html)                                | 미국 정부의 일자리 목록 | 아니요   | 예     | 알 수 없음 |
-| [The Muse](https://www.themuse.com/developers/api/v2)                                    | 일자리 게시판과 회사 정보     | `apiKey` | 예     | 알 수 없음 |
-| [Upwork](https://developers.upwork.com/)                                                 | 프리랜서 일자리 게시판과 관리 시스템        | `OAuth`  | 예     | 알 수 없음 |
-| [USAJOBS](https://developer.usajobs.gov/)                                                | 미국 정부 일자리 게시판      | `apiKey` | 예     | 알 수 없음 |
-| [ZipRecruiter](https://www.ziprecruiter.com/publishers)                                  | 일자리 검색 앱 및 웹 사이트        | `apiKey` | 예     | 알 수 없음 |
+| API                                                                                      | 설명                                                   | 인증     | HTTPS  | CORS       |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------ | -------- | ------ | ---------- |
+| [Adzuna](https://developer.adzuna.com/overview)                                          | 일자리 게시판 모음                                     | `apiKey` | 예     | 알 수 없음 |
+| [Authentic Jobs](https://authenticjobs.com/api/docs)                                     | 디자이너, 해커 및 창의적인 전문가를 위한 일자리 게시판 | `apiKey` | 예     | 알 수 없음 |
+| [Careerjet](https://www.careerjet.com/partners/api/)                                     | 일자리 검색 엔진                                       | `apiKey` | 아니요 | 알 수 없음 |
+| [Github Jobs](https://jobs.github.com/api)                                               | 소프트웨어 개발자를 위한 일자리                        | 아니요   | 예     | 예         |
+| [GraphQL Jobs](https://api.graphql.jobs)                                                 | GraphQL을 이용한 일자리                                | 아니요   | 예     | 예         |
+| [Indeed](https://www.indeed.com/publisher)                                               | 일자리 게시판 모음                                     | `apiKey` | 예     | 알 수 없음 |
+| [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 | 일자리 모음                                            | `apiKey` | 예     | 알 수 없음 |
+| [Jooble](https://us.jooble.org/api/about)                                                | 일자리 검색 엔진                                       | `apiKey` | 예     | 알 수 없음 |
+| [Juju](http://www.juju.com/publisher/spec/)                                              | 일자리 검색 엔진                                       | `apiKey` | 아니요 | 알 수 없음 |
+| [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | 일자리 제목, 기술 및 관련 작업 데이터                  | 아니요   | 아니요 | 알 수 없음 |
+| [Reed](https://www.reed.co.uk/developers)                                                | 일자리 게시판 모음                                     | `apiKey` | 예     | 알 수 없음 |
+| [Search.gov Jobs](https://search.gov/developer/jobs.html)                                | 미국 정부의 일자리 목록                                | 아니요   | 예     | 알 수 없음 |
+| [The Muse](https://www.themuse.com/developers/api/v2)                                    | 일자리 게시판과 회사 정보                              | `apiKey` | 예     | 알 수 없음 |
+| [Upwork](https://developers.upwork.com/)                                                 | 프리랜서 일자리 게시판과 관리 시스템                   | `OAuth`  | 예     | 알 수 없음 |
+| [USAJOBS](https://developer.usajobs.gov/)                                                | 미국 정부 일자리 게시판                                | `apiKey` | 예     | 알 수 없음 |
+| [ZipRecruiter](https://www.ziprecruiter.com/publishers)                                  | 일자리 검색 앱 및 웹 사이트                            | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
@@ -1066,23 +1066,22 @@
 
 ### 네이버
 
-| API                     | 설명                                                                | 인증     | HTTPS      | CORS       |
-| ----------------------- | ------------------------------------------------------------------- | -------- | ---------- | ---------- |
-| 검색                    | 네이버 블로그, 이미지, 웹, 뉴스, 백과사전, 책, 카페, 지식iN 등 검색 | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 지도(Web, Mobile)       | 네이버 지도 표시 및 주소 좌표 변환                                  | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 네이버 아이디로 로그인  | 외부 사이트에서 네이버 아이디로 로그인 기능 구현                    | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 네이버 회원 프로필 조회 | 네이버 회원 이름, 닉네임, 이메일, 성별, 연령대, 프로필 조회         | `apiKey` | 알 수 없음 | 알 수 없음 |
-| Papago 번역             | Papago 번역 인공신경망 기반 기계 번역                               | `apiKey` | 알 수 없음 | 알 수 없음 |
-| Clova Face Recognition  | 입력된 사진을 입력받아 얼굴윤곽/부위/표정/유명인 닮음도를 리턴      | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 데이터랩(검색어트렌드)  | 통합검색어 트렌드 조회                                              | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 데이터랩(쇼핑인사이트)  | 쇼핑인사이트 분야별 트렌드 조회                                     | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 캡차(이미지)            | 자동 입력 방지용 보안 이미지 생성 및 입력값 비교                    | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 캘린더                  | 로그인한 사용자 캘린더에 일정 추가 가능                             | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 카페                    | 특정 네이버 카페 가입하기                                           | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 카페                    | 네이버 회원이 가입한 카페 게시판에 글 쓰기                          | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 블로그                  | 네이버 회원의 블로그에 글쓰기                                       | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 단축URL                 | 입력된 URL을 me2.do 형태의 짧은 URL로 변환                          | `apiKey` | 알 수 없음 | 알 수 없음 |
-| 공유하기                | 네이버 블로그, 카페 공유하기                                        | `apiKey` | 알 수 없음 | 알 수 없음 |
+| API                                                                                 | 설명                                                                | 인증     | HTTPS      | CORS       |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------- | -------- | ---------- | ---------- |
+| [네이버 검색](https://developers.naver.com/products/search/)                        | 네이버 블로그, 이미지, 웹, 뉴스, 백과사전, 책, 카페, 지식iN 등 검색 | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 지도(웹, 모바일)](https://www.ncloud.com/product/applicationService/maps)   | 네이버 지도 표시 및 주소 좌표 변환                                  | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 아이디로 로그인](https://developers.naver.com/products/login/api/)          | 외부 사이트에서 네이버 아이디로 로그인 기능 구현 및 프로필 조회     | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 파파고 번역](https://developers.naver.com/products/nmt/)                    | Papago 번역 인공신경망 기반 기계 번역                               | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 클로바 얼굴 인식](https://developers.naver.com/products/clova/face/)        | 입력된 사진을 입력받아 얼굴윤곽/부위/표정/유명인 닮음도를 리턴      | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 데이터랩 검색어트렌드](https://developers.naver.com/docs/datalab/search/)   | 통합검색어 트렌드 조회                                              | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 데이터랩 쇼핑인사이트](https://developers.naver.com/docs/datalab/shopping/) | 쇼핑인사이트 분야별 트렌드 조회                                     | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 이미지 캡차](https://developers.naver.com/docs/utils/captcha/overview/)     | 자동 입력 방지용 보안 이미지 생성 및 입력값 비교                    | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 음성 캡차](https://developers.naver.com/docs/utils/scaptcha/overview/)      | 자동 입력 방지용 보안 이미지 생성 및 입력값 비교                    | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 캘린더](https://developers.naver.com/products/calendar/)                    | 로그인한 사용자 캘린더에 일정 추가 가능                             | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 카페](https://developers.naver.com/products/cafe/)                          | 특정 네이버 카페 가입하고 글을 쓸 수 있습니다.                      | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 블로그](https://developers.naver.com/products/blog/)                        | 네이버 회원의 블로그에 글을 쓸 수 있습니다.                         | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 단축URL](https://www.ncloud.com/product/applicationService/nShortUrl)       | 입력된 URL을 me2.do 형태의 짧은 URL로 변환                          | `apiKey` | 알 수 없음 | 알 수 없음 |
+| [네이버 공유하기](https://developers.naver.com/products/navershare/)                | 네이버 블로그, 카페 공유하기                                        | `apiKey` | 알 수 없음 | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
