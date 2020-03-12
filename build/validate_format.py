@@ -5,10 +5,10 @@ import sys
 
 anchor = '###'
 min_entries_per_section = 3
-auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', '❌']
+auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', '✕']
 punctuation = ['?', '!']
-https_keys = ['✅', '❌', '🤔']
-cors_keys = ['✅', '❌', '🤔']
+https_keys = ['○', '✕', '?']
+cors_keys = ['○', '✕', '?']
 
 index_title = 0
 index_desc = 1
@@ -91,7 +91,7 @@ def check_entry(line_num, segments):
     # START Auth
     # values should conform to valid options only
     auth = segments[index_auth]
-    if auth != '❌' and (not auth.startswith('`') or not auth.endswith('`')):
+    if auth != '✕' and (not auth.startswith('`') or not auth.endswith('`')):
         add_error(line_num, "auth value is not enclosed with `backticks`")
     if auth.replace('`', '') not in auth_keys:
         add_error(line_num, "{} is not a valid Auth option".format(auth))
