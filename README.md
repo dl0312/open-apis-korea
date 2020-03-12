@@ -791,38 +791,38 @@
 
 ### 정부
 
-| API                                                                                 | 설명                                                                                               | 인증     | HTTPS  | CORS       |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [BCLaws](http://www.bclaws.ca/civix/template/complete/api/index.html)               | Access to the laws of British Columbia                                                             | 아니요   | 아니요 | 알 수 없음 |
-| [BusinessUSA](https://business.usa.gov/developer)                                   | Authoritative information on U.S. programs, events, services and more                              | `apiKey` | 예     | 알 수 없음 |
-| [Census.gov](https://www.census.gov/data/developers/data-sets.html)                 | The US Census Bureau provides various APIs and data sets on demographics and businesses            | 아니요   | 예     | 알 수 없음 |
-| [City, Lyon Opendata](https://data.beta.grandlyon.com/fr/accueil)                   | Lyon(FR) City Open Data                                                                            | `apiKey` | 예     | 알 수 없음 |
-| [City, Nantes Opendata](https://data.nantesmetropole.fr/pages/home/)                | Nantes(FR) City Open Data                                                                          | `apiKey` | 예     | 알 수 없음 |
-| [City, Prague Opendata](http://opendata.praha.eu/en)                                | Prague(CZ) City Open Data                                                                          | 아니요   | 아니요 | 알 수 없음 |
-| [Code.gov](https://code.gov)                                                        | The primary platform for Open Source and code sharing for the U.S. Federal Government              | `apiKey` | 예     | 알 수 없음 |
-| [Colorado Data Engine](http://codataengine.org/)                                    | Formatted and geolocated Colorado public data                                                      | 아니요   | 예     | 알 수 없음 |
-| [Colorado Information Marketplace](https://data.colorado.gov/)                      | Colorado State Government Open Data                                                                | 아니요   | 예     | 알 수 없음 |
-| [Data USA](https://datausa.io/about/api/)                                           | US Public Data                                                                                     | 아니요   | 예     | 알 수 없음 |
-| [Data.gov](https://api.data.gov/)                                                   | US Government Data                                                                                 | `apiKey` | 예     | 알 수 없음 |
-| [Data.parliament.uk](http://www.data.parliament.uk/developers/)                     | Contains live datasets including information about petitions, bills, MP votes, attendance and more | 아니요   | 아니요 | 알 수 없음 |
-| [District of Columbia Open Data](http://opendata.dc.gov/pages/using-apis)           | Contains D.C. government public datasets, including crime, GIS, financial data, and so on          | 아니요   | 예     | 알 수 없음 |
-| [EPA](https://developer.epa.gov/category/apis/)                                     | Web services and data sets from the US Environmental Protection Agency                             | 아니요   | 예     | 알 수 없음 |
-| [FEC](https://api.open.fec.gov/developers/)                                         | Information on campaign donations in federal elections                                             | `apiKey` | 예     | 알 수 없음 |
-| [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources) | The Daily Journal of the United States Government                                                  | 아니요   | 예     | 알 수 없음 |
-| [Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB)                 | UK food hygiene rating data API                                                                    | 아니요   | 아니요 | 알 수 없음 |
-| [Open Government, Australia](https://www.data.gov.au/)                              | Australian Government Open Data                                                                    | 아니요   | 예     | 알 수 없음 |
-| [Open Government, Belgium](https://data.gov.be/)                                    | Belgium Government Open Data                                                                       | 아니요   | 예     | 알 수 없음 |
-| [Open Government, Canada](http://open.canada.ca/en)                                 | Canadian Government Open Data                                                                      | 아니요   | 아니요 | 알 수 없음 |
-| [Open Government, France](https://www.data.gouv.fr/)                                | French Government Open Data                                                                        | `apiKey` | 예     | 알 수 없음 |
-| [Open Government, India](https://data.gov.in/)                                      | Indian Government Open Data                                                                        | `apiKey` | 예     | 알 수 없음 |
-| [Open Government, Italy](https://www.dati.gov.it/)                                  | Italy Government Open Data                                                                         | 아니요   | 예     | 알 수 없음 |
-| [Open Government, New Zealand](https://www.data.govt.nz/)                           | New Zealand Government Open Data                                                                   | 아니요   | 예     | 알 수 없음 |
-| [Open Government, Romania](http://data.gov.ro/)                                     | Romania Government Open Data                                                                       | 아니요   | 아니요 | 알 수 없음 |
-| [Open Government, Taiwan](https://data.gov.tw/)                                     | Taiwan Government Open Data                                                                        | 아니요   | 예     | 알 수 없음 |
-| [Open Government, USA](https://www.data.gov/)                                       | United States Government Open Data                                                                 | 아니요   | 예     | 알 수 없음 |
-| [Regulations.gov](https://regulationsgov.github.io/developers/)                     | Federal regulatory materials to increase understanding of the Federal rule making process          | `apiKey` | 예     | 알 수 없음 |
-| [Represent by Open North](https://represent.opennorth.ca/)                          | Find Canadian Government Representatives                                                           | 아니요   | 예     | 알 수 없음 |
-| [USAspending.gov](https://api.usaspending.gov/)                                     | US federal spending data                                                                           | 아니요   | 예     | 알 수 없음 |
+| API                                                                                 | 설명                                                                                   | 인증     | HTTPS  | CORS       |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- | ------ | ---------- |
+| [BCLaws](http://www.bclaws.ca/civix/template/complete/api/index.html)               | 브리티시 컬럼비아의 법칙에 접근합니다.                                                 | 아니요   | 아니요 | 알 수 없음 |
+| [BusinessUSA](https://business.usa.gov/developer)                                   | 미국 프로그램, 이벤트, 서비스 등에 대한 권한 있는 정보                                 | `apiKey` | 예     | 알 수 없음 |
+| [Census.gov](https://www.census.gov/data/developers/data-sets.html)                 | 미국 인구조사국에서 인구통계 및 비즈니스에 대한 다양한 API와 데이터 세트를 제공합니다. | 아니요   | 예     | 알 수 없음 |
+| [City, Lyon Opendata](https://data.beta.grandlyon.com/fr/accueil)                   | 프랑스 리옹의 오픈 데이터                                                              | `apiKey` | 예     | 알 수 없음 |
+| [City, Nantes Opendata](https://data.nantesmetropole.fr/pages/home/)                | 프랑스 낭트의 오픈 데이터                                                              | `apiKey` | 예     | 알 수 없음 |
+| [City, Prague Opendata](http://opendata.praha.eu/en)                                | 체코 프라하의 오픈 데이터                                                              | 아니요   | 아니요 | 알 수 없음 |
+| [Code.gov](https://code.gov)                                                        | 미국 연방 정부를 위한 오픈 소스 및 코드 공유를 위한 플랫폼                             | `apiKey` | 예     | 알 수 없음 |
+| [Colorado Data Engine](http://codataengine.org/)                                    | 콜로라도의 공개 데이터                                                                 | 아니요   | 예     | 알 수 없음 |
+| [Colorado Information Marketplace](https://data.colorado.gov/)                      | 콜로라도 주립 정부 오픈 데이터                                                         | 아니요   | 예     | 알 수 없음 |
+| [Data USA](https://datausa.io/about/api/)                                           | 미국 공공 데이터                                                                       | 아니요   | 예     | 알 수 없음 |
+| [Data.gov](https://api.data.gov/)                                                   | 미국 정부 데이터                                                                       | `apiKey` | 예     | 알 수 없음 |
+| [Data.parliament.uk](http://www.data.parliament.uk/developers/)                     | 탄원서, 청구서, MP 투표, 참석 등에 대한 정보를 포함한 실시간 데이터 세트               | 아니요   | 아니요 | 알 수 없음 |
+| [District of Columbia Open Data](http://opendata.dc.gov/pages/using-apis)           | 범죄, GIS, 재무 데이터 등을 포함한 D.C. 정부 공공 데이터셋                             | 아니요   | 예     | 알 수 없음 |
+| [EPA](https://developer.epa.gov/category/apis/)                                     | 미국 환경 보호국에서 제공하는 웹 서비스와 데이터 세트                                  | 아니요   | 예     | 알 수 없음 |
+| [FEC](https://api.open.fec.gov/developers/)                                         | 연방 선거의 선거 기부에 대한 정보                                                      | `apiKey` | 예     | 알 수 없음 |
+| [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources) | 미국 정부의 데일리 저널                                                                | 아니요   | 예     | 알 수 없음 |
+| [Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB)                 | 영국 음식 위생 등급 데이터 API                                                         | 아니요   | 아니요 | 알 수 없음 |
+| [Open Government, Australia](https://www.data.gov.au/)                              | 호주 정부 오픈 데이터                                                                  | 아니요   | 예     | 알 수 없음 |
+| [Open Government, Belgium](https://data.gov.be/)                                    | 벨기에 정부 오픈 데이터                                                                | 아니요   | 예     | 알 수 없음 |
+| [Open Government, Canada](http://open.canada.ca/en)                                 | 캐나다 정부 오픈 데이터                                                                | 아니요   | 아니요 | 알 수 없음 |
+| [Open Government, France](https://www.data.gouv.fr/)                                | 프랑스 정부 오픈 데이터                                                                | `apiKey` | 예     | 알 수 없음 |
+| [Open Government, India](https://data.gov.in/)                                      | 인도 정부 오픈 데이터                                                                  | `apiKey` | 예     | 알 수 없음 |
+| [Open Government, Italy](https://www.dati.gov.it/)                                  | 이탈리아 정부 오픈 데이터                                                              | 아니요   | 예     | 알 수 없음 |
+| [Open Government, New Zealand](https://www.data.govt.nz/)                           | 뉴질랜드 정부 오픈 데이터                                                              | 아니요   | 예     | 알 수 없음 |
+| [Open Government, Romania](http://data.gov.ro/)                                     | 루마니아 정부 오픈 데이터                                                              | 아니요   | 아니요 | 알 수 없음 |
+| [Open Government, Taiwan](https://data.gov.tw/)                                     | 대만 정부 오픈 데이터                                                                  | 아니요   | 예     | 알 수 없음 |
+| [Open Government, USA](https://www.data.gov/)                                       | 미국 정부 오픈 데이터                                                                  | 아니요   | 예     | 알 수 없음 |
+| [Regulations.gov](https://regulationsgov.github.io/developers/)                     | 연방 규칙 제정 과정에 대한 이해를 높이기 위한 연방 규제 자료                           | `apiKey` | 예     | 알 수 없음 |
+| [Represent by Open North](https://represent.opennorth.ca/)                          | 캐나다 정부 대표자를 찾습니다.                                                         | 아니요   | 예     | 알 수 없음 |
+| [USAspending.gov](https://api.usaspending.gov/)                                     | 미국 연방 지출 데이터                                                                  | 아니요   | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
