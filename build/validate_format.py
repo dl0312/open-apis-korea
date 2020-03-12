@@ -7,8 +7,8 @@ anchor = '###'
 min_entries_per_section = 3
 auth_keys = ['apiKey', 'OAuth', 'X-Mashape-Key', '❌']
 punctuation = ['?', '!']
-https_keys = ['✅', '❌', '알 수 없음']
-cors_keys = ['✅', '❌', '알 수 없음']
+https_keys = ['✅', '❌', '🤔']
+cors_keys = ['✅', '❌', '🤔']
 
 index_title = 0
 index_desc = 1
