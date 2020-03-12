@@ -721,20 +721,20 @@
 
 ### 음식 & 음료
 
-| API                                                                              | 설명                                              | 인증     | HTTPS  | CORS       |
-| -------------------------------------------------------------------------------- | ------------------------------------------------- | -------- | ------ | ---------- |
-| [Edamam](https://developer.edamam.com/)                                          | Recipe Search                                     | `apiKey` | 예     | 알 수 없음 |
-| [LCBO](https://lcboapi.com/)                                                     | Alcohol                                           | `apiKey` | 예     | 알 수 없음 |
-| [Open Brewery DB](https://www.openbrewerydb.org)                                 | Breweries, Cideries and Craft Beer Bottle Shops   | 아니요   | 예     | 예         |
-| [Open Food Facts](https://world.openfoodfacts.org/data)                          | Food Products Database                            | 아니요   | 예     | 알 수 없음 |
-| [PunkAPI](https://punkapi.com/)                                                  | Brewdog Beer Recipes                              | 아니요   | 예     | 알 수 없음 |
-| [Recipe Puppy](http://www.recipepuppy.com/about/api/)                            | Food                                              | 아니요   | 아니요 | 알 수 없음 |
-| [TacoFancy](https://github.com/evz/tacofancy-api)                                | Community-driven taco database                    | 아니요   | 아니요 | 알 수 없음 |
-| [The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API) | Food & Drink Reviews                              | 아니요   | 예     | 알 수 없음 |
-| [TheCocktailDB](https://www.thecocktaildb.com/api.php)                           | Cocktail Recipes                                  | `apiKey` | 예     | 예         |
-| [TheMealDB](https://www.themealdb.com/api.php)                                   | Meal Recipes                                      | `apiKey` | 예     | 예         |
-| [What's on the menu?](http://nypl.github.io/menus-api/)                          | NYPL human-transcribed historical menu collection | `apiKey` | 아니요 | 알 수 없음 |
-| [Zomato](https://developers.zomato.com/api)                                      | Discover restaurants                              | `apiKey` | 예     | 알 수 없음 |
+| API                                                                              | 설명                               | 인증     | HTTPS  | CORS       |
+| -------------------------------------------------------------------------------- | ---------------------------------- | -------- | ------ | ---------- |
+| [Edamam](https://developer.edamam.com/)                                          | 레시피 검색                        | `apiKey` | 예     | 알 수 없음 |
+| [LCBO](https://lcboapi.com/)                                                     | 알코올                             | `apiKey` | 예     | 알 수 없음 |
+| [Open Brewery DB](https://www.openbrewerydb.org)                                 | 맥주, 사이다, 크래프트 맥주병 가게 | 아니요   | 예     | 예         |
+| [Open Food Facts](https://world.openfoodfacts.org/data)                          | 식품 데이터베이스                  | 아니요   | 예     | 알 수 없음 |
+| [PunkAPI](https://punkapi.com/)                                                  | 브루독 맥주 레시피                 | 아니요   | 예     | 알 수 없음 |
+| [Recipe Puppy](http://www.recipepuppy.com/about/api/)                            | 음식                               | 아니요   | 아니요 | 알 수 없음 |
+| [TacoFancy](https://github.com/evz/tacofancy-api)                                | 커뮤니티 기반 타코 데이터베이스    | 아니요   | 아니요 | 알 수 없음 |
+| [The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API) | 음식 & 음료수 리뷰                 | 아니요   | 예     | 알 수 없음 |
+| [TheCocktailDB](https://www.thecocktaildb.com/api.php)                           | 칵테일 레시피                      | `apiKey` | 예     | 예         |
+| [TheMealDB](https://www.themealdb.com/api.php)                                   | 요리 레시피                        | `apiKey` | 예     | 예         |
+| [What's on the menu?](http://nypl.github.io/menus-api/)                          | NYPL 역사적 메뉴 모음 NYPL         | `apiKey` | 아니요 | 알 수 없음 |
+| [Zomato](https://developers.zomato.com/api)                                      | 음식점을 찾아보세요.               | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
