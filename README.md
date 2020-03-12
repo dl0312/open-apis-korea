@@ -896,22 +896,22 @@
 
 | API                                                                                      | 설명                                                                       | 인증     | HTTPS  | CORS       |
 | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- | ------ | ---------- |
-| [Adzuna](https://developer.adzuna.com/overview)                                          | Job board aggregator                                                       | `apiKey` | 예     | 알 수 없음 |
-| [Authentic Jobs](https://authenticjobs.com/api/docs)                                     | Job board for designers, hackers and creative pros                         | `apiKey` | 예     | 알 수 없음 |
-| [Careerjet](https://www.careerjet.com/partners/api/)                                     | Job search engine                                                          | `apiKey` | 아니요 | 알 수 없음 |
-| [Github Jobs](https://jobs.github.com/api)                                               | Jobs for software developers                                               | 아니요   | 예     | 예         |
-| [GraphQL Jobs](https://api.graphql.jobs)                                                 | Jobs with GraphQL                                                          | 아니요   | 예     | 예         |
-| [Indeed](https://www.indeed.com/publisher)                                               | Job board aggregator                                                       | `apiKey` | 예     | 알 수 없음 |
-| [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 | Job aggregator                                                             | `apiKey` | 예     | 알 수 없음 |
-| [Jooble](https://us.jooble.org/api/about)                                                | Job search engine                                                          | `apiKey` | 예     | 알 수 없음 |
-| [Juju](http://www.juju.com/publisher/spec/)                                              | Job search engine                                                          | `apiKey` | 아니요 | 알 수 없음 |
-| [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | Job titles, skills and related jobs data                                   | 아니요   | 아니요 | 알 수 없음 |
-| [Reed](https://www.reed.co.uk/developers)                                                | Job board aggregator                                                       | `apiKey` | 예     | 알 수 없음 |
-| [Search.gov Jobs](https://search.gov/developer/jobs.html)                                | Tap into a list of current jobs openings with the United States government | 아니요   | 예     | 알 수 없음 |
-| [The Muse](https://www.themuse.com/developers/api/v2)                                    | Job board and company profiles                                             | `apiKey` | 예     | 알 수 없음 |
-| [Upwork](https://developers.upwork.com/)                                                 | Freelance job board and management system                                  | `OAuth`  | 예     | 알 수 없음 |
-| [USAJOBS](https://developer.usajobs.gov/)                                                | US government job board                                                    | `apiKey` | 예     | 알 수 없음 |
-| [ZipRecruiter](https://www.ziprecruiter.com/publishers)                                  | Job search app and website                                                 | `apiKey` | 예     | 알 수 없음 |
+| [Adzuna](https://developer.adzuna.com/overview)                                          | 일자리 게시판 모음     | `apiKey` | 예     | 알 수 없음 |
+| [Authentic Jobs](https://authenticjobs.com/api/docs)                                     | 디자이너, 해커 및 창의적인 전문가를 위한 일자리 게시판         | `apiKey` | 예     | 알 수 없음 |
+| [Careerjet](https://www.careerjet.com/partners/api/)                                     | 일자리 검색 엔진                      | `apiKey` | 아니요 | 알 수 없음 |
+| [Github Jobs](https://jobs.github.com/api)                                               | 소프트웨어 개발자를 위한 일자리   | 아니요   | 예     | 예         |
+| [GraphQL Jobs](https://api.graphql.jobs)                                                 | GraphQL을 이용한 일자리       | 아니요   | 예     | 예         |
+| [Indeed](https://www.indeed.com/publisher)                                               | 일자리 게시판 모음     | `apiKey` | 예     | 알 수 없음 |
+| [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 |일자리 모음                                | `apiKey` | 예     | 알 수 없음 |
+| [Jooble](https://us.jooble.org/api/about)                                                | 일자리 검색 엔진       | `apiKey` | 예     | 알 수 없음 |
+| [Juju](http://www.juju.com/publisher/spec/)                                              | 일자리 검색 엔진             | `apiKey` | 아니요 | 알 수 없음 |
+| [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | 일자리 제목, 기술 및 관련 작업 데이터                   | 아니요   | 아니요 | 알 수 없음 |
+| [Reed](https://www.reed.co.uk/developers)                                                | 일자리 게시판 모음    | `apiKey` | 예     | 알 수 없음 |
+| [Search.gov Jobs](https://search.gov/developer/jobs.html)                                | 미국 정부의 일자리 목록 | 아니요   | 예     | 알 수 없음 |
+| [The Muse](https://www.themuse.com/developers/api/v2)                                    | 일자리 게시판과 회사 정보     | `apiKey` | 예     | 알 수 없음 |
+| [Upwork](https://developers.upwork.com/)                                                 | 프리랜서 일자리 게시판과 관리 시스템        | `OAuth`  | 예     | 알 수 없음 |
+| [USAJOBS](https://developer.usajobs.gov/)                                                | 미국 정부 일자리 게시판      | `apiKey` | 예     | 알 수 없음 |
+| [ZipRecruiter](https://www.ziprecruiter.com/publishers)                                  | 일자리 검색 앱 및 웹 사이트        | `apiKey` | 예     | 알 수 없음 |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
