@@ -51,8 +51,14 @@ class AppDocument extends Document<IProps> {
             rel="preload"
             as="font"
             href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
-          />{' '}
+          />
           <link rel="shortcut icon" href="/favicon.ico" />
+          {/* <!-- Google Adsense --> */}
+          <script
+            data-ad-client="ca-pub-9994255438328666"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          />
           {/* <!-- Basic --> */}
           <meta name="application-name" content={applicationName} />
           <meta name="description" content={description} />
