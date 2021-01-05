@@ -27,6 +27,17 @@ export interface Theme {
   tableHeader: string
   // point-color
   linkText: string
+  inverse: {
+    mainBackground: string
+    title: string
+    primaryText: string
+    secondaryText: string
+    disable: string
+    border: string
+    divider: string
+    background: string
+    tableHeader: string
+  }
 }
 
 interface Themes {
@@ -47,7 +58,19 @@ export const themes: Themes = {
     background: `rgba(0, 0, 0, 0.04)`,
     tableHeader: `rgba(0, 0, 0, 0.02)`,
     // point-color
-    linkText: 'blue',
+    linkText: '#00587a',
+    inverse: {
+      mainBackground: `#333`,
+      // neutral color
+      title: `rgba(255,255,255,0.85)`,
+      primaryText: `rgba(255,255,255,0.65)`,
+      secondaryText: `rgba(255,255,255,0.45)`,
+      disable: `rgba(255,255,255,0.25)`,
+      border: `rgba(255,255,255,0.15)`,
+      divider: `rgba(255,255,255,0.06)`,
+      background: `rgba(255,255,255,0.04)`,
+      tableHeader: `rgba(255,255,255,0.02)`,
+    },
   },
   dark: {
     mainBackground: `#333`,
@@ -61,7 +84,19 @@ export const themes: Themes = {
     background: `rgba(255,255,255,0.04)`,
     tableHeader: `rgba(255,255,255,0.02)`,
     // point-color
-    linkText: 'blue',
+    linkText: '#00587a',
+    inverse: {
+      mainBackground: `#fff`,
+      // neutral color
+      title: `rgba(0, 0, 0, 0.85)`,
+      primaryText: `rgba(0, 0, 0, 0.75)`,
+      secondaryText: `rgba(0, 0, 0, 0.45)`,
+      disable: `rgba(0, 0, 0, 0.25)`,
+      border: `rgba(0, 0, 0, 0.15)`,
+      divider: `rgba(0, 0, 0, 0.06)`,
+      background: `rgba(0, 0, 0, 0.04)`,
+      tableHeader: `rgba(0, 0, 0, 0.02)`,
+    },
   },
 }
 
