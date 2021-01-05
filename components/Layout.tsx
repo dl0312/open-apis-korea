@@ -14,6 +14,7 @@ const PageWrapper = styled.div`
   max-width: 800px;
   width: 100%;
   padding: 0 1.5rem;
+  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

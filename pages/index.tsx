@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button, Input, Select } from 'antd'
 import { PaginationProps } from 'antd/lib/pagination'
 import ApiList from 'components/ApiList'
+import Footer from 'components/Footer'
 import Layout from 'components/Layout'
 import RadioGroup from 'components/RadioGroup'
 import ThemeToggleSwitch from 'components/ThemeToggleSwitch'
@@ -379,6 +380,7 @@ function Home() {
           />
         )}
       </Main>
+      <Footer />
     </Layout>
   )
 }
