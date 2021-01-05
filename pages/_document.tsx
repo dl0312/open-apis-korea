@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
-import { description, applicationName, keywords } from 'public/config'
+import { description, applicationName, keywords, author, image, site, type, publishedTime } from 'public/config'
 import { ServerStyleSheet } from 'styled-components'
 
 interface IProps {
@@ -53,9 +53,34 @@ class AppDocument extends Document<IProps> {
             href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
           />{' '}
           <link rel="shortcut icon" href="/favicon.ico" />
+          {/* <!-- Basic --> */}
           <meta name="application-name" content={applicationName} />
           <meta name="description" content={description} />
-          <meta name="keywords" content={keywords.join(', ')} />
+          <meta name="author" content={author} />
+          <meta name="keywords" content={keywords} />
+          {/* <!-- Schema.org markup for Google+ --> */}
+          <meta itemProp="name" content={applicationName} />
+          <meta itemProp="description" content={description} />
+          <meta itemProp="image" content={image} />
+          {/* <!-- Twitter Card data --> */}
+          <meta name="twitter:card" content={image} />
+          <meta name="twitter:site" content={site} />
+          <meta name="twitter:title" content={applicationName} />
+          <meta name="twitter:description" content={description} />
+          <meta name="twitter:creator" content={author} />
+          {/* <!-- Twitter summary card with large image must be at least 280x150px --> */}
+          <meta name="twitter:image:src" content={image} />
+          {/* <!-- Open Graph data --> */}
+          <meta property="og:title" content={applicationName} />
+          <meta property="og:type" content={type} />
+          <meta property="og:url" content={site} />
+          <meta property="og:image" content={image} />
+          <meta property="og:description" content={description} />
+          <meta property="og:site_name" content={applicationName} />
+          <meta property="article:published_time" content={publishedTime} />
+          <meta property="article:modified_time" content={new Date().toISOString()} />
+          <meta property="article:section" content="Main" />
+          <meta property="article:tag" content={keywords} />
           {this.props.styleTags}
         </Head>
         <body>
