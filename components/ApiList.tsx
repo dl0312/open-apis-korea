@@ -34,6 +34,7 @@ function ApiList({ apis, loading, pagination: { current, pageSize }, onChangePag
         onChange: onChangePagination,
         current,
         pageSize,
+        hideOnSinglePage: true,
         responsive: true,
       }}
       locale={{ emptyText: <Empty description={false} /> }}
