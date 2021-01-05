@@ -25,7 +25,7 @@ const Header = styled.header`
   top: 0px;
 
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 
   background: ${({ theme: { mainBackground } }) => mainBackground};
 `
