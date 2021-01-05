@@ -1,3 +1,5 @@
+/* eslint-disable react/style-prop-object */
+/* eslint-disable react/no-unknown-property */
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 import { description, applicationName, keywords, author, image, site, type, publishedTime } from 'public/config'
 import { ServerStyleSheet } from 'styled-components'
@@ -59,6 +61,7 @@ class AppDocument extends Document<IProps> {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           {/* <!-- Basic --> */}
           <meta name="application-name" content={applicationName} />
           <meta name="description" content={description} />
