@@ -165,19 +165,23 @@ function Home() {
   const handleOnClickRandom = async () => {
     setRandomLoading(true)
 
-    const {
-      data: { entries: nextRandomApis },
-    } = await publicApis.random({
-      title: filterTitle,
-      description: filterDescription,
-      auth: filterAuth,
-      https: filterHttps,
-      cors: filterCors,
-      category: filterCategory,
-    })
-    setApis(nextRandomApis)
-
-    setRandomLoading(false)
+    try {
+      const {
+        data: { entries: nextRandomApis },
+      } = await publicApis.random({
+        title: filterTitle,
+        description: filterDescription,
+        auth: filterAuth,
+        https: filterHttps,
+        cors: filterCors,
+        category: filterCategory,
+      })
+      setApis(nextRandomApis)
+    } catch (error) {
+      setApis([])
+    } finally {
+      setRandomLoading(false)
+    }
   }
 
   const handleOnClickSearch = async () => {
@@ -293,7 +297,6 @@ function Home() {
             <FilterItemInput>
               <RadioGroup
                 radioGroup={[
-                  { value: AuthType.NONE, label: 'None' },
                   { value: AuthType.API_KEY, label: 'API Key' },
                   { value: AuthType.OAUTH, label: 'OAuth' },
                 ]}
@@ -323,8 +326,8 @@ function Home() {
             <FilterItemInput>
               <RadioGroup
                 radioGroup={[
-                  { value: 'true', label: 'True' },
-                  { value: 'false', label: 'False' },
+                  { value: 'true', label: 'HTTPS' },
+                  { value: 'false', label: 'HTTP' },
                 ]}
                 onChange={handleOnChangeFilterHttps}
                 name="https"
