@@ -14,7 +14,7 @@ import Layout from 'components/Layout'
 import RadioGroup from 'components/RadioGroup'
 import ThemeToggleSwitch from 'components/ThemeToggleSwitch'
 import { Api, AuthType, CategoryType, CorsType } from 'interfaces/apis/publicApis'
-import { siteName } from 'public/config'
+import { description, applicationName } from 'public/config'
 import styled from 'styles/themed-components'
 import publicApis from 'utils/apis/publicApis'
 
@@ -224,12 +224,12 @@ function Home() {
       <Header>
         <HeaderTop>
           <HeaderLeft>
-            <h1>{siteName}</h1>
+            <h1>{applicationName}</h1>
             <p>
               <span role="img" aria-label="search" style={{ marginRight: '0.5rem' }}>
                 🔍
               </span>
-              Find some open APIs for your next projects
+              {description}
             </p>
           </HeaderLeft>
           <ThemeToggleSwitch />

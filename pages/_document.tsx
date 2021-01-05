@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
+import { description, applicationName, keywords } from 'public/config'
 import { ServerStyleSheet } from 'styled-components'
 
 interface IProps {
@@ -52,6 +53,9 @@ class AppDocument extends Document<IProps> {
             href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
           />{' '}
           <link rel="shortcut icon" href="/favicon.ico" />
+          <meta name="application-name" content={applicationName} />
+          <meta name="description" content={description} />
+          <meta name="keywords" content={keywords.join(', ')} />
           {this.props.styleTags}
         </Head>
         <body>

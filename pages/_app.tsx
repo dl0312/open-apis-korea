@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { ThemeType } from 'interfaces/theme'
 import { AppProps } from 'next/dist/next-server/lib/router/router'
 import Head from 'next/head'
-import { siteName } from 'public/config'
+import { applicationName } from 'public/config'
 import { ThemeSwitcherProvider } from 'react-css-theme-switcher'
 import { GlobalStyle } from 'styles/global-styles'
 import { themes } from 'styles/theme'
@@ -39,7 +39,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>{siteName}</title>
+        <title>{applicationName}</title>
       </Head>
       <GlobalStyle {...themes[darkMode.value ? ThemeType.DARK : ThemeType.LIGHT]} />
       {mounted ? body : <div style={{ visibility: 'hidden' }}>{body}</div>}
