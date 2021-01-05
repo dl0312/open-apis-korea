@@ -225,7 +225,7 @@ function Home() {
               style={{
                 marginRight: '0.5rem',
                 transform: `rotate(${filterOpen ? '180deg' : '0deg'})`,
-                transition: 'transform 0.2s ease-in-out',
+                transition: 'transform 0.5s ease-in-out',
               }}
             />
             Filter Options
@@ -255,6 +255,7 @@ function Home() {
             <FilterItemInput>
               <Input
                 size="small"
+                allowClear
                 placeholder="Name"
                 id="name"
                 value={filterTitle}
@@ -267,6 +268,7 @@ function Home() {
             <FilterItemInput>
               <Input
                 size="small"
+                allowClear
                 placeholder="Description"
                 id="description"
                 value={filterDescription}
@@ -280,6 +282,7 @@ function Home() {
               <Select
                 size="small"
                 style={{ width: '100%' }}
+                allowClear
                 placeholder="Category"
                 id="category"
                 defaultValue={filterCategory}
@@ -301,6 +304,9 @@ function Home() {
                   { value: AuthType.OAUTH, label: 'OAuth' },
                 ]}
                 onChange={handleOnChangeFilterAuth}
+                onClear={() => {
+                  setFilterAuth(undefined)
+                }}
                 name="auth"
                 value={filterAuth}
               />
@@ -316,6 +322,9 @@ function Home() {
                   { value: CorsType.UNKNOWN, label: 'Unknown' },
                 ]}
                 onChange={handleOnChangeFilterCors}
+                onClear={() => {
+                  setFilterCors(undefined)
+                }}
                 name="cors"
                 value={filterCors}
               />
@@ -330,6 +339,10 @@ function Home() {
                   { value: 'false', label: 'HTTP' },
                 ]}
                 onChange={handleOnChangeFilterHttps}
+                onClear={() => {
+                  console.log('clear')
+                  setFilterHttps(undefined)
+                }}
                 name="https"
                 value={filterHttps !== undefined ? (filterHttps === true ? 'true' : 'false') : ''}
               />

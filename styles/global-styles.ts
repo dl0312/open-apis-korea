@@ -61,6 +61,10 @@ export const GlobalStyle = createGlobalStyle<Theme>`
     margin-bottom: 1em;
   }
 
+  label {
+    cursor: pointer;
+  }
+
   a{
     color: inherit;
     text-decoration: none !important;
