@@ -205,7 +205,12 @@ function Home() {
         <HeaderTop>
           <HeaderLeft>
             <h1>{siteName}</h1>
-            <p>Find some open APIs for your next projects</p>
+            <p>
+              <span role="img" aria-label="search" style={{ marginRight: '0.5rem' }}>
+                🔍
+              </span>
+              Find some open APIs for your next projects
+            </p>
           </HeaderLeft>
           <ThemeToggleSwitch />
         </HeaderTop>
