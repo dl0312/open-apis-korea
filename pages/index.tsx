@@ -8,6 +8,7 @@ import { SearchOutlined } from '@ant-design/icons'
 import { faDice, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button, Input, Select } from 'antd'
+import { PaginationProps } from 'antd/lib/pagination'
 import ApiList from 'components/ApiList'
 import Layout from 'components/Layout'
 import RadioGroup from 'components/RadioGroup'
@@ -104,12 +105,16 @@ const ActionContainer = styled.div`
 
 const FilterToggleButton = styled.button``
 
+const DEFAULT_PAGINATION: PaginationProps = { current: 1, pageSize: 20 }
+
 function Home() {
   /** fetch loading */
   const [randomLoading, setRandomLoading] = useState(false)
   const [searchLoading, setSearchLoading] = useState(false)
 
   const [filterOpen, setFilterOpen] = useState(true)
+
+  const [pagination, setPagination] = useState<PaginationProps>(DEFAULT_PAGINATION)
 
   /** api params state */
   const [filterTitle, setFilterTitle] = useState('')
@@ -176,10 +181,11 @@ function Home() {
         cors: filterCors,
         category: filterCategory,
       })
-      setApis(nextRandomApis)
+      setApis(nextRandomApis ?? [])
     } catch (error) {
       setApis([])
     } finally {
+      handleOnChangePagination(DEFAULT_PAGINATION.current, DEFAULT_PAGINATION.pageSize)
       setRandomLoading(false)
     }
   }
@@ -187,19 +193,29 @@ function Home() {
   const handleOnClickSearch = async () => {
     setSearchLoading(true)
 
-    const {
-      data: { entries: nextApis },
-    } = await publicApis.entries({
-      title: filterTitle,
-      description: filterDescription,
-      auth: filterAuth,
-      https: filterHttps,
-      cors: filterCors,
-      category: filterCategory,
-    })
-    setApis(nextApis ?? [])
+    try {
+      const {
+        data: { entries: nextApis },
+      } = await publicApis.entries({
+        title: filterTitle,
+        description: filterDescription,
+        auth: filterAuth,
+        https: filterHttps,
+        cors: filterCors,
+        category: filterCategory,
+      })
+      setApis(nextApis ?? [])
+    } catch (error) {
+      setApis([])
+    } finally {
+      handleOnChangePagination(DEFAULT_PAGINATION.current, DEFAULT_PAGINATION.pageSize)
+      setSearchLoading(false)
+    }
+  }
 
-    setSearchLoading(false)
+  const handleOnChangePagination = (nextPage: number, nextPageSize?: number) => {
+    setPagination({ current: nextPage, pageSize: nextPageSize })
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
   }
   const categoryTypes = Object.keys(CategoryType).map((key) => CategoryType[key] as CategoryType)
 
@@ -353,7 +369,16 @@ function Home() {
           </FilterItemContainer>
         </Filter>
       </Header>
-      <Main>{apis && <ApiList apis={apis} loading={randomLoading || searchLoading} />}</Main>
+      <Main>
+        {apis && (
+          <ApiList
+            apis={apis}
+            loading={randomLoading || searchLoading}
+            pagination={pagination}
+            onChangePagination={handleOnChangePagination}
+          />
+        )}
+      </Main>
     </Layout>
   )
 }

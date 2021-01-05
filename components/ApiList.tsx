@@ -1,6 +1,7 @@
-import React, { ReactElement, useState } from 'react'
+import React, { ReactElement } from 'react'
 
 import { Avatar, List, Skeleton, Tag, Empty } from 'antd'
+import { PaginationProps } from 'antd/lib/pagination'
 import { Api, AuthType } from 'interfaces/apis/publicApis'
 import styled from 'styled-components'
 
@@ -17,12 +18,12 @@ const Link = styled.a`
 interface Props {
   apis: Api[]
   loading: boolean
+  pagination: PaginationProps
+  onChangePagination: (page: number, pageSize?: number) => void
 }
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
-function ApiList({ apis, loading }: Props): ReactElement {
-  const [page, setPage] = useState(1)
-  const [pageSize, setPageSize] = useState(20)
+function ApiList({ apis, loading, pagination: { current, pageSize }, onChangePagination }: Props): ReactElement {
   return (
     <List
       style={{ margin: '1rem 0' }}
@@ -30,12 +31,8 @@ function ApiList({ apis, loading }: Props): ReactElement {
       dataSource={apis}
       pagination={{
         size: 'small',
-        onChange: (nextPage, nextPageSize) => {
-          setPage(nextPage)
-          setPageSize(nextPageSize)
-          window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-        },
-        current: page,
+        onChange: onChangePagination,
+        current,
         pageSize,
         responsive: true,
       }}
