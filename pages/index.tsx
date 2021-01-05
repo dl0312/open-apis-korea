@@ -255,8 +255,9 @@ function Home() {
             <FilterItemInput>
               <Input
                 size="small"
+                bordered={false}
                 allowClear
-                placeholder="Name"
+                placeholder="API Name"
                 id="name"
                 value={filterTitle}
                 onChange={handleOnChangeFilterTitle}
@@ -268,8 +269,9 @@ function Home() {
             <FilterItemInput>
               <Input
                 size="small"
+                bordered={false}
                 allowClear
-                placeholder="Description"
+                placeholder="API Description"
                 id="description"
                 value={filterDescription}
                 onChange={handleOnChangeFilterDescription}
@@ -282,6 +284,7 @@ function Home() {
               <Select
                 size="small"
                 style={{ width: '100%' }}
+                bordered={false}
                 allowClear
                 placeholder="Category"
                 id="category"
