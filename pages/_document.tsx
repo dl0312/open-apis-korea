@@ -62,6 +62,8 @@ class AppDocument extends Document<IProps> {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          {/* <!-- Kakao Adfit --> */}
+          <script type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js" async />
           {/* <!-- Basic --> */}
           <meta name="application-name" content={applicationName} />
           <meta name="description" content={description} />

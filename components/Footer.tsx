@@ -19,6 +19,13 @@ function Footer(): ReactElement {
       <div>
         <Advertisement>
           <ins
+            className="kakao_ad_area"
+            style={{ display: 'none' }}
+            data-ad-unit="DAN-TLKSG6Khw4lDAQVy"
+            data-ad-width="300"
+            data-ad-height="250"
+          />
+          <ins
             className="adsbygoogle"
             style={{ display: 'block' }}
             data-ad-client="ca-pub-9994255438328666"
