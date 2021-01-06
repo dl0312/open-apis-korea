@@ -68,11 +68,18 @@ export enum CategoryType {
 }
 
 export interface Api {
+  /** API name */
   API: string
+  /** API authentication type */
   Auth: string
+  /** API category */
   Category: CategoryType
+  /** does the API support CORS */
   Cors: CorsType
+  /** API description */
   Description: string
+  /** does the API support HTTPS */
   HTTPS: boolean
+  /** API link */
   Link: string
 }
