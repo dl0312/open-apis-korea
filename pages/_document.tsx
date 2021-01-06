@@ -55,6 +55,9 @@ class AppDocument extends Document<IProps> {
             href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
           />
           <link rel="shortcut icon" href="/favicon.ico" />
+          {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154371650-3" />
+          <script type="text/javascript" src="/analytics.js" />
           {/* <!-- Google Adsense --> */}
           <script
             data-ad-client="ca-pub-9994255438328666"
