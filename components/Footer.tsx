@@ -17,7 +17,10 @@ const Advertisement = styled.div`
   margin: 1rem 0;
 `
 
-const PoweredBy = styled.div``
+const PoweredBy = styled.div`
+  align-self: center;
+  margin: 1rem;
+`
 
 function Footer(): ReactElement {
   return (
