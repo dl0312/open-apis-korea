@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styles/themed-components'
 
 const Advertisement = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 1rem 0;
 `
 
@@ -22,6 +25,13 @@ function Footer(): ReactElement {
             className="kakao_ad_area"
             style={{ display: 'none' }}
             data-ad-unit="DAN-TLKSG6Khw4lDAQVy"
+            data-ad-width="300"
+            data-ad-height="250"
+          />
+          <ins
+            className="kakao_ad_area"
+            style={{ display: 'none' }}
+            data-ad-unit="DAN-P6gv4cKjhpS3GPJH"
             data-ad-width="300"
             data-ad-height="250"
           />
