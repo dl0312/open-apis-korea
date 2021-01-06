@@ -87,7 +87,7 @@ const FilterItemInput = styled.div`
   padding: 0.5rem;
 `
 
-const HeaderLeft = styled.div`
+const HeaderTopLeft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,7 +224,7 @@ function Home() {
     <Layout>
       <Header>
         <HeaderTop>
-          <HeaderLeft>
+          <HeaderTopLeft>
             <h1>{applicationName}</h1>
             <p>
               <span role="img" aria-label="search" style={{ marginRight: '0.5rem' }}>
@@ -232,7 +232,7 @@ function Home() {
               </span>
               {description}
             </p>
-          </HeaderLeft>
+          </HeaderTopLeft>
           <ThemeToggleSwitch />
         </HeaderTop>
         <HeaderBottom>
