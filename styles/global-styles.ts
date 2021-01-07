@@ -56,10 +56,6 @@ export const GlobalStyle = createGlobalStyle<Theme>`
       font-size: 1.5rem;
     }
   }
-  p {
-    margin-top: 0;
-    margin-bottom: 1em;
-  }
 
   label {
     cursor: pointer;

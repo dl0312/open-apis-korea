@@ -32,14 +32,23 @@ const Header = styled.header`
   background: ${({ theme: { mainBackground } }) => mainBackground};
 `
 
-const Main = styled.main`
-  width: 100%;
-`
-
 const HeaderTop = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+`
+
+const Title = styled.h1``
+
+const Description = styled.p`
+  line-height: 1.5;
+  margin-right: 0.5rem;
+`
+
+const Main = styled.main`
+  width: 100%;
 `
 
 const Filter = styled.div<{ open: boolean }>`
@@ -225,13 +234,13 @@ function Home() {
       <Header>
         <HeaderTop>
           <HeaderTopLeft>
-            <h1>{applicationName}</h1>
-            <p>
+            <Title>{applicationName}</Title>
+            <Description>
               <span role="img" aria-label="search" style={{ marginRight: '0.5rem' }}>
                 🔍
               </span>
               {description}
-            </p>
+            </Description>
           </HeaderTopLeft>
           <ThemeToggleSwitch />
         </HeaderTop>
