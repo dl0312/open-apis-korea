@@ -10,13 +10,12 @@ const Container = styled.footer`
   flex-direction: column;
   margin: 3rem 0 1.5rem;
 `
-// TODO: 심사 끝나면 추가
-// const Advertisement = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-//   margin: 1rem 0;
-// `
+const Advertisement = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+`
 
 const PoweredBy = styled.div`
   align-self: center;
@@ -26,7 +25,7 @@ const PoweredBy = styled.div`
 function Footer(): ReactElement {
   return (
     <Container>
-      {/* <Advertisement>
+      <Advertisement>
         <ins
           className="kakao_ad_area"
           style={{ display: 'none' }}
@@ -49,7 +48,7 @@ function Footer(): ReactElement {
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
-      </Advertisement> */}
+      </Advertisement>
       <PoweredBy>
         <FontAwesomeIcon icon={faBolt} style={{ marginRight: '0.5rem' }} />
         Powered by{' '}
