@@ -11,6 +11,7 @@ export enum AuthType {
   NONE = '',
   API_KEY = 'apiKey',
   OAUTH = 'OAuth',
+  X_MASHAPE_KEY = 'X-Mashape-Key',
 }
 
 export enum CorsType {

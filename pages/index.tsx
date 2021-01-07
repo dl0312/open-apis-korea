@@ -331,6 +331,7 @@ function Home() {
                 radioGroup={[
                   { value: AuthType.API_KEY, label: 'API Key' },
                   { value: AuthType.OAUTH, label: 'OAuth' },
+                  { value: AuthType.X_MASHAPE_KEY, label: 'X-Mashape-Key' },
                 ]}
                 onChange={handleOnChangeFilterAuth}
                 onClear={() => {
