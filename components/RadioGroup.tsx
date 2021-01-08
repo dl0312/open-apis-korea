@@ -6,6 +6,7 @@ import styled from 'styles/themed-components'
 
 const RadioGroupForm = styled.form`
   display: flex;
+  flex-wrap: wrap;
 `
 
 const RadioInput = styled.input`

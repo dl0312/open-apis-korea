@@ -59,12 +59,18 @@ const Filter = styled.div<{ open: boolean }>`
   overflow-y: hidden;
   opacity: ${({ open }) => (open ? 1 : 0)};
   max-height: ${({ open }) => (open ? '400px' : '0px')};
-  transition: 0.75s ease-in-out;
+  transition: 0.4s ease-in-out;
+`
+
+const ArrowIcon = styled(FontAwesomeIcon)<{ open: boolean }>`
+  margin-right: 0.5rem;
+  transform: rotate(${({ open }) => (open ? '180deg' : '0deg')});
+  transition: transform 0.2s ease-in-out;
 `
 
 const FilterItemContainer = styled.div`
   display: flex;
-  height: 2.5rem;
+  min-height: 2.5rem;
 
   border-bottom: 0.5px solid ${({ theme: { border } }) => border};
 `
@@ -246,14 +252,7 @@ function Home() {
         </HeaderTop>
         <HeaderBottom>
           <FilterToggleButton onClick={handleOnClickFilterToggle}>
-            <FontAwesomeIcon
-              icon={faAngleDown}
-              style={{
-                marginRight: '0.5rem',
-                transform: `rotate(${filterOpen ? '180deg' : '0deg'})`,
-                transition: 'transform 0.5s ease-in-out',
-              }}
-            />
+            <ArrowIcon icon={faAngleDown} open={filterOpen} />
             Filter Options
           </FilterToggleButton>
           <ActionContainer>
