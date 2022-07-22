@@ -424,6 +424,7 @@
 | API                                                                                         | 설명                                                        | 인증     | HTTPS | CORS |
 | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------- | ----- | ---- |
 | [Censys.io](https://censys.io/api)                                                          | 인터넷에 연결된 호스트 및 장치를 검색합니다.                | `apiKey` | ○     | ✕    |
+| [CriminalIP.io](https://www.criminalip.io/developer/api/post-user-me)                       | VPN, WAF, Jenkins 등의 열람 정보에 대해 검색합니다.         | `apiKey` | ○     | ✕    |
 | [CRXcavator](https://crxcavator.io/apidocs)                                                 | 크롬 확장 프로그램 위험 점수                                | `apiKey` | ○     | ?    |
 | [FilterLists](https://filterlists.com/api)                                                  | 애드블록 및 방화벽에 대한 필터 목록                         | ✕        | ○     | ?    |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3)                                         | 이전에 데이터 침해에 노출된 암호                            | `apiKey` | ○     | ?    |
