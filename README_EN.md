@@ -733,6 +733,7 @@ API | Description | Auth | HTTPS | CORS |
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Censys.io](https://censys.io/api) | Search engine for Internet connected host and devices | `apiKey` | Yes | No |
+| [CriminalIP.io](https://CriminalIP.io/api) | Criminal IP is a specialized Cyber Threat Intelligence (CTI) search engine that allows users to search for various security-related information such as malicious IP addresses, domains, banners, etc. It can be widely integrated | `apiKey` | Yes | No |
 | [CRXcavator](https://crxcavator.io/apidocs) | Chrome extension risk scoring | `apiKey` | Yes | Unknown |
 | [FilterLists](https://filterlists.com/api) | Lists of filters for adblockers and firewalls | No | Yes | Unknown |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | Passwords which have previously been exposed in data breaches | `apiKey` | Yes | Unknown |
