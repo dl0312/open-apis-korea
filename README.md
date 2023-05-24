@@ -898,8 +898,6 @@
 | [Adzuna](https://developer.adzuna.com/overview)                                          | 일자리 게시판 모음                                     | `apiKey` | ○     | ?    |
 | [Authentic Jobs](https://authenticjobs.com/api/docs)                                     | 디자이너, 해커 및 창의적인 전문가를 위한 일자리 게시판 | `apiKey` | ○     | ?    |
 | [Careerjet](https://www.careerjet.com/partners/api/)                                     | 일자리 검색 엔진                                       | `apiKey` | ✕     | ?    |
-| [Github Jobs](https://jobs.github.com/api)                                               | 소프트웨어 개발자를 위한 일자리                        | ✕        | ○     | ○    |
-| [GraphQL Jobs](https://api.graphql.jobs)                                                 | GraphQL을 이용한 일자리                                | ✕        | ○     | ○    |
 | [Indeed](https://www.indeed.com/publisher)                                               | 일자리 게시판 모음                                     | `apiKey` | ○     | ?    |
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 | 일자리 모음                                            | `apiKey` | ○     | ?    |
 | [Jooble](https://us.jooble.org/api/about)                                                | 일자리 검색 엔진                                       | `apiKey` | ○     | ?    |
