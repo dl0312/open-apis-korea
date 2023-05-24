@@ -539,7 +539,7 @@
 | [HackerNews](https://github.com/HackerNews/API)                        | 컴퓨터 공학와 기업가 정신을 위한 소셜 뉴스                                                | ✕        | ○     | ?    |
 | [Instagram](https://www.instagram.com/developer/)                      | 인스타그램 로그인, 인스타그램에 공유, 소셜 플러그인 등                                    | `OAuth`  | ○     | ?    |
 | [LinkedIn](https://developer.linkedin.com/docs/rest-api)               | 모든 디지털 통합의 기반, 링크드인                                                         | `OAuth`  | ○     | ?    |
-| [Meetup.com](https://www.meetup.com/meetup_api/)                       | Meetup.com의 모임 데이터                                                                  | `apiKey` | ○     | ?    |
+| [Meetup.com](https://www.meetup.com/api/)                       | Meetup.com의 모임 데이터                                                                  | `apiKey` | ○     | ?    |
 | [Mixer](https://dev.mixer.com/)                                        | 게임 스트리밍 API                                                                         | `OAuth`  | ○     | ?    |
 | [MySocialApp](https://mysocialapp.io)                                  | 모든 앱에 원활한 소셜 네트워킹 기능, API, SDK를 제공합니다.                               | `apiKey` | ○     | ?    |
 | [Open Collective](https://docs.opencollective.com/help/developers/api) | Open Collective 데이터를 가져옵니다.                                                      | ✕        | ○     | ?    |
@@ -898,7 +898,7 @@
 | [Adzuna](https://developer.adzuna.com/overview)                                          | 일자리 게시판 모음                                     | `apiKey` | ○     | ?    |
 | [Authentic Jobs](https://authenticjobs.com/api/docs)                                     | 디자이너, 해커 및 창의적인 전문가를 위한 일자리 게시판 | `apiKey` | ○     | ?    |
 | [Careerjet](https://www.careerjet.com/partners/api/)                                     | 일자리 검색 엔진                                       | `apiKey` | ✕     | ?    |
-| [Github Jobs](https://jobs.github.com/api)                                               | 소프트웨어 개발자를 위한 일자리                        | ✕        | ○     | ○    |
+| [Github Jobs](https://jobs.github.com/api)                                               | 소프트웨어 개발자를 위한 일자리(Deprecated)            | ✕        | ○     | ○    |
 | [GraphQL Jobs](https://api.graphql.jobs)                                                 | GraphQL을 이용한 일자리                                | ✕        | ○     | ○    |
 | [Indeed](https://www.indeed.com/publisher)                                               | 일자리 게시판 모음                                     | `apiKey` | ○     | ?    |
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 | 일자리 모음                                            | `apiKey` | ○     | ?    |
