@@ -904,6 +904,7 @@
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf)                                 | 일자리 모음                                            | `apiKey` | ○     | ?    |
 | [Jooble](https://us.jooble.org/api/about)                                                | 일자리 검색 엔진                                       | `apiKey` | ○     | ?    |
 | [Juju](http://www.juju.com/publisher/spec/)                                              | 일자리 검색 엔진                                       | `apiKey` | ✕     | ?    |
+| [OkJob](https://okjob.io/api)                                                            | 주 4일 채용 게시판                                     | `apiKey`        | ○     | ?    |
 | [Open Skills](https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview) | 일자리 제목, 기술 및 관련 작업 데이터                  | ✕        | ✕     | ?    |
 | [Reed](https://www.reed.co.uk/developers)                                                | 일자리 게시판 모음                                     | `apiKey` | ○     | ?    |
 | [Search.gov Jobs](https://search.gov/developer/jobs.html)                                | 미국 정부의 일자리 목록                                | ✕        | ○     | ?    |
