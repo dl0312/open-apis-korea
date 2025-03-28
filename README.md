@@ -986,7 +986,6 @@
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api)                                          | 자연어 처리 및 텍스트 분석                                        | `apiKey`        | ○     | ○    |
 | [Detect Language](https://detectlanguage.com/)                                                                            | 텍스트 언어를 감지합니다.                                         | `apiKey`        | ○     | ?    |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/)                                                   | 감성 및 구문 분석을 포함한 자연어 이해 기술                       | `apiKey`        | ○     | ?    |
-| [Language Identification](https://rapidapi.com/BigLobster/api/language-identification-prediction)                         | 모든 텍스트에 대한 자동 언어 감지합니다. (175개 이상의 언어 지원) | `X-Mashape-Key` | ○     | ?    |
 | [Semantira](https://semantria.readme.io/docs)                                                                             | 감성 분석, 분류 및 명명된 엔티티를 추출하는 텍스트 분석           | `OAuth`         | ○     | ?    |
 | [Watson Natural Language Understanding](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) | 고급 텍스트 분석을 위한 자연 언어 처리                            | `OAuth`         | ○     | ?    |
 
