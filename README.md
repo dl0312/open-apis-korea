@@ -102,7 +102,7 @@
 | [Postman](https://docs.api.getpostman.com/)                                                         | API를 테스트하기 위한 도구                                                                                         | `apiKey`        | ○     | ?    |
 | [ProxyCrawl](https://proxycrawl.com)                                                                | 안티캡차 서비스를 스크랩하고 크롤링합니다.                                                                         | `apiKey`        | ○     | ?    |
 | [Public APIs](https://github.com/davemachado/public-api)                                            | 웹 개발에 사용할 수 있는 무료 JSON API 목록                                                                        | ✕               | ○     | ?    |
-| [Public APIs Korea](https://github.com/dl0312/public-apis-korea)                                    | 한국어 사용자를 위한 웹 개발에 사용할 수 있는 무료 JSON API 목록                                                   | ✕               | ○     | ?    |
+| [Public APIs Korea](https://github.com/dl0312/open-apis-korea)                                     | 한국어 사용자를 위한 웹 개발에 사용할 수 있는 무료 JSON API 목록                                                   | ✕               | ○     | ?    |
 | [Pusher Beams](https://pusher.com/beams)                                                            | Android & iOS에 대한 알림을 보냅니다.                                                                              | `apiKey`        | ○     | ?    |
 | [QR tag](http://qrtag.net/api/)                                                                     | 읽기 쉬운 QR 코드와 URL 쇼트너를 만듭니다.                                                                         | ✕               | ○     | ○    |
 | [QR code](http://goqr.me/api/)                                                                      | QR 코드를 생성하고 해석하여 읽습니다.                                                                              | ✕               | ○     | ?    |
@@ -555,6 +555,7 @@
 | [Twitch](https://dev.twitch.tv/docs)                                   | 게임 스트리밍 API                                                                         | `OAuth`  | ○     | ?    |
 | [Twitter](https://developer.twitter.com/en/docs)                       | 트위터 데이터를 읽고 씁니다.                                                              | `OAuth`  | ○     | ✕    |
 | [vk](https://vk.com/dev/sites)                                         | vk 데이터를 읽고 씁니다.                                                                  | `OAuth`  | ○     | ?    |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)                | X(트위터) 검색, 팔로워 내보내기, 모니터링 및 MCP를 지원하는 독립적인 데이터 API입니다.                     | `apiKey` | ○     | ?    |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
