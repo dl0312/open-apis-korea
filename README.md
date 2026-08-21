@@ -317,6 +317,7 @@
 
 | API                                                                 | 설명                                                                             | 인증     | HTTPS | CORS |
 | ------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------- | ----- | ---- |
+| [APITube](https://apitube.io/)                                      | 감정 분석과 개체 추출을 포함한 다국어 실시간 뉴스 검색                                | `apiKey` | ○     | ○    |
 | [Associated Press](https://developer.ap.org/)                       | AP 통신에서 뉴스 및 메타데이터를 검색합니다.                                     | `apiKey` | ○     | ?    |
 | [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | 의회 도서관에 있는 수백만 페이지의 역사적인 미국 신문에 접근할 수 있도록 합니다. | ✕        | ✕     | ?    |
 | [Currents](https://currentsapi.services/)                           | 다양한 뉴스 출처, 블로그 및 포럼에 게시된 최신 뉴스                              | `apiKey` | ○     | ○    |
@@ -982,7 +983,6 @@
 
 | API                                                                                                                       | 설명                                                              | 인증            | HTTPS | CORS |
 | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ----- | ---- |
-| [Aylien Text Analysis](http://docs.aylien.com/)                                                                           | 정보 검색 및 자연어 API의 집합                                    | `apiKey`        | ○     | ?    |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api)                                          | 자연어 처리 및 텍스트 분석                                        | `apiKey`        | ○     | ○    |
 | [Detect Language](https://detectlanguage.com/)                                                                            | 텍스트 언어를 감지합니다.                                         | `apiKey`        | ○     | ?    |
 | [Google Cloud Natural](https://cloud.google.com/natural-language/docs/)                                                   | 감성 및 구문 분석을 포함한 자연어 이해 기술                       | `apiKey`        | ○     | ?    |
