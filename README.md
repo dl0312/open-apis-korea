@@ -287,6 +287,7 @@
 | [IG](https://labs.ig.com/gettingstarted)                                                         | 분산 투자와 CFD 마켓 데이터                             | `apiKey` | ○     | ?    |
 | [Plaid](https://plaid.com/)                                                                      | 사용자의 은행 계좌에 연결하여 거래 데이터에 접근합니다. | `apiKey` | ○     | ?    |
 | [Razorpay IFSC](https://ifsc.razorpay.com/)                                                      | 인도 금융 시스템 코드(은행 지점 코드)                   | ✕        | ○     | ?    |
+| [roic.ai](https://www.roic.ai/)                                                                  | 전 세계 68,000개 이상 기업의 재무제표, 재무비율, 실적발표 컨퍼런스콜 스크립트 | `apiKey` | ○     | ?    |
 | [RoutingNumbers.info](https://www.routingnumbers.info/api/index.html)                            | ACH/NACHA 은행 라우팅 번호                              | ✕        | ○     | ?    |
 | [Tradier](https://developer.tradier.com)                                                         | 미국 주식/옵션 시장 데이터(지연, 현재, 과거)            | `OAuth`  | ○     | ○    |
 | [VAT Rates](https://jsonvat.com/)                                                                | EU 국가들의 모든 부가가치세 비율의 집합                 | ✕        | ○     | ?    |
