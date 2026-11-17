@@ -407,7 +407,7 @@
 | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- | ----- | ---- |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | HTML나 URL을 PDF 또는 PNG로 변환하거나, 공식 문서를 PDF 또는 이미지로 변환 | `apiKey` | ○     | ○    |
 | [File.io](https://www.file.io)                                                    | 파일 공유                                                                  | ✕        | ○     | ?    |
-| [HumanPen](https://api.humanpen.net/v1/docs.md)                                 | 12? ?? ?? ??(???? ??), ?? ?? ??????????? ?? ??(12?) ? ?? ???? API (?? ? 100 ???, ?? ??? ??) | `apiKey` | ?     | ?    |
+| [HumanPen](https://api.humanpen.net/v1/docs.md) | 문서 번역 및 편집 API: 12개 언어 번역, 문서 다듬기, 요약, 인용 형식 교정. 가입 시 100크레딧 제공, 이후 크레딧 기반 유료 서비스. | `apiKey` | ○ | ? |
 | [Mercury](https://mercury.postlight.com/web-parser/)                              | 웹 파서                                                                    | `apiKey` | ○     | ?    |
 | [pdflayer](https://pdflayer.com)                                                  | HTML 또는 URL을 PDF로 변환합니다.                                          | `apiKey` | ○     | ?    |
 | [Pocket](https://getpocket.com/developer/)                                        | 북마킹 서비스                                                              | `OAuth`  | ○     | ?    |
