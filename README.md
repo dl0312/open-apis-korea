@@ -198,7 +198,7 @@
 | [Minor Planet Center](http://www.asterank.com/mpc)                             | Asterank.com 정보                                                              | ✕        | ✕     | ?    |
 | [NASA](https://api.nasa.gov)                                                   | 사진을 포함한 NASA 데이터                                                      | ✕        | ○     | ?    |
 | [NASA APOD (unofficial API)](https://apodapi.herokuapp.com/)                   | 메타데이터와 함께 APOD(Astronomy Image of the Day) 이미지를 가져올 수 있는 API | ✕        | ○     | ○    |
-| [Newton](https://newton.now.sh/)                                               | 기호 및 산술 함수 계산기                                                       | ✕        | ○     | ?    |
+| [Newton](https://newton.vercel.app/)                                               | 기호 및 산술 함수 계산기                                                       | ✕        | ○     | ?    |
 | [Numbers](http://numbersapi.com)                                               | 숫자에 대한 사실들                                                             | ✕        | ✕     | ?    |
 | [Open Notify](http://open-notify.org/Open-Notify-API/)                         | ISS 우주비행사, 현재 위치 등                                                   | ✕        | ✕     | ?    |
 | [Open Science Framework](https://developer.osf.io)                             | 스터디 설계, 연구 자료, 데이터, 원고 등을 위한 저장소와 아카이브               | ✕        | ○     | ?    |
@@ -361,7 +361,7 @@
 | [PurgoMalum](http://www.purgomalum.com)                                     | 욕설과 외설성에 대한 내용 검증기                               | ✕        | ✕     | ?    |
 | [US Autocomplete](https://smartystreets.com/docs/cloud/us-autocomplete-api) | 실시간 주소 제안을 이용해서 주소 데이터를 빠르게 입력합니다.   | `apiKey` | ○     | ○    |
 | [US Extract](https://smartystreets.com/products/apis/us-extract-api)        | 전자 메일을 포함한 모든 텍스트에서 우편 주소를 추출합니다.     | `apiKey` | ○     | ○    |
-| [US Street Address](https://smartystreets.com/docs/cloud/us-street-api)     | 미국 우편 주소를 확인하고 데이터를 추가합니다.                 | `apiKey` | ○     | ○    |
+| [US Street Address](https://www.smarty.com/docs/apis/us-street-api/reference)     | 미국 우편 주소를 확인하고 데이터를 추가합니다.                 | `apiKey` | ○     | ○    |
 | [vatlayer](https://vatlayer.com)                                            | VAT 번호를 검증                                                | ✕        | ○     | ?    |
 
 **[⬆ 목차로 돌아가기](#목차)**
@@ -529,7 +529,7 @@
 | API                                                                    | 설명                                                                                      | 인증     | HTTPS | CORS |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------- | ----- | ---- |
 | [Buffer](https://buffer.com/developers/api)                            | 버퍼에서 보류 중이거나 전송된 업데이트에 접근합니다.                                      | `OAuth`  | ○     | ?    |
-| [Cisco Spark](https://developer.ciscospark.com)                        | 팀 공동 작업 소프트웨어                                                                   | `OAuth`  | ○     | ?    |
+| [Cisco Spark](https://developer.webex.com/)                        | 팀 공동 작업 소프트웨어                                                                   | `OAuth`  | ○     | ?    |
 | [Discord](https://discordapp.com/developers/docs/intro)                | Discord용 봇를 만들고 Discord를 외부 플랫폼에 통합합니다.                                 | `OAuth`  | ○     | ?    |
 | [Disqus](https://disqus.com/api/docs/auth/)                            | Disqus 데이터와 통신합니다.                                                               | `OAuth`  | ○     | ?    |
 | [Facebook](https://developers.facebook.com/)                           | 페이스북 로그인, 페이스북 공유, 소셜 플러그인, 분석 등                                    | `OAuth`  | ○     | ?    |
@@ -763,7 +763,7 @@
 | [SoundCloud](https://developers.soundcloud.com/)                                                                 | 사용자가 소리를 업로드하고 공유합니다.                                                  | `OAuth`  | ○     | ?    |
 | [Spotify](https://beta.developer.spotify.com/documentation/web-api/)                                             | 스포티파이의 음악 카탈로그 지정, 사용자 라이브러리 관리, 권장 사항 등을 볼 수 있습니다. | `OAuth`  | ○     | ?    |
 | [TasteDive](https://tastedive.com/read/api)                                                                      | 유사한 아티스트 API(영화 및 TV 프로그램에도 적용됩니다)                                 | `apiKey` | ○     | ?    |
-| [TheAudioDB](https://www.theaudiodb.com/api_guide.php)                                                           | 음악                                                                                    | `apiKey` | ○     | ?    |
+| [TheAudioDB](https://www.theaudiodb.com/free_music_api)                                                           | 음악                                                                                    | `apiKey` | ○     | ?    |
 | [Vagalume](https://api.vagalume.com.br/docs/)                                                                    | 풍부한 가사와 음악 지식                                                                 | `apiKey` | ○     | ?    |
 
 **[⬆ 목차로 돌아가기](#목차)**
@@ -820,7 +820,7 @@
 | [Open Government, Romania](http://data.gov.ro/)                                     | 루마니아 정부 오픈 데이터                                                              | ✕        | ✕     | ?    |
 | [Open Government, Taiwan](https://data.gov.tw/)                                     | 대만 정부 오픈 데이터                                                                  | ✕        | ○     | ?    |
 | [Open Government, USA](https://www.data.gov/)                                       | 미국 정부 오픈 데이터                                                                  | ✕        | ○     | ?    |
-| [Regulations.gov](https://regulationsgov.github.io/developers/)                     | 연방 규칙 제정 과정에 대한 이해를 높이기 위한 연방 규제 자료                           | `apiKey` | ○     | ?    |
+| [Regulations.gov](https://open.gsa.gov/api/regulationsgov/)                     | 연방 규칙 제정 과정에 대한 이해를 높이기 위한 연방 규제 자료                           | `apiKey` | ○     | ?    |
 | [Represent by Open North](https://represent.opennorth.ca/)                          | 캐나다 정부 대표자를 찾습니다.                                                         | ✕        | ○     | ?    |
 | [USAspending.gov](https://api.usaspending.gov/)                                     | 미국 연방 지출 데이터                                                                  | ✕        | ○     | ?    |
 
@@ -1089,21 +1089,20 @@
 | API                                                                                | 설명                                      | 인증     | HTTPS | CORS |
 | ---------------------------------------------------------------------------------- | ----------------------------------------- | -------- | ----- | ---- |
 | [카카오톡 사용자 관리](https://developers.kakao.com/features/platform#사용자-관리) | 카카오 계정 사용자 관리                   | `apiKey` | ?     | ?    |
-| [카카오톡 친구](https://developers.kakao.com/features/platform#친구-API)           | 카카오톡 친구 목록을 활용해 소셜 기능까지 | `apiKey` | ?     | ?    |
+| [카카오톡 친구](https://developers.kakao.com/docs/ko/kakaotalk-social/common)           | 카카오톡 친구 목록을 활용해 소셜 기능까지 | `apiKey` | ?     | ?    |
 | [카카오링크](https://developers.kakao.com/features/kakao#카카오-링크)              | 카카오 링크                               | `apiKey` | ?     | ?    |
 | [카카오톡](https://developers.kakao.com/features/kakao#카카오톡-API)               | 카카오톡                                  | `apiKey` | ?     | ?    |
 | [카카오내비](https://developers.kakao.com/features/kakao#카카오내비-API)           | 카카오내비                                | `apiKey` | ?     | ?    |
 | [카카오페이](https://developers.kakao.com/features/kakao#카카오페이-API)           | 카카오페이                                | `apiKey` | ?     | ?    |
 | [카카오스토리](https://developers.kakao.com/features/kakao#카카오스토리-API)       | 카카오스토리                              | `apiKey` | ?     | ?    |
 | [카카오톡 푸시 알림](https://developers.kakao.com/features/platform#푸시-알림)     | 카카오톡 푸시 알림                        | `apiKey` | ?     | ?    |
-| [카카오 앱로그 분석](https://developers.kakao.com/features/platform#앱로그-분석)   | 카카오 앱로그 분석                        | `apiKey` | ?     | ?    |
 | [카카오 검색](https://developers.kakao.com/features/platform#검색)                 | 카카오 검색                               | `apiKey` | ?     | ?    |
 | [카카오 음성](https://developers.kakao.com/features/platform#음성)                 | 카카오 음성                               | `apiKey` | ?     | ?    |
 | [카카오 지도/로컬](https://developers.kakao.com/features/platform#지도-로컬)       | 카카오 지도/로컬                          | `apiKey` | ?     | ?    |
 | [카카오 비전](https://developers.kakao.com/features/platform#비전)                 | 카카오 비전                               | `apiKey` | ?     | ?    |
 | [카카오 번역](https://developers.kakao.com/features/platform#번역)                 | 카카오 번역                               | `apiKey` | ?     | ?    |
 | [카카오톡 채널](https://developers.kakao.com/features/kakao#카카오톡-채널-API)     | 카카오톡 채널                             | `apiKey` | ?     | ?    |
-| [카카오모먼트](https://developers.kakao.com/features/kakao#카카오모먼트-API)       | 카카오모먼트                              | `apiKey` | ?     | ?    |
+| [카카오모먼트](https://developers.kakao.com/docs/ko/kakaomoment/common)       | 카카오모먼트                              | `apiKey` | ?     | ?    |
 
 **[⬆ 목차로 돌아가기](#목차)**
 
